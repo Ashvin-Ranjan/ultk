@@ -145,19 +145,19 @@ class Meaning(Generic[T]):
     # With the mapping, `universe` is not conceptually needed, but it is very useful to have it lying around.
     # `universe` should be the keys to `mapping`. 
     universe: Universe
-    _dist: FrozenDict[Referent, float] = FrozenDict({})
+    _dist: frozenset[Referent, float] = frozenset({})
 
     @property
-    def dist(self) -> FrozenDict[Referent, float]:
+    def dist(self) -> frozenset[Referent, float]:
         if self._dist:
             # normalize weights to distribution
-            total_weight = sum(self._dist.values())
-            return FrozenDict({referent: weight / total_weight for referent, weight in self._dist.items()})
+            total_weight = sum([v for _, v in self._dist])
+            return frozenset({referent: weight / total_weight for referent, weight in self._dist})
         else:
             num_true_like = sum(1 for value in self.mapping.values() if value)
             if num_true_like == 0:
                 raise ValueError("Meaning must have at least one true-like referent.")
-            return FrozenDict({referent: (1 / num_true_like if self.mapping[referent] else 0) for referent in self.mapping})
+            return frozenset({referent: (1 / num_true_like if self.mapping[referent] else 0) for referent in self.mapping})
         
     def is_uniformly_false(self) -> bool:
         """Return True if all referents in the meaning are mapped to False (or coercible to False).In the case where the meaning type is boolean, this corresponds to the characteristic function of the empty set."""
