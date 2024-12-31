@@ -1,0 +1,12 @@
+name,mother,father,gender
+origin,mother,father,m
+mother,grandmother1,grandfather1,f
+father,grandmother2,grandfather2,m
+brother,mother,father,m
+sister,mother,father,f
+son,unk,origin,m
+daughter,unk,origin,f
+grandmother1,unk,unk,f
+grandfather1,unk,unk,f
+grandmother2,unk,unk,f
+grandfather2,unk,unk,f
