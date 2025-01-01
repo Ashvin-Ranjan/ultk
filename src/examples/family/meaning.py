@@ -45,6 +45,7 @@ def generate_referents(target, referents_dict, referents_linked):
 
 referents_data = pd.read_csv("family/referents.csv")
 records = referents_data.to_dict("records")
+priors_data = {record["name"]: record for record in pd.read_csv("family/data/priors.csv").to_dict("records")}
 referents_dict = {record["name"]: record for record in records}
 
 referents_linked = {}
@@ -52,4 +53,10 @@ for key in referents_dict.keys():
     referents_linked = {**referents_linked, **generate_referents(key, referents_dict, referents_linked)}
 
 origin = referents_linked.pop("origin")
-universe = Universe(tuple(referents_linked.values()))
+
+priors = []
+
+for key in referents_linked.keys():
+    priors.append(priors_data[key]["prior"]/1467.8)
+
+universe = Universe(tuple(referents_linked.values()), tuple(priors))

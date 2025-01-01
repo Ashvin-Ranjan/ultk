@@ -10,5 +10,17 @@ grandmother1,unk,unk,f
 grandfather1,unk,unk,m
 grandmother2,unk,unk,f
 grandfather2,unk,unk,m
+aunt1,grandmother1,grandfather1,f
+uncle1,grandmother1,grandfather1,m
+aunt2,grandmother2,grandfather2,f
+uncle2,grandmother2,grandfather2,m
+niece1,unk,brother,f
+nephew1,unk,brother,m
+niece2,sister,unk,f
+nephew2,sister,unk,m
+grandson1,daughter,unk,m
+granddaughter1,daughter,unk,f
+grandson2,unk,son,m
+granddaughter2,unk,son,f
 unknownm,unk,unk,m
 unknownf,unk,unk,f

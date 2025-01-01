@@ -1,376 +1,163 @@
-- comm_cost: 0.5
-  complexity: 27
+- comm_cost: 0.17529636190216646
+  complexity: 39
   expressions:
-  - _ref_c(O, _f(S))
   - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_m(O)))
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  - _and(_male(S), _ref_c(O, _f(S)))
   name: dominating-0
   type: dominant
-- comm_cost: 0.5
-  complexity: 27
+- comm_cost: 0.4072761956669846
+  complexity: 8
   expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
+  - _ref_c(S, _m(O))
   name: dominating-1
   type: dominant
-- comm_cost: 0.6666666666666667
-  complexity: 16
+- comm_cost: 0.1550847072716538
+  complexity: 69
   expressions:
-  - _female(S)
-  - _ref_c(S, _f(_m(O)))
+  - _or(_and(_female(S), _ref_c(_f(S), _f(_f(O)))), _or(_ref_c(S, _f(_f(O))), _ref_c(S,
+    _m(_f(O)))))
+  - _and(_male(S), _ref_c(_f(S), _f(_m(O))))
+  - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_f(O)))
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  - _and(_male(S), _ref_c(O, _f(S)))
   name: dominating-2
   type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
+- comm_cost: 0.1657582776945088
+  complexity: 48
   expressions:
-  - _ref_c(O, _f(S))
+  - _and(_male(S), _ref_c(_f(S), _f(_m(O))))
   - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(_f(O), _f(S))
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  - _and(_male(S), _ref_c(O, _f(S)))
   name: dominating-3
   type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
+- comm_cost: 0.6611822682472634
+  complexity: 6
   expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
+  - _female(S)
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _m(_f(O)))
   name: dominating-4
   type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
+- comm_cost: 0.3078076032156969
+  complexity: 15
   expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _f(_f(O)))
+  - _and(_male(S), _ref_c(O, _f(S)))
+  - _ref_c(S, _m(O))
   name: dominating-5
   type: dominant
-- comm_cost: 0.7986111111111112
-  complexity: 8
-  expressions:
-  - _female(S)
-  - _male(S)
-  - _ref_c(S, _f(O))
-  name: dominating-6
-  type: dominant
-- comm_cost: 0.9166666666666666
-  complexity: 2
-  expressions:
-  - _female(S)
-  name: dominating-7
-  type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(_f(O), _f(S))
-  name: dominating-8
-  type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_f(O)))
-  - _ref_c(_f(O), _f(S))
-  name: dominating-9
-  type: dominant
-- comm_cost: 0.7986111111111112
-  complexity: 8
-  expressions:
-  - _female(S)
-  - _male(S)
-  - _ref_c(S, _m(O))
-  name: dominating-10
-  type: dominant
-- comm_cost: 0.5
-  complexity: 27
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-11
-  type: dominant
-- comm_cost: 0.7430555555555556
-  complexity: 14
-  expressions:
-  - _ref_c(O, _f(S))
-  - _male(S)
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(O))
-  name: dominating-12
-  type: dominant
-- comm_cost: 0.41666666666666663
-  complexity: 32
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-13
-  type: dominant
-- comm_cost: 0.5
-  complexity: 27
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  - _ref_c(_f(O), _f(S))
-  name: dominating-14
-  type: dominant
-- comm_cost: 0.5
-  complexity: 27
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-15
-  type: dominant
-- comm_cost: 0.75
-  complexity: 11
-  expressions:
-  - _ref_c(S, _m(O))
-  - _male(S)
-  - _ref_c(S, _m(_f(O)))
-  name: dominating-16
-  type: dominant
-- comm_cost: 0.75
-  complexity: 11
-  expressions:
-  - _female(S)
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_m(O)))
-  name: dominating-17
-  type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-18
-  type: dominant
-- comm_cost: 0.5763888888888888
-  complexity: 24
-  expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-19
-  type: dominant
-- comm_cost: 0.6944444444444444
-  complexity: 15
-  expressions:
-  - _ref_c(O, _f(S))
-  - _male(S)
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _m(O))
-  name: dominating-20
-  type: dominant
-- comm_cost: 0.6944444444444444
-  complexity: 15
-  expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_m(O)))
-  name: dominating-21
-  type: dominant
-- comm_cost: 0.75
-  complexity: 11
-  expressions:
-  - _female(S)
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-22
-  type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-23
-  type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_m(O)))
-  name: dominating-24
-  type: dominant
-- comm_cost: 0.5
-  complexity: 27
-  expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(_f(O), _f(S))
-  name: dominating-25
-  type: dominant
-- comm_cost: 0.6597222222222222
-  complexity: 19
-  expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-26
-  type: dominant
-- comm_cost: 0.6111111111111112
+- comm_cost: 0.2969069355498024
   complexity: 20
   expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_m(O)))
+  - _ref_c(S, _m(O))
+  - _and(_male(S), _ref_c(O, _f(S)))
   - _ref_c(S, _f(_f(O)))
-  name: dominating-27
+  name: dominating-6
   type: dominant
-- comm_cost: 0.7430555555555556
-  complexity: 14
+- comm_cost: 0.25466684834446107
+  complexity: 23
   expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  name: dominating-28
-  type: dominant
-- comm_cost: 0.6597222222222222
-  complexity: 19
-  expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
+  - _and(_male(S), _ref_c(O, _f(S)))
   - _ref_c(S, _m(O))
-  - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_m(O)))
-  name: dominating-29
+  name: dominating-7
   type: dominant
-- comm_cost: 0.8333333333333333
+- comm_cost: 0.7015942226461371
   complexity: 4
   expressions:
-  - _female(S)
-  - _male(S)
-  name: dominating-30
+  - _ref_c(S, _f(O))
+  name: dominating-8
   type: dominant
-- comm_cost: 0.5833333333333334
-  complexity: 22
+- comm_cost: 0.2437661806785666
+  complexity: 28
   expressions:
-  - _ref_c(O, _f(S))
   - _ref_c(S, _m(O))
+  - _ref_c(S, _f(_f(O)))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _f(_m(O)))
-  name: dominating-31
+  - _and(_male(S), _ref_c(O, _f(S)))
+  name: dominating-9
   type: dominant
-- comm_cost: 0.6944444444444444
-  complexity: 15
+- comm_cost: 0.16462279147931147
+  complexity: 60
   expressions:
-  - _female(S)
+  - _or(_and(_female(S), _ref_c(_f(S), _f(_f(O)))), _or(_ref_c(S, _f(_f(O))), _ref_c(S,
+    _m(_f(O)))))
+  - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
+  - _ref_c(S, _f(O))
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  - _and(_male(S), _ref_c(O, _f(S)))
+  name: dominating-10
+  type: dominant
+- comm_cost: 0.31291729118408496
+  complexity: 12
+  expressions:
   - _ref_c(O, _f(S))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-32
+  - _ref_c(S, _m(O))
+  name: dominating-11
   type: dominant
-- comm_cost: 0.9166666666666666
+- comm_cost: 0.9595880456011264
   complexity: 2
   expressions:
-  - _male(S)
-  name: dominating-33
+  - _female(S)
+  name: dominating-12
   type: dominant
-- comm_cost: 0.7777777777777778
-  complexity: 10
-  expressions:
-  - _ref_c(O, _f(S))
-  - _male(S)
-  - _ref_c(S, _m(O))
-  name: dominating-34
-  type: dominant
-- comm_cost: 0.33333333333333337
+- comm_cost: 0.2066357814416132
   complexity: 37
   expressions:
-  - _ref_c(_f(O), _f(S))
-  - _ref_c(O, _f(S))
   - _ref_c(S, _m(O))
+  - _and(_female(S), _or(_ref_c(O, _f(S)), _ref_c(_f(S), _f(_f(O)))))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-35
+  - _and(_male(S), _ref_c(O, _f(S)))
+  name: dominating-13
   type: dominant
-- comm_cost: 0.7777777777777778
-  complexity: 10
+- comm_cost: 0.15090611799972753
+  complexity: 90
   expressions:
-  - _female(S)
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _f(O))
-  name: dominating-36
-  type: dominant
-- comm_cost: 0.3125
-  complexity: 45
-  expressions:
-  - _ref_c(_f(O), _f(S))
-  - _ref_c(O, _f(S))
-  - _and(_male(S), _ref_c(_f(O), _f(S)))
+  - _or(_and(_female(S), _ref_c(_f(S), _f(_f(O)))), _or(_ref_c(S, _f(_f(O))), _ref_c(S,
+    _m(_f(O)))))
+  - _and(_male(S), _ref_c(_f(S), _f(_m(O))))
   - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_m(O)))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_m(O)))
-  - _ref_c(S, _f(_f(O)))
-  name: dominating-37
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  - _or(_and(_female(S), _ref_c(_f(O), _f(_m(S)))), _or(_ref_c(S, _f(_m(O))), _ref_c(S,
+    _m(_f(O)))))
+  - _and(_male(S), _ref_c(O, _f(S)))
+  name: dominating-14
   type: dominant
-- comm_cost: 0.5
-  complexity: 27
+- comm_cost: 0.2284371167734024
+  complexity: 31
   expressions:
-  - _ref_c(O, _f(S))
-  - _ref_c(S, _m(O))
   - _ref_c(S, _f(O))
-  - _ref_c(S, _m(_f(O)))
-  - _ref_c(S, _f(_f(O)))
-  - _ref_c(_f(O), _f(S))
-  name: dominating-38
+  - _ref_c(S, _m(O))
+  - _and(_male(S), _ref_c(O, _f(S)))
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  name: dominating-15
+  type: dominant
+- comm_cost: 0.15667438797292998
+  complexity: 68
+  expressions:
+  - _and(_male(S), _ref_c(_f(S), _f(_m(O))))
+  - _ref_c(S, _m(O))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
+  - _or(_and(_male(S), _ref_c(O, _f(_f(S)))), _or(_ref_c(S, _f(_f(O))), _ref_c(S,
+    _m(_m(O)))))
+  - _ref_c(S, _f(O))
+  - _and(_or(_female(S), _ref_c(_f(O), _f(S))), _or(_male(S), _ref_c(O, _f(S))))
+  - _and(_male(S), _ref_c(O, _f(S)))
+  name: dominating-16
   type: dominant
