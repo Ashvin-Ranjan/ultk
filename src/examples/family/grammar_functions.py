@@ -17,30 +17,24 @@ def _not(a: bool) -> bool:
 
 # Gender comparison
 def _male(a: FrozenDict[str, Any]) -> bool:
-    if a is None:
-        return False
     return a["gender"] == "m"
 
 def _female(a: FrozenDict[str, Any]) -> bool:
-    if a is None:
-        return False
     return a["gender"] == "f"
 
 # Referent Comparison
 def _ref_c(a: FrozenDict[str, Any], b: FrozenDict[str, Any]) -> bool:
-    if a is None or b is None:
-        return False
     return a == b
 
 # Getting mother and father of given referent
 def _m(a: FrozenDict[str, Any]) -> FrozenDict[str, Any]:
-    if a is None or a["mother"] is None:
-        return None
+    if a["mother"] is None:
+        return FrozenDict({"name": a["name"] + "-mother", "gender": "f", "mother": None, "father": None})
     return FrozenDict(a["mother"].__dict__)
 
 def _f(a: FrozenDict[str, Any]) -> FrozenDict[str, Any]:
-    if a is None or a["father"] is None:
-        return None
+    if a["father"] is None:
+        return FrozenDict({"name": a["name"] + "-father", "gender": "m", "mother": None, "father": None})
     return FrozenDict(a["father"].__dict__)
 
 # The self is the referent who is related to the origin

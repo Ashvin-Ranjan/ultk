@@ -1,30 +1,31 @@
 - comm_cost: 0.3999999999999999
-  complexity: 75
+  complexity: 99
   expressions:
-  - sibling
-  - mother
-  - grandparent
-  - child
-  - sister
-  - parent
-  - daughter
   - father
-  - brother
-  - grandfather
-  - son
+  - mother
   - grandmother
+  - grandfather
+  - sister
+  - brother
+  - grandparent
+  - son
+  - sibling
+  - parent
+  - child
+  - daughter
   lot_expressions:
-  - _female(_f(_f(S)))
-  - _ref_c(S, _m(O))
-  - _not(_ref_c(_f(S), _f(S)))
-  - _ref_c(O, _f(S))
-  - _and(_female(S), _female(_f(_f(S))))
-  - _female(_f(S))
-  - _and(_female(S), _ref_c(O, _f(S)))
   - _ref_c(S, _f(O))
-  - _and(_male(S), _female(_f(_f(S))))
-  - _or(_ref_c(S, _f(_f(O))), _ref_c(S, _f(_m(O))))
-  - _and(_male(S), _ref_c(O, _f(S)))
+  - _ref_c(S, _m(O))
   - _or(_ref_c(S, _m(_f(O))), _ref_c(S, _m(_m(O))))
+  - _or(_ref_c(S, _f(_f(O))), _ref_c(S, _f(_m(O))))
+  - _and(_female(S), _ref_c(_f(O), _f(S)))
+  - _and(_male(S), _ref_c(_f(O), _f(S)))
+  - _not(_or(_or(_ref_c(O, _f(S)), _ref_c(S, _f(O))), _or(_ref_c(S, _m(O)), _ref_c(_f(O),
+    _f(S)))))
+  - _and(_male(S), _ref_c(O, _f(S)))
+  - _ref_c(_f(O), _f(S))
+  - _or(_ref_c(S, _f(O)), _ref_c(S, _m(O)))
+  - _ref_c(O, _f(S))
+  - _and(_female(S), _ref_c(O, _f(S)))
   name: english
   type: natural
