@@ -58,13 +58,7 @@ class Referent:
         return self.name < other.name
 
     def __eq__(self, other) -> bool:
-        try:
-            return self.name == other.name and self.__dict__ == other.__dict__
-        except:
-            curframe = inspect.currentframe()
-            calframe = inspect.getouterframes(curframe, 2)
-            print('caller name:', calframe[1][3])
-            exit()
+        return self.name == other.name and self.__dict__ == other.__dict__
 
     def __hash__(self) -> int:
         return hash((self.name, frozenset(self.__dict__.items())))
