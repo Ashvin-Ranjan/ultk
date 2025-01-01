@@ -1,0 +1,13 @@
+language,expression,mother,father,brother,sister,son,daughter,grandmother1,grandfather1,grandmother2,grandfather2
+english,mother,True,False,False,False,False,False,False,False,False,False
+english,father,False,True,False,False,False,False,False,False,False,False
+english,brother,False,False,True,False,False,False,False,False,False,False
+english,sister,False,False,False,True,False,False,False,False,False,False
+english,son,False,False,False,False,True,False,False,False,False,False
+english,daughter,False,False,False,False,False,True,False,False,False,False
+english,grandmother,False,False,False,False,False,False,True,False,True,False
+english,grandfather,False,False,False,False,False,False,False,True,False,True
+english,parent,True,True,False,False,False,False,False,False,False,False
+english,sibling,False,False,True,True,False,False,False,False,False,False
+english,child,False,False,False,False,True,True,False,False,False,False
+english,grandparent,False,False,False,False,False,False,True,True,True,True
