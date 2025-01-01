@@ -58,6 +58,8 @@ class Referent:
         return self.name < other.name
 
     def __eq__(self, other) -> bool:
+        if other is None:
+            return False
         return self.name == other.name and self.__dict__ == other.__dict__
 
     def __hash__(self) -> int:
