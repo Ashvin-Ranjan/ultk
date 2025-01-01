@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from functools import cached_property
 from typing import Any, Generic, TypeVar, Union
 from ultk.util.frozendict import FrozenDict
-
+import inspect
 import numpy as np
 import pandas as pd
 
@@ -58,7 +58,13 @@ class Referent:
         return self.name < other.name
 
     def __eq__(self, other) -> bool:
-        return self.name == other.name and self.__dict__ == other.__dict__
+        try:
+            return self.name == other.name and self.__dict__ == other.__dict__
+        except:
+            curframe = inspect.currentframe()
+            calframe = inspect.getouterframes(curframe, 2)
+            print('caller name:', calframe[1][3])
+            exit()
 
     def __hash__(self) -> int:
         return hash((self.name, frozenset(self.__dict__.items())))
