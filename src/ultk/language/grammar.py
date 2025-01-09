@@ -90,7 +90,7 @@ class Rule:
             del args["weight"]
         # allow custon names too
         rule_name = func.__name__
-        if "name" in args:
+        if "name" in args and args["name"].default is not inspect.Parameter.empty:
             rule_name = args["name"].default
             del args["name"]
         # parameters = {'name': Parameter} ordereddict, so we want the values
@@ -558,7 +558,10 @@ class Grammar:
         """
         module = import_module(module_name)
         grammar = cls(None)
-        for name, value in inspect.getmembers(module):
+        members = [v for _, v in inspect.getmembers(module)]
+        if hasattr(module, "grammar_rules"):
+            members = module.grammar_rules
+        for value in members:
             # functions become rules
             if inspect.isfunction(value):
                 grammar.add_rule(Rule.from_callable(value))
