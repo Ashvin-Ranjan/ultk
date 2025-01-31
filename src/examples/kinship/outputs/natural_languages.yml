@@ -1,35 +1,4504 @@
-- comm_cost: 0.11895353590407409
-  complexity: 104
+- comm_cost: 0.14497887995639736
+  complexity: 82
   expressions:
-  - uncle
-  - son
-  - daughter
-  - nephew
-  - mother
-  - grandfather
-  - father
-  - niece
-  - granddaughter
-  - brother
-  - grandmother
-  - aunt
-  - grandson
-  - sister
+  - "v_pokomopoko1261:zahu\xE5je"
+  - "v_pokomopoko1261:m\xE5ma"
+  - "v_pokomopoko1261:mana mul\xFAme"
+  - v_pokomopoko1261:mana muke
+  - v_pokomopoko1261:ndugu
+  - "v_pokomopoko1261:tja\xFAje"
+  - v_pokomopoko1261:mumechwe
+  - v_pokomopoko1261:ndugu ya baba
+  - "v_pokomopoko1261:md\xF3to ja mana"
+  - "v_pokomopoko1261:mm\xE9tje"
+  - v_pokomopoko1261:baba
   lot_expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_pokomopoko1261
+  type: natural
+- comm_cost: 0.33165281373484135
+  complexity: 50
+  expressions:
+  - v_baurebaur1253:n-en
+  - v_baurebaur1253:n-eta
+  - v_baurebaur1253:ni'piri
+  - "v_baurebaur1253:c\u030Cac\u030C"
+  - "v_baurebaur1253:ni-'pir\u030C\u0323i"
+  - v_baurebaur1253:-os
+  - v_baurebaur1253:-i'a
+  - v_baurebaur1253:ni'ay
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  name: v_baurebaur1253
+  type: natural
+- comm_cost: 0.25289548984875343
+  complexity: 74
+  expressions:
+  - p_satawalesesata1237:aet
+  - p_satawalesesata1237:saam
+  - p_satawalesesata1237:iin
+  - p_satawalesesata1237:pwi
+  - p_satawalesesata1237:fatiuw
+  - p_satawalesesata1237:mwengean
+  - p_satawalesesata1237:pwiipwii
+  - p_satawalesesata1237:inaen inaen
+  - p_satawalesesata1237:mwenge
+  - p_satawalesesata1237:in
+  - p_satawalesesata1237:samenap
+  - p_satawalesesata1237:semei
+  - p_satawalesesata1237:mwanenap
+  lot_expressions:
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(sibling), .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  name: p_satawalesesata1237
+  type: natural
+- comm_cost: 0.18783212971794527
+  complexity: 58
+  expressions:
+  - p_lavatburalamusongkonobinlava1239:nanga
+  - p_lavatburalamusongkonobinlava1239:guinek
+  - p_lavatburalamusongkonobinlava1239:nambangit
+  - p_lavatburalamusongkonobinlava1239:naiang
+  - p_lavatburalamusongkonobinlava1239:tamang
+  - p_lavatburalamusongkonobinlava1239:ninugu
+  - p_lavatburalamusongkonobinlava1239:tata
+  - p_lavatburalamusongkonobinlava1239:ungu zigik
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  name: p_lavatburalamusongkonobinlava1239
+  type: natural
+- comm_cost: 0.26454557841667814
+  complexity: 44
+  expressions:
+  - "p_southwesttannasout2869:m\u0268ra"
+  - "p_southwesttannasout2869:p\u0303ia"
+  - "p_southwesttannasout2869:kak\u0259"
+  - "p_southwesttannasout2869:r\u0268m"
+  - "p_southwesttannasout2869:n\u0268s\u0268n"
+  - "p_southwesttannasout2869:m\u0303\u0268k\u0268p"
+  - "p_southwesttannasout2869:r\u0268p"
+  - p_southwesttannasout2869:ji
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(child), .)'
+  name: p_southwesttannasout2869
+  type: natural
+- comm_cost: 0.12712903665349518
+  complexity: 114
+  expressions:
+  - v_oldchurchslavonicchur1257:mati
+  - "v_oldchurchslavonicchur1257:synovi\u0306ci\u0306"
+  - "v_oldchurchslavonicchur1257:vu\u0306nuku\u0306"
+  - v_oldchurchslavonicchur1257:nestera
+  - "v_oldchurchslavonicchur1257:bratu\u0306"
+  - "v_oldchurchslavonicchur1257:synovi\u0306"
+  - "v_oldchurchslavonicchur1257:oti\u0306ci\u0306"
+  - "v_oldchurchslavonicchur1257:neti\u0306ji\u0306"
+  - "v_oldchurchslavonicchur1257:vu\u0306nuka"
+  - v_oldchurchslavonicchur1257:synovica
+  - "v_oldchurchslavonicchur1257:de\u030Cdu\u0306"
+  - v_oldchurchslavonicchur1257:sestra
+  - "v_oldchurchslavonicchur1257:du\u0306s\u030Cti"
+  - "v_oldchurchslavonicchur1257:bratru\u0306"
+  - "v_oldchurchslavonicchur1257:synu\u0306"
+  - v_oldchurchslavonicchur1257:baba
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  name: v_oldchurchslavonicchur1257
+  type: natural
+- comm_cost: 0.9806513148930373
+  complexity: 140
+  expressions:
+  - v_oldrussianoldr1238:stryj
+  - v_oldrussianoldr1238:uj
+  - "v_oldrussianoldr1238:synov\xE9tsI"
+  - "v_oldrussianoldr1238:brat\xE1nich"
+  - "v_oldrussianoldr1238:brat\xE1nna"
+  - "v_oldrussianoldr1238:sestr\xEDch"
+  - "v_oldrussianoldr1238:n\xE9tii"
+  - "v_oldrussianoldr1238:lel\u011Bja"
+  - "v_oldrussianoldr1238:dshch\xE9rich"
+  - "v_oldrussianoldr1238:dshch\xE9rsha"
+  - "v_oldrussianoldr1238:\xFAjka"
+  - "v_oldrussianoldr1238:synov\xEDtsa"
+  - v_oldrussianoldr1238:stryja
+  - "v_oldrussianoldr1238:nest\xE9ra"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
     .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  name: v_oldrussianoldr1238
+  type: natural
+- comm_cost: 0.2771494754053687
+  complexity: 22
+  expressions:
+  - v_budzabudz1238:sango
+  - v_budzabudz1238:nango
+  - v_budzabudz1238:moenga
+  - "v_budzabudz1238:m\xE1na"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(sibling), .)'
+  name: v_budzabudz1238
+  type: natural
+- comm_cost: 0.09828768678748256
+  complexity: 246
+  expressions:
+  - "v_ancientgreekanci1242:kas\xEDgn\u0113tos"
+  - "v_ancientgreekanci1242:huid\xE9os"
+  - "v_ancientgreekanci1242:thugatrid\xE9os"
+  - "v_ancientgreekanci1242:p\xE1ppos"
+  - "v_ancientgreekanci1242:hui\u014Dn\xF3s"
+  - "v_ancientgreekanci1242:kasign\u1E17t\u0113"
+  - "v_ancientgreekanci1242:patrop\xE1t\u014Dr"
+  - "v_ancientgreekanci1242:adelph\xE9e"
+  - "v_ancientgreekanci1242:m\u1E17t\u0113r"
+  - "v_ancientgreekanci1242:thugatrid\xE9\u0113"
+  - "v_ancientgreekanci1242:pat\u1E17r"
+  - "v_ancientgreekanci1242:adelphe\xF3s"
+  - "v_ancientgreekanci1242:patrokas\xEDgn\u1E17t\u0113"
+  - "v_ancientgreekanci1242:p\xE1tr\u014Ds"
+  - "v_ancientgreekanci1242:patrom\u1E17t\u014Dr"
+  - "v_ancientgreekanci1242:m\u0113trokas\xEDgn\u1E17t\u0113"
+  - "v_ancientgreekanci1242:m\u0113trokas\xEDgn\u0113tos"
+  - "v_ancientgreekanci1242:thug\xE1t\u0113r"
+  - "v_ancientgreekanci1242:m\u0113trom\u1E17t\u014Dr"
+  - "v_ancientgreekanci1242:t\u1E17th\u0113"
+  - "v_ancientgreekanci1242:huid\xE9\u0113"
+  - "v_ancientgreekanci1242:m\u1E17tr\u014Ds"
+  - "v_ancientgreekanci1242:hui\xF3s"
+  - "v_ancientgreekanci1242:m\u0113trop\xE1t\u014Dr"
+  - "v_ancientgreekanci1242:t\u0113th\xEDs"
+  - "v_ancientgreekanci1242:patrokas\xEDgn\u0113tos"
+  - "v_ancientgreekanci1242:adelphid\xE9os"
+  - "v_ancientgreekanci1242:the\xEEos"
+  - "v_ancientgreekanci1242:adelphid\xE9\u0113"
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  name: v_ancientgreekanci1242
+  type: natural
+- comm_cost: 0.26311486578552956
+  complexity: 44
+  expressions:
+  - p_bannonibann1247:anak
+  - p_bannonibann1247:tama
+  - p_bannonibann1247:tepoh
+  - p_bannonibann1247:anak menakan
+  - p_bannonibann1247:mupun
+  - p_bannonibann1247:kenanak
+  - p_bannonibann1247:sinah
+  - p_bannonibann1247:menakan
+  lot_expressions:
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(sibling, parent)), .)'
+  name: p_bannonibann1247
+  type: natural
+- comm_cost: 0.1840963800699461
+  complexity: 104
+  expressions:
+  - v_highlandpueblanahuatlhigh1278:i-weyi-tata-h
+  - v_highlandpueblanahuatlhigh1278:no-swaa-iknii-w
+  - v_highlandpueblanahuatlhigh1278:i-kone-w
+  - "v_highlandpueblanahuatlhigh1278:i-okic\u030C-pil"
+  - "v_highlandpueblanahuatlhigh1278:i-nan-c\u0337in"
+  - "v_highlandpueblanahuatlhigh1278:i-telpoc\u030C"
+  - v_highlandpueblanahuatlhigh1278:tata-h weyi
+  - v_highlandpueblanahuatlhigh1278:nana-h weyi
+  - "v_highlandpueblanahuatlhigh1278:i-weyi-nan-c\u0337in"
+  - v_highlandpueblanahuatlhigh1278:ii-kni-w
+  - "v_highlandpueblanahuatlhigh1278:i-s\u030Cwi-w-swa-pil"
+  - v_highlandpueblanahuatlhigh1278:i-swa-pil
+  - "v_highlandpueblanahuatlhigh1278:i-s\u030Cwi-w"
+  - "v_highlandpueblanahuatlhigh1278:i-tah-c\u0337in"
+  - v_highlandpueblanahuatlhigh1278:te-tat
+  - "v_highlandpueblanahuatlhigh1278:ic\u030Cpoc\u030C"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_highlandpueblanahuatlhigh1278
+  type: natural
+- comm_cost: 0.12099741109142959
+  complexity: 124
+  expressions:
+  - v_aztecclas1250:weltitl
+  - v_aztecclas1250:takoli
+  - v_aztecclas1250:piltontli
+  - v_aztecclas1250:awitl
+  - v_aztecclas1250:ichpokatl
+  - v_aztecclas1250:konetl
+  - v_aztecclas1250:nantli
+  - v_aztecclas1250:sistli
+  - v_aztecclas1250:xwitl
+  - v_aztecclas1250:pilli
+  - v_aztecclas1250:kohkolli
+  - v_aztecclas1250:iknitl
+  - v_aztecclas1250:tahtli
+  - v_aztecclas1250:xokoyotl
+  - v_aztecclas1250:weltihtli
+  - v_aztecclas1250:awitzin
+  - v_aztecclas1250:machtli
+  - v_aztecclas1250:tlaitl
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  name: v_aztecclas1250
+  type: natural
+- comm_cost: 0.24642321842212855
+  complexity: 96
+  expressions:
+  - p_ibanagiban1267:inno
+  - p_ibanagiban1267:abbo
+  - p_ibanagiban1267:tiya
+  - p_ibanagiban1267:kakay
+  - p_ibanagiban1267:abba
+  - p_ibanagiban1267:kako
+  - p_ibanagiban1267:tiyu
+  - p_ibanagiban1267:ama
+  - p_ibanagiban1267:ulitag
+  - p_ibanagiban1267:ana
+  - p_ibanagiban1267:wagi
+  - p_ibanagiban1267:afuku
+  - p_ibanagiban1267:kanakan
+  - p_ibanagiban1267:iki
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  name: p_ibanagiban1267
+  type: natural
+- comm_cost: 0.5713312440386974
+  complexity: 40
+  expressions:
+  - p_barokkarubaro1253:rok
+  - p_barokkarubaro1253:orong kanu
+  - p_barokkarubaro1253:sagok
+  - p_barokkarubaro1253:subun tanu
+  - p_barokkarubaro1253:magu
+  - p_barokkarubaro1253:barukanu
+  lot_expressions:
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  name: p_barokkarubaro1253
+  type: natural
+- comm_cost: 0.24649134759504032
+  complexity: 30
+  expressions:
+  - v_degexitandege1248:von'
+  - v_degexitandege1248:ega
+  - v_degexitandege1248:sijya
+  - v_degexitandege1248:vottoo
+  - v_degexitandege1248:vyt'taza
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_degexitandege1248
+  type: natural
+- comm_cost: 0.31291729118408507
+  complexity: 16
+  expressions:
+  - p_mekeowestmeke1243b:imi
+  - p_mekeowestmeke1243b:ama
+  - p_mekeowestmeke1243b:ina
+  lot_expressions:
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_mekeowestmeke1243b
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - v_dutchdutc1256:oma
+  - v_dutchdutc1256:vader
+  - v_dutchdutc1256:kleindochter
+  - v_dutchdutc1256:oom
+  - v_dutchdutc1256:dochter
+  - v_dutchdutc1256:zoon
+  - v_dutchdutc1256:zus
+  - v_dutchdutc1256:broer
+  - v_dutchdutc1256:kleinzoon
+  - v_dutchdutc1256:nicht
+  - v_dutchdutc1256:neef
+  - v_dutchdutc1256:opa
+  - v_dutchdutc1256:tante
+  - v_dutchdutc1256:moeder
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_dutchdutc1256
+  type: natural
+- comm_cost: 0.21576509061180016
+  complexity: 94
+  expressions:
+  - v_colloquialmalaymala1479:adek
+  - v_colloquialmalaymala1479:tokchai
+  - v_colloquialmalaymala1479:tok
+  - v_colloquialmalaymala1479:abang
+  - v_colloquialmalaymala1479:bapak
+  - v_colloquialmalaymala1479:kakak
+  - v_colloquialmalaymala1479:chuchu
+  - v_colloquialmalaymala1479:tokwak
+  - v_colloquialmalaymala1479:datok
+  - v_colloquialmalaymala1479:anak
+  - v_colloquialmalaymala1479:bapak penakan
+  - v_colloquialmalaymala1479:emak penakan
+  - v_colloquialmalaymala1479:emak
+  - v_colloquialmalaymala1479:anak penakan
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  name: v_colloquialmalaymala1479
+  type: natural
+- comm_cost: 0.1463414634146344
+  complexity: 44
+  expressions:
+  - "v_tokharianbtokh1243:s\u0323er"
+  - v_tokharianbtokh1243:procer
+  - "v_tokharianbtokh1243:ma\u0304cer"
+  - "v_tokharianbtokh1243:pa\u0304cer"
+  - v_tokharianbtokh1243:soy
+  - "v_tokharianbtokh1243:orotstse-pa\u0304cer"
+  - "v_tokharianbtokh1243:tka\u0304cer"
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_tokharianbtokh1243
+  type: natural
+- comm_cost: 0.26284234909388204
+  complexity: 46
+  expressions:
+  - p_centralsubanensubanungcent2089:bata
+  - p_centralsubanensubanungcent2089:g-ama
+  - p_centralsubanensubanungcent2089:g-apo
+  - p_centralsubanensubanungcent2089:g-ilugu
+  - p_centralsubanensubanungcent2089:g-aya
+  - p_centralsubanensubanungcent2089:g-ina
+  - p_centralsubanensubanungcent2089:manak
+  lot_expressions:
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: p_centralsubanensubanungcent2089
+  type: natural
+- comm_cost: 0.16928396239269672
+  complexity: 234
+  expressions:
+  - p_ilokanoilok1237:apong
+  - p_ilokanoilok1237:kaanakan a babai
+  - p_ilokanoilok1237:tata
+  - p_ilokanoilok1237:lola
+  - p_ilokanoilok1237:kabsat a babai
+  - p_ilokanoilok1237:anak ti anak
+  - p_ilokanoilok1237:ina ti ama wenno ina
+  - p_ilokanoilok1237:ina a baket
+  - p_ilokanoilok1237:tia
+  - p_ilokanoilok1237:kabsat
+  - p_ilokanoilok1237:ikit
+  - p_ilokanoilok1237:ama
+  - p_ilokanoilok1237:uliteg
+  - p_ilokanoilok1237:pangamaen
+  - p_ilokanoilok1237:babai nga anak ti anak
+  - p_ilokanoilok1237:ina
+  - p_ilokanoilok1237:amanubing
+  - p_ilokanoilok1237:tang
+  - p_ilokanoilok1237:anak a lalaki
+  - p_ilokanoilok1237:kaanakan a lalaki
+  - p_ilokanoilok1237:lolo
+  - p_ilokanoilok1237:nanaubing
+  - p_ilokanoilok1237:nanag
+  - p_ilokanoilok1237:ama lakay
+  - p_ilokanoilok1237:tatang
+  - p_ilokanoilok1237:ama ti ama wenno ina
+  - p_ilokanoilok1237:apoko a babai
+  - p_ilokanoilok1237:anak a babai
+  - p_ilokanoilok1237:apo
+  - p_ilokanoilok1237:amang
+  - p_ilokanoilok1237:kabagis
+  - p_ilokanoilok1237:apoko
+  - p_ilokanoilok1237:anak
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(child), .)'
+  name: p_ilokanoilok1237
+  type: natural
+- comm_cost: 0.7002316391879003
+  complexity: 18
+  expressions:
+  - "p_lametinmere1242:bapne\u0324"
+  - p_lametinmere1242:rabui
+  - "p_lametinmere1242:tama\u0324"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(parent), .)'
+  - '*(my_(parent), .)'
+  name: p_lametinmere1242
+  type: natural
+- comm_cost: 0.1162283689876007
+  complexity: 134
+  expressions:
+  - v_standardgermanstan1295:Enkelsohn
+  - v_standardgermanstan1295:Oma
+  - v_standardgermanstan1295:Enkeltochter
+  - v_standardgermanstan1295:Enkel
+  - v_standardgermanstan1295:Nichte
+  - v_standardgermanstan1295:Opa
+  - v_standardgermanstan1295:Mutter
+  - "v_standardgermanstan1295:Gro\xDFvater"
+  - v_standardgermanstan1295:Onkel
+  - v_standardgermanstan1295:Bruder
+  - v_standardgermanstan1295:Tante
+  - v_standardgermanstan1295:Sohn
+  - "v_standardgermanstan1295:Gro\xDFmutter"
+  - v_standardgermanstan1295:Schwester
+  - v_standardgermanstan1295:Enkelin
+  - v_standardgermanstan1295:Neffe
+  - v_standardgermanstan1295:Tochter
+  - v_standardgermanstan1295:Vater
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_standardgermanstan1295
+  type: natural
+- comm_cost: 0.9918244992505791
+  complexity: 20
+  expressions:
+  - v_ngombebinjabinj1250:woto
+  - v_ngombebinjabinj1250:kiva
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  name: v_ngombebinjabinj1250
+  type: natural
+- comm_cost: 0.1766589453604035
+  complexity: 136
+  expressions:
+  - "v_finnishfinn1318:tyt\xE4r"
+  - "v_finnishfinn1318:\xE4iti"
+  - "v_finnishfinn1318:is\xE4nis\xE4"
+  - "v_finnishfinn1318:is\xE4n\xE4iti"
+  - "v_finnishfinn1318:is\xE4"
+  - v_finnishfinn1318:pappa
+  - "v_finnishfinn1318:tytt\xE4renpoika"
+  - "v_finnishfinn1318:\xE4idinis\xE4"
+  - v_finnishfinn1318:pojanpoika
+  - v_finnishfinn1318:poika
+  - v_finnishfinn1318:vaari
+  - "v_finnishfinn1318:\xE4idin\xE4iti"
+  - v_finnishfinn1318:mummo
+  - "v_finnishfinn1318:tytt\xE4rentyt\xE4r"
+  - v_finnishfinn1318:ukki
+  - "v_finnishfinn1318:pojantyt\xE4r"
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  name: v_finnishfinn1318
+  type: natural
+- comm_cost: 0.31291729118408507
+  complexity: 16
+  expressions:
+  - p_mekeonorthmeke1243c:ina
+  - p_mekeonorthmeke1243c:ama
+  - p_mekeonorthmeke1243c:imi
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(child), .)'
+  name: p_mekeonorthmeke1243c
+  type: natural
+- comm_cost: 0.3346641231775448
+  complexity: 52
+  expressions:
+  - p_bukatbuka1261:inak
+  - p_bukatbuka1261:amak
+  - p_bukatbuka1261:aki
+  - p_bukatbuka1261:anak
+  - p_bukatbuka1261:usun
+  - p_bukatbuka1261:akek
+  - p_bukatbuka1261:ipui
+  - p_bukatbuka1261:arik
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, Ez_axz_and_bzy(child, parent))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(sibling), .)'
+  name: p_bukatbuka1261
+  type: natural
+- comm_cost: 0.17171958032429502
+  complexity: 106
+  expressions:
+  - v_hittitehitt1242:hanza
+  - v_hittitehitt1242:NIN
+  - v_hittitehitt1242:atta-
+  - v_hittitehitt1242:hanna-
+  - v_hittitehitt1242:DUMU.SAL
+  - v_hittitehitt1242:neka-
+  - v_hittitehitt1242:DUMU.DUMU
+  - v_hittitehitt1242:DUMU
+  - v_hittitehitt1242:hammasa-
+  - v_hittitehitt1242:huhha-
+  - v_hittitehitt1242:anna-
+  - v_hittitehitt1242:pulla-
+  - "v_hittitehitt1242:\u0160E\u0160"
+  - v_hittitehitt1242:anni-
+  - v_hittitehitt1242:annaneka-
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  name: v_hittitehitt1242
+  type: natural
+- comm_cost: 0.12712903665349518
+  complexity: 112
+  expressions:
+  - "v_avestanaves1237:napa\u0304t-"
+  - "v_avestanaves1237:nya\u0304ka\u0304-"
+  - "v_avestanaves1237:dug\u0259dar-"
+  - "v_avestanaves1237:bra\u0304tar-"
+  - v_avestanaves1237:hunu-
+  - "v_avestanaves1237:bra\u0304truya-"
+  - "v_avestanaves1237:x\u02B7a\u014Bhar-"
+  - "v_avestanaves1237:nya\u0304ka-"
+  - "v_avestanaves1237:du\u0263\xF0ar-"
+  - v_avestanaves1237:naptar-
+  - "v_avestanaves1237:bra\u0304truya\u0304-"
+  - "v_avestanaves1237:pu\u03B8ra-"
+  - v_avestanaves1237:pitar-
+  - "v_avestanaves1237:napti\u0304-"
+  - "v_avestanaves1237:ma\u0304tar-"
+  - v_avestanaves1237:naptiya-
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  name: v_avestanaves1237
+  type: natural
+- comm_cost: 0.11467275287278023
+  complexity: 172
+  expressions:
+  - v_serbocroationsout1528:deda
+  - v_serbocroationsout1528:sin
+  - v_serbocroationsout1528:majka
+  - v_serbocroationsout1528:brat
+  - v_serbocroationsout1528:unuka
+  - v_serbocroationsout1528:bratanica
+  - v_serbocroationsout1528:unuk
+  - "v_serbocroationsout1528:sestri\u010Dina"
+  - v_serbocroationsout1528:sinovac
+  - v_serbocroationsout1528:sinovica
+  - v_serbocroationsout1528:otac
+  - "v_serbocroationsout1528:ne\u0107akinja"
+  - v_serbocroationsout1528:bratanac
+  - "v_serbocroationsout1528:sestri\u0107"
+  - "v_serbocroationsout1528:ne\u0107ak"
+  - v_serbocroationsout1528:tetka
+  - v_serbocroationsout1528:baba
+  - "v_serbocroationsout1528:\u0107erka"
+  - v_serbocroationsout1528:sestra
+  - v_serbocroationsout1528:ujak
+  - v_serbocroationsout1528:stric
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: v_serbocroationsout1528
+  type: natural
+- comm_cost: 0.11963482763319266
+  complexity: 106
+  expressions:
+  - "v_cornishcorn1251:s\xEEra"
+  - v_cornishcorn1251:mergh
+  - "v_cornishcorn1251:t\xE2s"
+  - "v_cornishcorn1251:\xE9viter"
+  - "v_cornishcorn1251:s\xEEra widn"
+  - v_cornishcorn1251:noi
+  - v_cornishcorn1251:whor
+  - v_cornishcorn1251:dama
+  - v_cornishcorn1251:broder
+  - v_cornishcorn1251:mamm
+  - v_cornishcorn1251:mab
+  - v_cornishcorn1251:hendas
+  - v_cornishcorn1251:dama widn
+  - v_cornishcorn1251:modereb
+  - v_cornishcorn1251:noith
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  name: v_cornishcorn1251
+  type: natural
+- comm_cost: 0.1206567652268703
+  complexity: 90
+  expressions:
+  - v_norwegianbokmalnorw1259:far
+  - v_norwegianbokmalnorw1259:niese
+  - v_norwegianbokmalnorw1259:tante
+  - v_norwegianbokmalnorw1259:bror
+  - v_norwegianbokmalnorw1259:mor
+  - v_norwegianbokmalnorw1259:onkel
+  - v_norwegianbokmalnorw1259:bestemor
+  - v_norwegianbokmalnorw1259:bestefar
+  - "v_norwegianbokmalnorw1259:nev\xF8"
+  - v_norwegianbokmalnorw1259:datter
+  - v_norwegianbokmalnorw1259:barnebarn
+  - "v_norwegianbokmalnorw1259:s\xF8nn"
+  - "v_norwegianbokmalnorw1259:s\xF8ster"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_norwegianbokmalnorw1259
+  type: natural
+- comm_cost: 0.31291729118408507
+  complexity: 16
+  expressions:
+  - p_mekeoeastmeke1243d:ina
+  - p_mekeoeastmeke1243d:imoi
+  - p_mekeoeastmeke1243d:ama
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: p_mekeoeastmeke1243d
+  type: natural
+- comm_cost: 0.6041695053822047
+  complexity: 102
+  expressions:
+  - "v_balochibalo1260:\u1E0Da\u1E0Da"
+  - v_balochibalo1260:nani
+  - v_balochibalo1260:pupu
+  - v_balochibalo1260:naxo
+  - v_balochibalo1260:baba
+  - "v_balochibalo1260:\u1E0Da\u1E0Di"
+  - "v_balochibalo1260:ma\u03B8"
+  - v_balochibalo1260:masi
+  - v_balochibalo1260:mama
+  - "v_balochibalo1260:bra\u03B8"
+  - v_balochibalo1260:nana
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  name: v_balochibalo1260
+  type: natural
+- comm_cost: 0.11098242267338887
+  complexity: 138
+  expressions:
+  - p_lebanesearabicstan1323:bnt
+  - "p_lebanesearabicstan1323:\u0292d\u0251"
+  - "p_lebanesearabicstan1323:x\u0251\u02D0l\xE6"
+  - "p_lebanesearabicstan1323:\xE6\u02D0b"
+  - "p_lebanesearabicstan1323:\u0294m"
+  - "p_lebanesearabicstan1323:\u0294bn"
+  - "p_lebanesearabicstan1323:\u0294bnl \u0294xt"
+  - "p_lebanesearabicstan1323:bntl \xE6\u02D0x"
+  - "p_lebanesearabicstan1323:\xE6\u02D0x"
+  - "p_lebanesearabicstan1323:bntl \u0294xt"
+  - "p_lebanesearabicstan1323:\u0295\u0251m"
+  - "p_lebanesearabicstan1323:x\u0251\u02D0l"
+  - "p_lebanesearabicstan1323:\u0292d"
+  - "p_lebanesearabicstan1323:\u0127\u0251fi\u02D0d"
+  - "p_lebanesearabicstan1323:\u0295\u0251m\xE6"
+  - "p_lebanesearabicstan1323:\u0294xt"
+  - "p_lebanesearabicstan1323:\u0294bnl \xE6\u02D0x"
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  name: p_lebanesearabicstan1323
+  type: natural
+- comm_cost: 0.4072761956669847
+  complexity: 12
+  expressions:
+  - v_wariwari1268:te
+  - "v_wariwari1268:na\u0294"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_wariwari1268
+  type: natural
+- comm_cost: 0.11404823545442166
+  complexity: 136
+  expressions:
+  - v_serbsserb1264:unuk
+  - v_serbsserb1264:bratanac
+  - v_serbsserb1264:sin
+  - v_serbsserb1264:stric
+  - v_serbsserb1264:otac
+  - "v_serbsserb1264:sestri\u010Dina"
+  - v_serbsserb1264:tetka
+  - v_serbsserb1264:sestric
+  - v_serbsserb1264:ujak
+  - v_serbsserb1264:baba
+  - v_serbsserb1264:sestra
+  - v_serbsserb1264:bratanica
+  - v_serbsserb1264:brat
+  - v_serbsserb1264:ded
+  - v_serbsserb1264:unuka
+  - "v_serbsserb1264:\u0107erka"
+  - v_serbsserb1264:majka
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_serbsserb1264
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - "p_germanstan1295:\u02C8n\u026A\xE7t\u0259"
+  - "p_germanstan1295:\u02C8\u025B\u014Bk\u0259l\u026An"
+  - "p_germanstan1295:\u02C8\u0283v\u025Bst\u0250"
+  - "p_germanstan1295:\u02C8\u0261\u0280o\u02D0s\u02CCfa\u02D0t\u0250"
+  - "p_germanstan1295:\u02C8\u0261\u0280o\u02D0s\u02CCm\u028At\u0250"
+  - "p_germanstan1295:\u02C8m\u028At\u0250"
+  - "p_germanstan1295:\u02C8n\u025Bf\u0259"
+  - "p_germanstan1295:\u02C8\u025B\u014Bkl\u0329"
+  - "p_germanstan1295:\u02C8\u0254\u014Bkl\u0329"
+  - "p_germanstan1295:b\u0280u\u02D0d\u0250"
+  - "p_germanstan1295:\u02C8tant\u0259"
+  - "p_germanstan1295:\u02C8fa\u02D0t\u0250"
+  - "p_germanstan1295:zo\u02D0n"
+  - "p_germanstan1295:\u02C8t\u0254\u03C7t\u0250"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: p_germanstan1295
+  type: natural
+- comm_cost: 0.1412317754462462
+  complexity: 56
+  expressions:
+  - v_gothicgoth1244:barne barna
+  - v_gothicgoth1244:atta
+  - "v_gothicgoth1244:bro\xFEar"
+  - v_gothicgoth1244:swistar
+  - v_gothicgoth1244:dauhtar
+  - v_gothicgoth1244:fadar
+  - v_gothicgoth1244:sunus
+  - "v_gothicgoth1244:ai\xFEei"
+  - v_gothicgoth1244:awo
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  name: v_gothicgoth1244
+  type: natural
+- comm_cost: 0.4072761956669847
+  complexity: 18
+  expressions:
+  - p_kanumkanu1280:al
+  - p_kanumkanu1280:mal
+  - p_kanumkanu1280:homal
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_kanumkanu1280
+  type: natural
+- comm_cost: 0.3691238588363538
+  complexity: 28
+  expressions:
+  - "v_balicongobali1274:yam\xE1"
+  - "v_balicongobali1274:yab\xE0"
+  - "v_balicongobali1274:bog\xE0"
+  - "v_balicongobali1274:y\xE0y\xE0"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  name: v_balicongobali1274
+  type: natural
+- comm_cost: 0.14876004905300477
+  complexity: 110
+  expressions:
+  - "v_tehuelchetehu1242:s\u030Cawr"
+  - v_tehuelchetehu1242:mex
+  - "v_tehuelchetehu1242:y-a\u0304n"
+  - "v_tehuelchetehu1242:s\u030Cawr-wn"
+  - "v_tehuelchetehu1242:go\u0304"
+  - "v_tehuelchetehu1242:y-a\u0304nk\u02C0o"
+  - "v_tehuelchetehu1242:elk\u02C0n-wn"
+  - "v_tehuelchetehu1242:elk\u02C0n-n"
+  - v_tehuelchetehu1242:mex-on
+  - "v_tehuelchetehu1242:ba\u0304y"
+  - "v_tehuelchetehu1242:elk\u02C0n"
+  - "v_tehuelchetehu1242:k\u0323on"
+  - v_tehuelchetehu1242:kalm
+  - v_tehuelchetehu1242:kalm-n
+  - v_tehuelchetehu1242:ye'penk
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: v_tehuelchetehu1242
+  type: natural
+- comm_cost: 0.11554707725848223
+  complexity: 126
+  expressions:
+  - v_slovakianslov1269:dedko
+  - "v_slovakianslov1269:dc\xE9ra"
+  - v_slovakianslov1269:synovec
+  - "v_slovakianslov1269:str\xFDko"
+  - "v_slovakianslov1269:star\xFD otec"
+  - v_slovakianslov1269:dziyuka
+  - v_slovakianslov1269:teta
+  - v_slovakianslov1269:vnuk
+  - "v_slovakianslov1269:ma\u0165"
+  - v_slovakianslov1269:otec
+  - v_slovakianslov1269:syn
+  - v_slovakianslov1269:ujec
+  - "v_slovakianslov1269:star\xE1 mama"
+  - v_slovakianslov1269:neter
+  - v_slovakianslov1269:brat
+  - "v_slovakianslov1269:vnu\u010Dka"
+  - v_slovakianslov1269:sestra
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_slovakianslov1269
+  type: natural
+- comm_cost: 0.25057909796975086
+  complexity: 62
+  expressions:
+  - p_woleaianwole1240:laiune-
+  - p_woleaianwole1240:sila-
+  - p_woleaianwole1240:laiu-
+  - p_woleaianwole1240:temattema-
+  - p_woleaianwole1240:sinisila-
+  - p_woleaianwole1240:bisissila-
+  - p_woleaianwole1240:tema-
+  - p_woleaianwole1240:bisi-
+  - p_woleaianwole1240:tame-
+  - p_woleaianwole1240:sile-
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_woleaianwole1240
+  type: natural
+- comm_cost: 0.31291729118408507
+  complexity: 16
+  expressions:
+  - p_mekeonorthwestmeke1243a:ama
+  - p_mekeonorthwestmeke1243a:ina
+  - p_mekeonorthwestmeke1243a:imi
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(child), .)'
+  name: p_mekeonorthwestmeke1243a
+  type: natural
+- comm_cost: 0.38956261070990617
+  complexity: 34
+  expressions:
+  - v_ngoningon1269:amama
+  - v_ngoningon1269:ambuya
+  - v_ngoningon1269:mzukulu
+  - v_ngoningon1269:atata
+  - v_ngoningon1269:malume
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  name: v_ngoningon1269
+  type: natural
+- comm_cost: 0.09555116500885696
+  complexity: 188
+  expressions:
+  - "v_ossetianosse1243:madyfsym\xE6r"
+  - v_ossetianosse1243:madyfyd
+  - v_ossetianosse1243:kho
+  - v_ossetianosse1243:fyrtychyzg
+  - "v_ossetianosse1243:\u0153rvad"
+  - v_ossetianosse1243:styr mad
+  - "v_ossetianosse1243:\xE6fsym\xE6ry chyzg"
+  - v_ossetianosse1243:chyzdzhyfyrt
+  - v_ossetianosse1243:fydykho
+  - v_ossetianosse1243:fyrtyfyrt
+  - "v_ossetianosse1243:\xE6fsym\xE6r"
+  - "v_ossetianosse1243:kh\xE6r\xE6fyrt"
+  - v_ossetianosse1243:chyzg
+  - "v_ossetianosse1243:fydyfcymv\xE6r"
+  - v_ossetianosse1243:fyd
+  - v_ossetianosse1243:madykho
+  - v_ossetianosse1243:khoiy chyzg
+  - v_ossetianosse1243:mad
+  - v_ossetianosse1243:fyrt
+  - v_ossetianosse1243:chyzdzhychyzg
+  - v_ossetianosse1243:fydyfyd
+  - "v_ossetianosse1243:\xE6fsym\xE6ry l\xE6ppu"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  name: v_ossetianosse1243
+  type: natural
+- comm_cost: 0.32436299223327447
+  complexity: 62
+  expressions:
+  - p_pagupagu1249:tjoetjoe o dano
+  - p_pagupagu1249:ilanga
+  - p_pagupagu1249:bilanga
+  - p_pagupagu1249:aja
+  - p_pagupagu1249:ete
+  - p_pagupagu1249:o pepa
+  - p_pagupagu1249:aila
+  - p_pagupagu1249:oa
+  - p_pagupagu1249:o ngoak ma riak
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  name: p_pagupagu1249
+  type: natural
+- comm_cost: 0.13128491620111737
+  complexity: 58
+  expressions:
+  - "v_yaviteroyavi1244:tanihinal\u030Ci"
+  - "v_yaviteroyavi1244:il\u0325\u030Cuami"
+  - v_yaviteroyavi1244:tusimi
+  - v_yaviteroyavi1244:tanimi
+  - v_yaviteroyavi1244:tain-tani
+  - v_yaviteroyavi1244:siyumi
+  - "v_yaviteroyavi1244:ic\u0337i-naha"
+  - v_yaviteroyavi1244:ihi
+  - "v_yaviteroyavi1244:l\u0325\u030Cinia-naha"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_yaviteroyavi1244
+  type: natural
+- comm_cost: 0.4072761956669847
+  complexity: 12
+  expressions:
+  - v_yamdenayamd1240:ene
+  - v_yamdenayamd1240:ame
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_yamdenayamd1240
+  type: natural
+- comm_cost: 0.24649134759504032
+  complexity: 56
+  expressions:
+  - p_lewolewo1242:mapi-
+  - p_lewolewo1242:arima-
+  - "p_lewolewo1242:m\u0303ene-"
+  - p_lewolewo1242:vine-
+  - p_lewolewo1242:lue-
+  - p_lewolewo1242:arue-
+  - p_lewolewo1242:ane-
+  - p_lewolewo1242:merue-
+  - p_lewolewo1242:nari-
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(child), .)'
+  name: p_lewolewo1242
+  type: natural
+- comm_cost: 0.3691238588363539
+  complexity: 26
+  expressions:
+  - "v_balidrcbali1275:yam\xE1"
+  - "v_balidrcbali1275:yab\xE0"
+  - "v_balidrcbali1275:y\xE0y\xE0"
+  - "v_balidrcbali1275:bog\xE0"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  name: v_balidrcbali1275
+  type: natural
+- comm_cost: 0.24642321842212855
+  complexity: 64
+  expressions:
+  - p_hiligaynonhili1240:lolo
+  - p_hiligaynonhili1240:iloy
+  - p_hiligaynonhili1240:tiya
+  - p_hiligaynonhili1240:bataq
+  - p_hiligaynonhili1240:hinablos
+  - p_hiligaynonhili1240:apo
+  - p_hiligaynonhili1240:lola
+  - p_hiligaynonhili1240:tiyo
+  - p_hiligaynonhili1240:utod
+  - p_hiligaynonhili1240:amay
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: p_hiligaynonhili1240
+  type: natural
+- comm_cost: 0.11333287913884749
+  complexity: 122
+  expressions:
+  - "v_baribari1297:as\u030Ci asas\u030Ci\u0304"
+  - "v_baribari1297:as\u030Ci\u0303taida"
+  - v_baribari1297:asari
+  - "v_baribari1297:as\u030Ci\u0304 as\u030Cia\u0304"
+  - "v_baribari1297:aisi\u0304 okara\u0304"
+  - v_baribari1297:ataida si
+  - "v_baribari1297:aba\u0304ma si"
+  - "v_baribari1297:aba\u0304ma akbai\u0303"
+  - v_baribari1297:abaama
+  - "v_baribari1297:sas\u030Ci"
+  - "v_baribari1297:as\u030Ciaba\u0304ma"
+  - "v_baribari1297:sas\u030Ci\u0304 abira"
+  - "v_baribari1297:s\u030Ca"
+  - "v_baribari1297:as\u030Ca"
+  - v_baribari1297:aataida
+  - "v_baribari1297:s\u030Cia\u0304\u0301 abira"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  name: v_baribari1297
+  type: natural
+- comm_cost: 0.5757323886088024
+  complexity: 178
+  expressions:
+  - v_tanalatana1285:zafy
+  - v_tanalatana1285:zanadrahalahy
+  - v_tanalatana1285:bebe
+  - v_tanalatana1285:rahalahiandraiko
+  - v_tanalatana1285:vavy
+  - v_tanalatana1285:zanaka anabavy
+  - v_tanalatana1285:rahalahy
+  - v_tanalatana1285:anabavaniabako
+  - v_tanalatana1285:analahiadreny
+  - v_tanalatana1285:anadahy
+  - v_tanalatana1285:analahy
+  - v_tanalatana1285:zanakay viavy
+  - v_tanalatana1285:rahalahiandray
+  - v_tanalatana1285:anakavy
+  - v_tanalatana1285:dahy
+  - v_tanalatana1285:rahavaviandreny
+  - v_tanalatana1285:anabavy
+  - v_tanalatana1285:rahavavy
+  - v_tanalatana1285:anadhiandreny
+  - v_tanalatana1285:baba
+  - v_tanalatana1285:zanakay lahy
+  - v_tanalatana1285:anabavanbaba
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  name: v_tanalatana1285
+  type: natural
+- comm_cost: 0.10553208884044163
+  complexity: 204
+  expressions:
+  - v_lahndalahn1241:bhua
+  - "v_lahndalahn1241:pe\u014D"
+  - "v_lahndalahn1241:d\u014Dhtr\u0101"
+  - "v_lahndalahn1241:m\u0101m\u0101"
+  - "v_lahndalahn1241:\u1E0Da\u1E0Di"
+  - "v_lahndalahn1241:\u1E0Da\u1E0Da"
+  - "v_lahndalahn1241:bhatr\u012Ba"
+  - "v_lahndalahn1241:bh\xE9\u1E47"
+  - "v_lahndalahn1241:be\u1E6D\u012B"
+  - "v_lahndalahn1241:d\u014Dhtr\u012B"
+  - "v_lahndalahn1241:phupph\u012B"
+  - v_lahndalahn1241:puttur
+  - "v_lahndalahn1241:m\u0101"
+  - "v_lahndalahn1241:bh\u04D9triji"
+  - v_lahndalahn1241:dhi
+  - "v_lahndalahn1241:bhatr\u012B"
+  - "v_lahndalahn1241:bha\u1E47e\u0101"
+  - v_lahndalahn1241:potra
+  - v_lahndalahn1241:potri
+  - "v_lahndalahn1241:bhr\u0101"
+  - "v_lahndalahn1241:n\u0101n\u0101"
+  - "v_lahndalahn1241:bha\u1E47\u0113\u012B"
+  - "v_lahndalahn1241:n\u0101n\u012B"
+  - "v_lahndalahn1241:m\u0101s\u012B"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
   - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  name: v_lahndalahn1241
+  type: natural
+- comm_cost: 0.31064858972612086
+  complexity: 94
+  expressions:
+  - v_chokwechok1245:pangi
+  - v_chokwechok1245:tata pwo
+  - v_chokwechok1245:matu
+  - v_chokwechok1245:mama wa songo
+  - v_chokwechok1245:tata wa songo
+  - v_chokwechok1245:mwana-pwo
+  - "v_chokwechok1245:k\xE5kha"
+  - v_chokwechok1245:mwihwa
+  - v_chokwechok1245:tata
+  - v_chokwechok1245:mwana-lunga
+  - v_chokwechok1245:ndumbu
+  - v_chokwechok1245:mama
+  lot_expressions:
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_chokwechok1245
+  type: natural
+- comm_cost: 0.2679520370622701
+  complexity: 42
+  expressions:
+  - p_luburuakaralubu1242:palun
+  - p_luburuakaralubu1242:tinafin
+  - p_luburuakaralubu1242:tamang
+  - p_luburuakaralubu1242:natuk
+  - p_luburuakaralubu1242:tinamean
+  - p_luburuakaralubu1242:imuna
+  - p_luburuakaralubu1242:namg
+  lot_expressions:
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_luburuakaralubu1242
+  type: natural
+- comm_cost: 0.8675228232729255
+  complexity: 110
+  expressions:
+  - "v_cubeocube1242:\xF1ujemacu"
+  - "v_cubeocube1242:\xF1eco"
+  - "v_cubeocube1242:p\xE1ramocu"
+  - v_cubeocube1242:yuicu
+  - "v_cubeocube1242:par\u012By\xF3"
+  - v_cubeocube1242:yuico
+  - "v_cubeocube1242:par\u012Bmu"
+  - v_cubeocube1242:pacomaco
+  - "v_cubeocube1242:p\xE3ramecu"
+  - v_cubeocube1242:pacumacu
+  - "v_cubeocube1242:\xF1ecu"
+  - "v_cubeocube1242:p\xE3rameco"
+  - "v_cubeocube1242:m\xE1co"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(sibling, axy_and_bx(parent, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_cubeocube1242
+  type: natural
+- comm_cost: 0.17393377844392988
+  complexity: 120
+  expressions:
+  - v_estonianesto1258:isaema
+  - v_estonianesto1258:pojapoeg
+  - v_estonianesto1258:ema
+  - v_estonianesto1258:isa
+  - "v_estonianesto1258:t\xFCtret\xFCtar"
+  - "v_estonianesto1258:t\xFCtar"
+  - v_estonianesto1258:emaisa
+  - v_estonianesto1258:emaema
+  - v_estonianesto1258:vanaisa
+  - v_estonianesto1258:isaisa
+  - v_estonianesto1258:vanaema
+  - "v_estonianesto1258:pojat\xFCtar"
+  - "v_estonianesto1258:t\xFCtrepoeg"
+  - v_estonianesto1258:poeg
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  name: v_estonianesto1258
+  type: natural
+- comm_cost: 0.1446382340918383
+  complexity: 96
+  expressions:
+  - v_paezpaez1247:kahka
+  - v_paezpaez1247:niisa
+  - "v_paezpaez1247:pee-c\u0337uhc\u0337"
+  - "v_paezpaez1247:n-c\u030Ci\u0294k"
+  - v_paezpaez1247:tata
+  - "v_paezpaez1247:pee-yu\u0303kwe"
+  - v_paezpaez1247:mama
+  - v_paezpaez1247:tata-wala
+  - "v_paezpaez1247:c\u0337un"
+  - "v_paezpaez1247:yakh-the\u0303\u0294h"
+  - v_paezpaez1247:ney
+  - v_paezpaez1247:mama-wala
+  - "v_paezpaez1247:yu\u0303u\u0303kwe"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: v_paezpaez1247
+  type: natural
+- comm_cost: 0.3683063087614117
+  complexity: 54
+  expressions:
+  - "v_mattolematt1238:b\xFBt hwo"
+  - v_mattolematt1238:ca ce
+  - v_mattolematt1238:bie'
+  - v_mattolematt1238:mun tcwin
+  - v_mattolematt1238:ba ce
+  - v_mattolematt1238:bi ax xe
+  - "v_mattolematt1238:b\xFBt xa"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_mattolematt1238
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - "v_slovenianslov1268:h\u010Di"
+  - "v_slovenianslov1268:ne\u010D\xE1k"
+  - v_slovenianslov1268:vnukinja
+  - "v_slovenianslov1268:m\xE1ti"
+  - "v_slovenianslov1268:br\u0201t"
+  - "v_slovenianslov1268:st\xE2ri \xF3\u010De"
+  - "v_slovenianslov1268:s\xE9stra"
+  - "v_slovenianslov1268:\xF3\u010De"
+  - "v_slovenianslov1268:st\xE2ra m\xE1ti"
+  - v_slovenianslov1268:vnuk
+  - "v_slovenianslov1268:ne\u010D\xE1kinja"
+  - "v_slovenianslov1268:str\xEDc"
+  - "v_slovenianslov1268:s\xEEn"
+  - "v_slovenianslov1268:t\xE9ta"
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  name: v_slovenianslov1268
+  type: natural
+- comm_cost: 0.5169641640550484
+  complexity: 18
+  expressions:
+  - v_carolinianscaro1242:jere ley'aman
+  - v_carolinianscaro1242:jere awl'aman
+  - v_carolinianscaro1242:no'no
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_carolinianscaro1242
+  type: natural
+- comm_cost: 0.12133805695598876
+  complexity: 82
+  expressions:
+  - v_zinzazinz1238:maha omuto
+  - v_zinzazinz1238:maaha
+  - v_zinzazinz1238:guku
+  - v_zinzazinz1238:mwanyanya
+  - v_zinzazinz1238:maami
+  - v_zinzazinz1238:murumuna
+  - v_zinzazinz1238:kaaka
+  - v_zinzazinz1238:muihwa
+  - v_zinzazinz1238:muhala
+  - v_zinzazinz1238:mpumbi
+  - v_zinzazinz1238:mutabani
+  - v_zinzazinz1238:tata
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_zinzazinz1238
+  type: natural
+- comm_cost: 0.12215560703093087
+  complexity: 74
+  expressions:
+  - p_mangeisobjomang1407:ana' fine
+  - p_mangeisobjomang1407:naha
+  - p_mangeisobjomang1407:foto
+  - p_mangeisobjomang1407:nama
+  - p_mangeisobjomang1407:hene
+  - p_mangeisobjomang1407:soesoe
+  - p_mangeisobjomang1407:kolo
+  - p_mangeisobjomang1407:napa
+  - p_mangeisobjomang1407:ana' mene
+  - p_mangeisobjomang1407:ina
+  - p_mangeisobjomang1407:oehoe
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  name: p_mangeisobjomang1407
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 114
+  expressions:
+  - v_moderngreekmode1248:engonas
+  - v_moderngreekmode1248:engona
+  - v_moderngreekmode1248:anipsios
+  - v_moderngreekmode1248:yos
+  - v_moderngreekmode1248:pateras
+  - v_moderngreekmode1248:kori
+  - v_moderngreekmode1248:adhelphos
+  - "v_moderngreekmode1248:y\xE1ya"
+  - v_moderngreekmode1248:theios
+  - v_moderngreekmode1248:thygatira
+  - v_moderngreekmode1248:barbas
+  - v_moderngreekmode1248:adelphi
+  - v_moderngreekmode1248:anipsia
+  - v_moderngreekmode1248:mitera
+  - v_moderngreekmode1248:theia
+  - v_moderngreekmode1248:pappous
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  name: v_moderngreekmode1248
+  type: natural
+- comm_cost: 0.12712903665349518
+  complexity: 134
+  expressions:
+  - "v_itonamaiton1250:ahmi-yasa\u0294ka"
+  - "v_itonamaiton1250:dihne\u0294te"
+  - v_itonamaiton1250:oh-tida
+  - "v_itonamaiton1250:ahmi-\u0294yasa"
+  - "v_itonamaiton1250:ahmi-desname\u0294ka"
+  - "v_itonamaiton1250:ahm-e\u0294e"
+  - "v_itonamaiton1250:ahm-uwe\u0294ka"
+  - "v_itonamaiton1250:ahm-e\u0294ka"
+  - "v_itonamaiton1250:ahme-maye\u0294ne"
+  - "v_itonamaiton1250:ah-meyuwe\u0294ne"
+  - "v_itonamaiton1250:oh-se\u0294ka"
+  - "v_itonamaiton1250:ahme-yuwe\u0294ne\u0294ka"
+  - v_itonamaiton1250:ahmi-desname
+  - "v_itonamaiton1250:oh-tida\u0294ka"
+  - "v_itonamaiton1250:uh-k\u02C0uwe"
+  - v_itonamaiton1250:oh-se
+  - v_itonamaiton1250:ahm-uwe
+  - "v_itonamaiton1250:uh-k\u02C0uwe\u0294ka"
+  - "v_itonamaiton1250:a-no\u0294ka"
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_itonamaiton1250
+  type: natural
+- comm_cost: 0.11098242267338887
+  complexity: 138
+  expressions:
+  - v_northernkurdishnort2641:xal
+  - v_northernkurdishnort2641:bappir
+  - "v_northernkurdishnort2641:xarz\xEA"
+  - v_northernkurdishnort2641:bab
+  - "v_northernkurdishnort2641:xarz\xEE"
+  - "v_northernkurdishnort2641:braz\xEE"
+  - "v_northernkurdishnort2641:nev\xEE"
+  - v_northernkurdishnort2641:bra
+  - v_northernkurdishnort2641:mam
+  - "v_northernkurdishnort2641:k\xFBr"
+  - v_northernkurdishnort2641:day
+  - "v_northernkurdishnort2641:ke\xE7"
+  - v_northernkurdishnort2641:dappir
+  - "v_northernkurdishnort2641:xu\u015Fk\xEA"
+  - "v_northernkurdishnort2641:met\xEE"
+  - "v_northernkurdishnort2641:braz\xEA"
+  - v_northernkurdishnort2641:xolat
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  name: v_northernkurdishnort2641
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 112
+  expressions:
+  - p_chamarrocham1312:tata
+  - p_chamarrocham1312:jaga
+  - p_chamarrocham1312:sobrina
+  - p_chamarrocham1312:tio
+  - p_chamarrocham1312:nieta
+  - "p_chamarrocham1312:t\xEDa"
+  - p_chamarrocham1312:sobrino
+  - p_chamarrocham1312:laje na patgon
+  - "p_chamarrocham1312:che\u0302lo"
+  - p_chamarrocham1312:-nana
+  - p_chamarrocham1312:guelo
+  - p_chamarrocham1312:guela
+  - "p_chamarrocham1312:che\u0302la"
+  - p_chamarrocham1312:-ija
+  - p_chamarrocham1312:nieto
+  - p_chamarrocham1312:madre
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_chamarrocham1312
+  type: natural
+- comm_cost: 0.4072761956669847
+  complexity: 30
+  expressions:
+  - "v_orokoorok1266:\u014B\xE1\u014Bg\u2107"
+  - "v_orokoorok1266:\u014B\xE1mgb\u2107"
+  - "v_orokoorok1266:t\xE1t\xE1"
+  - "v_orokoorok1266:ses\u2107"
+  - "v_orokoorok1266:iy\xE1"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_orokoorok1266
+  type: natural
+- comm_cost: 0.3432347731298544
+  complexity: 52
+  expressions:
+  - p_mortlockesemort1237:saam
+  - p_mortlockesemort1237:tattalin iin
+  - p_mortlockesemort1237:mwengeang
+  - p_mortlockesemort1237:inelap
+  - p_mortlockesemort1237:samelap
+  - p_mortlockesemort1237:iin
+  - p_mortlockesemort1237:tattalin saam
+  - p_mortlockesemort1237:pwiipwi
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(sibling), .)'
+  name: p_mortlockesemort1237
+  type: natural
+- comm_cost: 0.10733751192260543
+  complexity: 202
+  expressions:
+  - p_lelepalele1267:gorna
+  - p_lelepalele1267:anafa
+  - p_lelepalele1267:nanu nanwai
+  - p_lelepalele1267:anamamna
+  - p_lelepalele1267:atuna
+  - p_lelepalele1267:alona
+  - p_lelepalele1267:nanu nagrun
+  - p_lelepalele1267:mimiia
+  - p_lelepalele1267:ati
+  - p_lelepalele1267:lol
+  - p_lelepalele1267:atina
+  - p_lelepalele1267:apuna
+  - p_lelepalele1267:atu
+  - p_lelepalele1267:gore
+  - p_lelepalele1267:topna
+  - p_lelepalele1267:tetei
+  - p_lelepalele1267:anasmamna
+  - p_lelepalele1267:tai
+  - p_lelepalele1267:teete
+  - p_lelepalele1267:maam
+  - p_lelepalele1267:paapua
+  - p_lelepalele1267:pella
+  - p_lelepalele1267:sulla
+  - p_lelepalele1267:palla
+  - p_lelepalele1267:mamei
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: p_lelepalele1267
+  type: natural
+- comm_cost: 0.18960348821365325
+  complexity: 104
+  expressions:
+  - v_oldhighgermanca7501050oldh1241:ana
+  - v_oldhighgermanca7501050oldh1241:altvater
+  - v_oldhighgermanca7501050oldh1241:tohter
+  - v_oldhighgermanca7501050oldh1241:eninchil
+  - v_oldhighgermanca7501050oldh1241:uota
+  - v_oldhighgermanca7501050oldh1241:fordoro
+  - v_oldhighgermanca7501050oldh1241:muotar
+  - v_oldhighgermanca7501050oldh1241:nift
+  - v_oldhighgermanca7501050oldh1241:altmuoter
+  - v_oldhighgermanca7501050oldh1241:fater
+  - v_oldhighgermanca7501050oldh1241:ano
+  - "v_oldhighgermanca7501050oldh1241:eninkili\u0304"
+  - v_oldhighgermanca7501050oldh1241:nevo
+  - v_oldhighgermanca7501050oldh1241:sun
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  name: v_oldhighgermanca7501050oldh1241
+  type: natural
+- comm_cost: 0.18486851069628019
+  complexity: 218
+  expressions:
+  - p_pamapaamanesepaam1238:matuen
+  - p_pamapaamanesepaam1238:itet
+  - "p_pamapaamanesepaam1238:tu\u0304nahin"
+  - p_pamapaamanesepaam1238:tevinali
+  - "p_pamapaamanesepaam1238:ha\u0304vinali"
+  - p_pamapaamanesepaam1238:monen
+  - p_pamapaamanesepaam1238:avu tomali
+  - p_pamapaamanesepaam1238:ahinali
+  - p_pamapaamanesepaam1238:tuen
+  - "p_pamapaamanesepaam1238:ha\u0304vin"
+  - p_pamapaamanesepaam1238:tevinahin
+  - "p_pamapaamanesepaam1238:ta\u0304ta"
+  - "p_pamapaamanesepaam1238:na\u0304na"
+  - p_pamapaamanesepaam1238:natnahin
+  - p_pamapaamanesepaam1238:tamen
+  - "p_pamapaamanesepaam1238:uan tu\u0304nali"
+  - p_pamapaamanesepaam1238:ulmatu
+  - p_pamapaamanesepaam1238:tomahin
+  - "p_pamapaamanesepaam1238:ti\u0304me"
+  - p_pamapaamanesepaam1238:natnali
+  - p_pamapaamanesepaam1238:itau
+  - p_pamapaamanesepaam1238:meteilau
+  - p_pamapaamanesepaam1238:natin
+  - p_pamapaamanesepaam1238:tuak
+  - p_pamapaamanesepaam1238:tomali
+  - p_pamapaamanesepaam1238:tevin
+  - p_pamapaamanesepaam1238:avon
+  - p_pamapaamanesepaam1238:latin
+  - "p_pamapaamanesepaam1238:ha\u0304vinahin"
+  - "p_pamapaamanesepaam1238:ma\u0304ma"
+  - p_pamapaamanesepaam1238:avu tomahin
+  - p_pamapaamanesepaam1238:monali
+  - p_pamapaamanesepaam1238:avu
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  name: p_pamapaamanesepaam1238
+  type: natural
+- comm_cost: 0.23252486714811282
+  complexity: 80
+  expressions:
+  - p_namakuranama1268b:titih
+  - p_namakuranama1268b:lolo
+  - p_namakuranama1268b:bilan
+  - p_namakuranama1268b:tebi
+  - p_namakuranama1268b:miim
+  - p_namakuranama1268b:anu
+  - "p_namakuranama1268b:sua\u014B"
+  - "p_namakuranama1268b:ngore\u014B"
+  - p_namakuranama1268b:natin
+  - p_namakuranama1268b:alik
+  - p_namakuranama1268b:nana
+  - p_namakuranama1268b:tama
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: p_namakuranama1268b
+  type: natural
+- comm_cost: 0.11752282327292563
+  complexity: 140
+  expressions:
+  - v_czechczec1258:matka
+  - "v_czechczec1258:d\u011Bde\u010Dek"
+  - "v_czechczec1258:nete\u0159"
+  - v_czechczec1258:bratovna
+  - v_czechczec1258:bratr
+  - v_czechczec1258:sestra
+  - v_czechczec1258:teta
+  - v_czechczec1258:bratrovec
+  - v_czechczec1258:ujec
+  - "v_czechczec1258:str\xFDc"
+  - "v_czechczec1258:babi\u010Dka"
+  - v_czechczec1258:synovec
+  - "v_czechczec1258:sest\u0159enec"
+  - v_czechczec1258:syn
+  - "v_czechczec1258:vnu\u010Dka"
+  - v_czechczec1258:vnuk
+  - v_czechczec1258:dcera
+  - v_czechczec1258:otec
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_czechczec1258
+  type: natural
+- comm_cost: 0.646409592587546
+  complexity: 56
+  expressions:
+  - v_flindersislandflin1247:tatyikayi
+  - v_flindersislandflin1247:pakayi
+  - v_flindersislandflin1247:Tapikayi
+  - v_flindersislandflin1247:wiyakayi
+  - v_flindersislandflin1247:puRukayi
+  - v_flindersislandflin1247:putyikayi
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  name: v_flindersislandflin1247
+  type: natural
+- comm_cost: 0.26454557841667814
+  complexity: 46
+  expressions:
+  - "p_whitesandswhit1269:t\u0268m"
+  - "p_whitesandswhit1269:p\u0304ia*"
+  - "p_whitesandswhit1269:m\u0304ip\u0268"
+  - "p_whitesandswhit1269:tip\u0268"
+  - p_whitesandswhit1269:kaka
+  - "p_whitesandswhit1269:n\u0259t\u0268*"
+  - "p_whitesandswhit1269:it\u0268"
+  - p_whitesandswhit1269:u*
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: p_whitesandswhit1269
+  type: natural
+- comm_cost: 0.11152745605668357
+  complexity: 136
+  expressions:
+  - v_basquebasq1248:al'haba
+  - v_basquebasq1248:aita
+  - "v_basquebasq1248:ama'\u0272i"
+  - v_basquebasq1248:a'mama
+  - "v_basquebasq1248:s\u0323eme"
+  - v_basquebasq1248:aral'haba
+  - "v_basquebasq1248:a\u0303'hispa"
+  - v_basquebasq1248:ama
+  - "v_basquebasq1248:ara's\u0323eme"
+  - v_basquebasq1248:a'reba
+  - v_basquebasq1248:a'ma-ren a'naie
+  - "v_basquebasq1248:a'ma-ren a\u0303'hispa"
+  - "v_basquebasq1248:l\u02B8oba"
+  - "v_basquebasq1248:aita'\u0272i"
+  - v_basquebasq1248:a'naie
+  - "v_basquebasq1248:a't\u02B8at\u02B8a"
+  - v_basquebasq1248:ai'ta-ren a'naie
+  - v_basquebasq1248:ai'ta-ren a'reba
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  name: v_basquebasq1248
+  type: natural
+- comm_cost: 0.11541081891265847
+  complexity: 144
+  expressions:
+  - v_polishpoli1260:wnuczka
+  - v_polishpoli1260:syn
+  - v_polishpoli1260:ojciec
+  - v_polishpoli1260:babka
+  - v_polishpoli1260:ciotka
+  - v_polishpoli1260:wnuczek
+  - v_polishpoli1260:siostra
+  - v_polishpoli1260:brat
+  - "v_polishpoli1260:c\xF3rka"
+  - v_polishpoli1260:bratanek
+  - v_polishpoli1260:bratanica
+  - v_polishpoli1260:matka
+  - v_polishpoli1260:dziadek
+  - v_polishpoli1260:stryjenka
+  - v_polishpoli1260:wujek
+  - v_polishpoli1260:siostrzenica
+  - v_polishpoli1260:stryj
+  - v_polishpoli1260:siostrzeniec
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
   - '*(my_(axy_and_bx(sibling, female)), .)'
-  name: English
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  name: v_polishpoli1260
+  type: natural
+- comm_cost: 0.20425126038969899
+  complexity: 36
+  expressions:
+  - v_hunzahunz1248:mi
+  - v_hunzahunz1248:i
+  - v_hunzahunz1248:u
+  - v_hunzahunz1248:pi
+  - v_hunzahunz1248:mis
+  - v_hunzahunz1248:ei
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_hunzahunz1248
+  type: natural
+- comm_cost: 0.180269791524731
+  complexity: 88
+  expressions:
+  - v_portugueseport1283:sobrinho
+  - "v_portugueseport1283:av\xF4"
+  - v_portugueseport1283:tio
+  - v_portugueseport1283:filha
+  - v_portugueseport1283:pai
+  - v_portugueseport1283:filho
+  - "v_portugueseport1283:av\xF3"
+  - v_portugueseport1283:tia
+  - v_portugueseport1283:sobrinha
+  - v_portugueseport1283:neta
+  - "v_portugueseport1283:m\xE3e"
+  - v_portugueseport1283:neto
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  name: v_portugueseport1283
+  type: natural
+- comm_cost: 0.1414020983785258
+  complexity: 134
+  expressions:
+  - v_southerncoastaltsimshiannucl1649:hadm
+  - v_southerncoastaltsimshiannucl1649:aap
+  - v_southerncoastaltsimshiannucl1649:weky
+  - v_southerncoastaltsimshiannucl1649:noo
+  - "v_southerncoastaltsimshiannucl1649:nc\u0337\u02C0i\u0294is"
+  - v_southerncoastaltsimshiannucl1649:niiya
+  - "v_southerncoastaltsimshiannucl1649:\u0142gu\u0142gm\u0294yu"
+  - "v_southerncoastaltsimshiannucl1649:c\u0337\u02C0i\u0294i"
+  - v_southerncoastaltsimshiannucl1649:gwat
+  - "v_southerncoastaltsimshiannucl1649:\u0294ye\u0294e"
+  - v_southerncoastaltsimshiannucl1649:wegi
+  - v_southerncoastaltsimshiannucl1649:aab-
+  - v_southerncoastaltsimshiannucl1649:haat
+  - v_southerncoastaltsimshiannucl1649:nagwaat
+  - "v_southerncoastaltsimshiannucl1649:\u0142gaawk\u02C0"
+  - "v_southerncoastaltsimshiannucl1649:p\u02C0a\u0294a"
+  - "v_southerncoastaltsimshiannucl1649:\u0142gu\u0142gm-hana\u0294a"
+  - "v_southerncoastaltsimshiannucl1649:dzi\u0294is"
+  - v_southerncoastaltsimshiannucl1649:nay
+  - "v_southerncoastaltsimshiannucl1649:\u0142gu\u0142"
+  - "v_southerncoastaltsimshiannucl1649:\u0142mktii"
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(sibling), .)'
+  name: v_southerncoastaltsimshiannucl1649
+  type: natural
+- comm_cost: 0.33049461779534006
+  complexity: 90
+  expressions:
+  - p_uraurav1235:vin
+  - p_uraurav1235:eten
+  - p_uraurav1235:avinsai
+  - p_uraurav1235:alwin
+  - p_uraurav1235:bocbon
+  - p_uraurav1235:uyou
+  - p_uraurav1235:leren
+  - p_uraurav1235:avuk
+  - p_uraurav1235:maran
+  - p_uraurav1235:afro
+  - p_uraurav1235:rimin
+  - p_uraurav1235:irais
+  - p_uraurav1235:ehnen
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_uraurav1235
+  type: natural
+- comm_cost: 0.11077803515465334
+  complexity: 124
+  expressions:
+  - p_latinlati1261a:fratuelis
+  - p_latinlati1261a:avunculus
+  - p_latinlati1261a:frater
+  - p_latinlati1261a:patruus
+  - p_latinlati1261a:anus
+  - p_latinlati1261a:amita
+  - p_latinlati1261a:soror
+  - p_latinlati1261a:sobrinus
+  - p_latinlati1261a:pater
+  - p_latinlati1261a:mater
+  - p_latinlati1261a:filia
+  - p_latinlati1261a:filius
+  - p_latinlati1261a:nepos
+  - p_latinlati1261a:neptis
+  - p_latinlati1261a:avus
+  - p_latinlati1261a:matertera
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  name: p_latinlati1261a
+  type: natural
+- comm_cost: 0.7630739882817823
+  complexity: 78
+  expressions:
+  - p_hawaiihawa1245:makuakane
+  - p_hawaiihawa1245:kupuna wahine
+  - p_hawaiihawa1245:kaikuahine
+  - p_hawaiihawa1245:kaikua'ana
+  - p_hawaiihawa1245:kaikikane
+  - p_hawaiihawa1245:mo`opuna
+  - p_hawaiihawa1245:makuahine
+  - p_hawaiihawa1245:kaikuane
+  - "p_hawaiihawa1245:kupuna k\u0101ne"
+  - p_hawaiihawa1245:kaikemahini
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(parent, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(parent, parent))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(child, parent))),
+    .)'
+  name: p_hawaiihawa1245
+  type: natural
+- comm_cost: 0.11248126447744944
+  complexity: 148
+  expressions:
+  - "v_aguarunaagua1253:duku-c\u030C"
+  - v_aguarunaagua1253:uma-yui
+  - v_aguarunaagua1253:dukug
+  - "v_aguarunaagua1253:yac\u0337u-g"
+  - v_aguarunaagua1253:u'ma
+  - "v_aguarunaagua1253:yac\u0337u-t"
+  - v_aguarunaagua1253:duku
+  - v_aguarunaagua1253:tiha-g
+  - v_aguarunaagua1253:uchin
+  - v_aguarunaagua1253:uba-g
+  - v_aguarunaagua1253:apa-g
+  - "v_aguarunaagua1253:apa-c\u030C"
+  - v_aguarunaagua1253:apag
+  - v_aguarunaagua1253:apa-'hu uma-yi
+  - "v_aguarunaagua1253:aw\u0268t"
+  - "v_aguarunaagua1253:apa-'hu yac\u030Ci"
+  - "v_aguarunaagua1253:uc\u030Ci-g"
+  - v_aguarunaagua1253:nawanhi
+  - "v_aguarunaagua1253:aw\u0268-t"
+  - v_aguarunaagua1253:nawant
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_aguarunaagua1253
+  type: natural
+- comm_cost: 0.15724213108052887
+  complexity: 42
+  expressions:
+  - "v_tokharianatokh1242:s\u0323ar"
+  - "v_tokharianatokh1242:pa\u0304car"
+  - v_tokharianatokh1242:se
+  - "v_tokharianatokh1242:ma\u0304car"
+  - "v_tokharianatokh1242:sewa\u0304s"
+  - v_tokharianatokh1242:pracar
+  - "v_tokharianatokh1242:cka\u0304car"
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_tokharianatokh1242
+  type: natural
+- comm_cost: 0.2822591633737568
+  complexity: 24
+  expressions:
+  - p_tigaktiga1245:tiga-
+  - p_tigaktiga1245:na-
+  - p_tigaktiga1245:tama-
+  - p_tigaktiga1245:vasa-
+  - p_tigaktiga1245:natu-
+  lot_expressions:
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(child), .)'
+  name: p_tigaktiga1245
+  type: natural
+- comm_cost: 0.24649134759504032
+  complexity: 72
+  expressions:
+  - "v_osseticosse1245:\xE6rvad\xE6"
+  - "v_osseticosse1245:\xE6nsuv\xE6r"
+  - "v_osseticosse1245:xw\xE6r\xE6"
+  - "v_osseticosse1245:\xE6rvad"
+  - "v_osseticosse1245:mad\xE6"
+  - "v_osseticosse1245:fid\xE6"
+  - v_osseticosse1245:furt
+  - v_osseticosse1245:fyrt
+  - v_osseticosse1245:fyd
+  - "v_osseticosse1245:\xE6vsym\xE6r"
+  - v_osseticosse1245:mad
+  - v_osseticosse1245:xo
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_osseticosse1245
+  type: natural
+- comm_cost: 0.24567379752009832
+  complexity: 74
+  expressions:
+  - p_ibaniban1264:aya
+  - p_ibaniban1264:menyadi
+  - p_ibaniban1264:aki
+  - p_ibaniban1264:apai
+  - p_ibaniban1264:indai
+  - p_ibaniban1264:anak
+  - p_ibaniban1264:ini
+  - p_ibaniban1264:akan
+  - p_ibaniban1264:ucho
+  - p_ibaniban1264:endo
+  - p_ibaniban1264:ibo
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  name: p_ibaniban1264
+  type: natural
+- comm_cost: 0.1117318435754191
+  complexity: 154
+  expressions:
+  - v_daridari1249:pedarbozorg
+  - "v_daridari1249:x\u0101le"
+  - "v_daridari1249:doxt\xE6r-xah\xE6r"
+  - "v_daridari1249:x\u0101har"
+  - v_daridari1249:doxtar
+  - v_daridari1249:amme
+  - v_daridari1249:baradarzade
+  - v_daridari1249:nave
+  - "v_daridari1249:doxt\xE6r-b\xE6rad\xE6r"
+  - "v_daridari1249:bar\u0101dar"
+  - "v_daridari1249:m\u0101darbozorg"
+  - "v_daridari1249:pes\xE6r-xah\xE6r"
+  - v_daridari1249:xaharzade
+  - v_daridari1249:pedar
+  - "v_daridari1249:pes\xE6r-b\xE6rad\xE6r"
+  - "v_daridari1249:d\u0101i"
+  - v_daridari1249:pesar
+  - "v_daridari1249:m\u0101dar"
+  - v_daridari1249:amu
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: v_daridari1249
+  type: natural
+- comm_cost: 0.9031884452922742
+  complexity: 24
+  expressions:
+  - p_oldjavanesekawikawi1241:kapwanakan
+  - p_oldjavanesekawikawi1241:anak
+  - p_oldjavanesekawikawi1241:putra
+  - p_oldjavanesekawikawi1241:putu
+  - p_oldjavanesekawikawi1241:weka
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(child), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(child), .)'
+  name: p_oldjavanesekawikawi1241
+  type: natural
+- comm_cost: 0.13033110778035173
+  complexity: 126
+  expressions:
+  - v_negerhollandsnege1244:ma
+  - v_negerhollandsnege1244:pupa
+  - v_negerhollandsnege1244:grot-kin
+  - v_negerhollandsnege1244:popa
+  - "v_negerhollandsnege1244:fad\u0259"
+  - v_negerhollandsnege1244:grot-ma
+  - v_negerhollandsnege1244:gro-ta
+  - v_negerhollandsnege1244:muma
+  - "v_negerhollandsnege1244:ga\u014B-ga\u014B"
+  - v_negerhollandsnege1244:gro-pupa
+  - "v_negerhollandsnege1244:s\u030Cis\u030Ci"
+  - v_negerhollandsnege1244:grani
+  - v_negerhollandsnege1244:so
+  - "v_negerhollandsnege1244:buc\u030Ci"
+  - v_negerhollandsnege1244:grot-muma
+  - "v_negerhollandsnege1244:m\u025Bns\u030Ci"
+  - v_negerhollandsnege1244:bru
+  - v_negerhollandsnege1244:tita
+  - v_negerhollandsnege1244:ta
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_negerhollandsnege1244
+  type: natural
+- comm_cost: 0.17481945769178375
+  complexity: 54
+  expressions:
+  - p_pangasinanpang1290:ugao
+  - p_pangasinanpang1290:panginaen
+  - p_pangasinanpang1290:ama
+  - p_pangasinanpang1290:caanacan
+  - p_pangasinanpang1290:aguin laki
+  - p_pangasinanpang1290:pangamaen
+  - p_pangasinanpang1290:anae-a-laki
+  - p_pangasinanpang1290:ina
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_pangasinanpang1290
+  type: natural
+- comm_cost: 0.1184085025207795
+  complexity: 130
+  expressions:
+  - v_russianruss1263:brat
+  - v_russianruss1263:doch'
+  - "v_russianruss1263:plemj\xE1nnik"
+  - "v_russianruss1263:tj\xF3tja"
+  - "v_russianruss1263:s\xE9strich"
+  - v_russianruss1263:vnuk
+  - v_russianruss1263:dedushka
+  - "v_russianruss1263:brat\xE1na"
+  - "v_russianruss1263:plemj\xE1nnitsa"
+  - v_russianruss1263:mat'
+  - v_russianruss1263:syn
+  - v_russianruss1263:babushka
+  - "v_russianruss1263:sestr\xE9nitsa"
+  - v_russianruss1263:sestra
+  - "v_russianruss1263:dj\xE1dja"
+  - v_russianruss1263:vnuchka
+  - v_russianruss1263:otets
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_russianruss1263
+  type: natural
+- comm_cost: 0.1206567652268703
+  complexity: 120
+  expressions:
+  - p_centralmelanaucent2101:tua
+  - p_centralmelanaucent2101:tina
+  - p_centralmelanaucent2101:tipo lai
+  - p_centralmelanaucent2101:mam
+  - p_centralmelanaucent2101:nakan mahau
+  - p_centralmelanaucent2101:janek mahau tika
+  - p_centralmelanaucent2101:anek mahau
+  - p_centralmelanaucent2101:tipo mahau
+  - p_centralmelanaucent2101:tebuso
+  - p_centralmelanaucent2101:tika lai
+  - p_centralmelanaucent2101:nakan lai
+  - p_centralmelanaucent2101:tadei lai
+  - p_centralmelanaucent2101:soo
+  - p_centralmelanaucent2101:ina
+  - p_centralmelanaucent2101:anek lai
+  - p_centralmelanaucent2101:amam
+  - p_centralmelanaucent2101:janek mahau tadei
+  - p_centralmelanaucent2101:tama
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: p_centralmelanaucent2101
+  type: natural
+- comm_cost: 0.0947676795203708
+  complexity: 194
+  expressions:
+  - "v_oldnorseoldn1244:fo\xF0ur-fa\xF0ir"
+  - v_oldnorseoldn1244:amma
+  - "v_oldnorseoldn1244:mo\u0304\xF0ur-mo\u0304\xF0ir"
+  - "v_oldnorseoldn1244:do\u0304ttur-sonr"
+  - v_oldnorseoldn1244:nefi
+  - "v_oldnorseoldn1244:mo\u0304\xF0ir"
+  - v_oldnorseoldn1244:sonar-sonr
+  - "v_oldnorseoldn1244:sonar-do\u0304ttur"
+  - "v_oldnorseoldn1244:do\u0304ttir"
+  - "v_oldnorseoldn1244:mo\u0304\xF0ur-bro\u0304\xF0ir"
+  - "v_oldnorseoldn1244:fo\xF0ur-mo\u0304\xF0ir"
+  - "v_oldnorseoldn1244:bro\u0304\xF0ir"
+  - "v_oldnorseoldn1244:mo\u0304\xF0ir-systir"
+  - "v_oldnorseoldn1244:do\u0304ttur-do\u0304ttir"
+  - "v_oldnorseoldn1244:fa\xF0ir"
+  - v_oldnorseoldn1244:sunr
+  - v_oldnorseoldn1244:sonr
+  - "v_oldnorseoldn1244:fo\xF0ur-bro\u0304\xF0ir"
+  - "v_oldnorseoldn1244:fo\xF0ur-systir"
+  - v_oldnorseoldn1244:afi
+  - v_oldnorseoldn1244:systir
+  - "v_oldnorseoldn1244:mo\u0304\xF0ur-fa\xF0ir"
+  - v_oldnorseoldn1244:nipt
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  name: v_oldnorseoldn1244
+  type: natural
+- comm_cost: 0.9952309578961711
+  complexity: 10
+  expressions:
+  - "v_southerntepehuanwsout2977:o'ki\u0161"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  name: v_southerntepehuanwsout2977
+  type: natural
+- comm_cost: 0.19164736340100852
+  complexity: 46
+  expressions:
+  - v_achuarachu1249:nuku
+  - v_achuarachu1249:uchi
+  - v_achuarachu1249:apa
+  - v_achuarachu1249:apachi
+  - v_achuarachu1249:tiranki
+  - v_achuarachu1249:nukuchi
+  - v_achuarachu1249:nawant
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_achuarachu1249
+  type: natural
+- comm_cost: 0.12522141981196355
+  complexity: 72
+  expressions:
+  - v_oldwelsholdw1239:mab
+  - v_oldwelsholdw1239:merch
+  - v_oldwelsholdw1239:henfam
+  - v_oldwelsholdw1239:brawd
+  - "v_oldwelsholdw1239:\u0175yr"
+  - v_oldwelsholdw1239:chwaer
+  - v_oldwelsholdw1239:tad
+  - v_oldwelsholdw1239:hendad
+  - v_oldwelsholdw1239:modryb
+  - v_oldwelsholdw1239:mam
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: v_oldwelsholdw1239
+  type: natural
+- comm_cost: 0.11166371440250733
+  complexity: 136
+  expressions:
+  - v_oldirisholdi1245:siur athar
+  - v_oldirisholdi1245:mac
+  - "v_oldirisholdi1245:senm\xE1thair"
+  - "v_oldirisholdi1245:m\xE1thair"
+  - v_oldirisholdi1245:ingen
+  - "v_oldirisholdi1245:br\xE1thair"
+  - v_oldirisholdi1245:amnair
+  - "v_oldirisholdi1245:mac br\xE1thar"
+  - v_oldirisholdi1245:aue
+  - "v_oldirisholdi1245:siur m\u0101thar"
+  - v_oldirisholdi1245:siur
+  - v_oldirisholdi1245:senathair
+  - "v_oldirisholdi1245:br\u0101thir athar"
+  - v_oldirisholdi1245:nia
+  - "v_oldirisholdi1245:br\u0101thir m\u0101thar"
+  - v_oldirisholdi1245:necht
+  - v_oldirisholdi1245:athair
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_oldirisholdi1245
+  type: natural
+- comm_cost: 0.24397056819730223
+  complexity: 62
+  expressions:
+  - p_centraltagbanwacent2090:kamanakin
+  - p_centraltagbanwacent2090:anak
+  - p_centraltagbanwacent2090:amiy
+  - p_centraltagbanwacent2090:iniy
+  - p_centraltagbanwacent2090:ina
+  - p_centraltagbanwacent2090:kapatid
+  - p_centraltagbanwacent2090:bai
+  - p_centraltagbanwacent2090:ama
+  - p_centraltagbanwacent2090:apo
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  name: p_centraltagbanwacent2090
+  type: natural
+- comm_cost: 0.26311486578552956
+  complexity: 44
+  expressions:
+  - p_bariokelabitbari1288:sinah
+  - p_bariokelabitbari1288:tepoh
+  - p_bariokelabitbari1288:anak
+  - p_bariokelabitbari1288:kenanak
+  - p_bariokelabitbari1288:menakan
+  - p_bariokelabitbari1288:anak menakan
+  - p_bariokelabitbari1288:tama
+  - p_bariokelabitbari1288:mupun
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(sibling, parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  name: p_bariokelabitbari1288
+  type: natural
+- comm_cost: 0.11554707725848223
+  complexity: 112
+  expressions:
+  - v_centralkurdishcent1972:khal
+  - v_centralkurdishcent1972:ba-pir
+  - v_centralkurdishcent1972:kitch
+  - v_centralkurdishcent1972:bra
+  - v_centralkurdishcent1972:khusk
+  - v_centralkurdishcent1972:nanik
+  - v_centralkurdishcent1972:mam
+  - v_centralkurdishcent1972:braza
+  - v_centralkurdishcent1972:daik
+  - v_centralkurdishcent1972:baok
+  - v_centralkurdishcent1972:kurraza
+  - v_centralkurdishcent1972:pur
+  - v_centralkurdishcent1972:kitchaza
+  - v_centralkurdishcent1972:kurr
+  - v_centralkurdishcent1972:khushkaza
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  name: v_centralkurdishcent1972
+  type: natural
+- comm_cost: 0.11155016578098753
+  complexity: 278
+  expressions:
+  - v_lithuanianlith1251:avynas
+  - "v_lithuanianlith1251:dukt\u1EBD"
+  - "v_lithuanianlith1251:s\u016Bnaus dukt\u0117"
+  - "v_lithuanianlith1251:t\u0117vas"
+  - v_lithuanianlith1251:broliavaiks
+  - "v_lithuanianlith1251:dukter\xE9\u010Dia"
+  - "v_lithuanianlith1251:sesers s\u016Bn\xF9s"
+  - "v_lithuanianlith1251:tet\xE0"
+  - "v_lithuanianlith1251:m\xF3tina"
+  - "v_lithuanianlith1251:s\u016Bn\xF9s"
+  - "v_lithuanianlith1251:sen\u1EBDlis"
+  - v_lithuanianlith1251:anukas
+  - v_lithuanianlith1251:brolis
+  - "v_lithuanianlith1251:seser\xE9nas"
+  - "v_lithuanianlith1251:broliadukt\u0117"
+  - "v_lithuanianlith1251:s\u016Bnaus vaikas"
+  - "v_lithuanianlith1251:seser\xE9\u010Dia"
+  - "v_lithuanianlith1251:sen\u1EBDl\u0117"
+  - "v_lithuanianlith1251:vaik\xE1it\u0117"
+  - "v_lithuanianlith1251:s\u016Bn\xE9nas"
+  - "v_lithuanianlith1251:vaik\xE1itis"
+  - "v_lithuanianlith1251:d\u0117d\u0117"
+  - "v_lithuanianlith1251:brol\xE9nas"
+  - "v_lithuanianlith1251:dukters dukt\u0117"
+  - "v_lithuanianlith1251:sesers dukt\u0117"
+  - "v_lithuanianlith1251:bobut\u0117"
+  - v_lithuanianlith1251:dede
+  - "v_lithuanianlith1251:br\xF3lvaikis"
+  - "v_lithuanianlith1251:m\xF3tinos t\xE9vas"
+  - "v_lithuanianlith1251:sesu\xF5"
+  - "v_lithuanianlith1251:anuk\u0117"
+  - v_lithuanianlith1251:dukters vaikas
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  name: v_lithuanianlith1251
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - v_standardenglishstan1293:son
+  - v_standardenglishstan1293:granddaughter
+  - v_standardenglishstan1293:brother
+  - v_standardenglishstan1293:niece
+  - v_standardenglishstan1293:grandson
+  - v_standardenglishstan1293:aunt
+  - v_standardenglishstan1293:mother
+  - v_standardenglishstan1293:grandfather
+  - v_standardenglishstan1293:grandmother
+  - v_standardenglishstan1293:sister
+  - v_standardenglishstan1293:uncle
+  - v_standardenglishstan1293:nephew
+  - v_standardenglishstan1293:daughter
+  - v_standardenglishstan1293:father
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_standardenglishstan1293
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 112
+  expressions:
+  - v_luxembourgishluxe1241:groussmamm
+  - v_luxembourgishluxe1241:enkel
+  - v_luxembourgishluxe1241:Fiss
+  - v_luxembourgishluxe1241:monnonk
+  - v_luxembourgishluxe1241:neveu
+  - v_luxembourgishluxe1241:Brudder
+  - v_luxembourgishluxe1241:niess
+  - v_luxembourgishluxe1241:Fiston
+  - v_luxembourgishluxe1241:enkelin
+  - v_luxembourgishluxe1241:Papp
+  - v_luxembourgishluxe1241:mattant
+  - v_luxembourgishluxe1241:Schwester
+  - v_luxembourgishluxe1241:grousspapp
+  - v_luxembourgishluxe1241:Mamm
+  - v_luxembourgishluxe1241:Fils
+  - v_luxembourgishluxe1241:duechter
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: v_luxembourgishluxe1241
+  type: natural
+- comm_cost: 0.15894536040332485
+  complexity: 82
+  expressions:
+  - v_lalabisalala1264:umwisyo
+  - v_lalabisalala1264:wata
+  - v_lalabisalala1264:sikulu
+  - v_lalabisalala1264:wawo
+  - v_lalabisalala1264:wama munini
+  - v_lalabisalala1264:wama
+  - v_lalabisalala1264:umwana mukazi
+  - v_lalabisalala1264:umwana mulume
+  - v_lalabisalala1264:uwesu
+  - v_lalabisalala1264:umwisi mkulu
+  - v_lalabisalala1264:nyinalume
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  name: v_lalabisalala1264
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 132
+  expressions:
+  - v_boersafri1274:susterskind
+  - v_boersafri1274:moeder
+  - v_boersafri1274:broer
+  - v_boersafri1274:grootvader
+  - v_boersafri1274:seun
+  - v_boersafri1274:tante
+  - v_boersafri1274:dogter
+  - v_boersafri1274:vader
+  - v_boersafri1274:niggie
+  - v_boersafri1274:oupa
+  - v_boersafri1274:neef
+  - v_boersafri1274:grootmoeder
+  - v_boersafri1274:kleindogter
+  - v_boersafri1274:oom
+  - v_boersafri1274:broerskind
+  - v_boersafri1274:kleinseun
+  - v_boersafri1274:ouma
+  - v_boersafri1274:suster
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_boersafri1274
+  type: natural
+- comm_cost: 0.44304401144570105
+  complexity: 36
+  expressions:
+  - p_mungikibellonamung1270:tu-nga'ane
+  - p_mungikibellonamung1270:tama
+  - p_mungikibellonamung1270:tu-hahine
+  - p_mungikibellonamung1270:tupuna
+  - p_mungikibellonamung1270:tinana
+  - p_mungikibellonamung1270:tama-'a-hine
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: p_mungikibellonamung1270
+  type: natural
+- comm_cost: 0.18051959849207444
+  complexity: 138
+  expressions:
+  - "v_livonianlivv1244:iz\u0101iz\u0101"
+  - "v_livonianlivv1244:iz\u0101"
+  - "v_livonianlivv1244:tid\u0101rtid\u0101r"
+  - "v_livonianlivv1244:tid\u0101rp\u016Boga"
+  - "v_livonianlivv1244:van\u0101iza\u0304"
+  - "v_livonianlivv1244:jem\u0101iz\u0101"
+  - "v_livonianlivv1244:jem\u0101jem\u0101"
+  - "v_livonianlivv1244:p\u016Bogatid\u0101r"
+  - "v_livonianlivv1244:\u01DFma"
+  - "v_livonianlivv1244:tid\u0101r"
+  - "v_livonianlivv1244:t\u01ED\u021Bi"
+  - "v_livonianlivv1244:va'njema\u0304"
+  - "v_livonianlivv1244:p\u016Bogap\u016Boga"
+  - "v_livonianlivv1244:van\u01DFma"
+  - "v_livonianlivv1244:p\u016Boga"
+  - "v_livonianlivv1244:jem\u0101"
+  - "v_livonianlivv1244:van\u0101t\u01ED\u021Bi"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  name: v_livonianlivv1244
+  type: natural
+- comm_cost: 0.1740427851205888
+  complexity: 234
+  expressions:
+  - "v_ukrainianukra1253:plem\xEDnnycja"
+  - "v_ukrainianukra1253:wnu\u0144ka"
+  - "v_ukrainianukra1253:brat\xE1ny\u010D"
+  - "v_ukrainianukra1253:did\xFAs'"
+  - v_ukrainianukra1253:onuka
+  - v_ukrainianukra1253:sestry'nycja
+  - "v_ukrainianukra1253:dj\xE1d'ko"
+  - "v_ukrainianukra1253:b\xE1t'ko"
+  - "v_ukrainianukra1253:plem\xEDnnyk"
+  - "v_ukrainianukra1253:ote\u0107"
+  - "v_ukrainianukra1253:neb\xF3ha"
+  - "v_ukrainianukra1253:do\u010Dk\xE1"
+  - "v_ukrainianukra1253:synowe\u0107"
+  - v_ukrainianukra1253:onuk
+  - v_ukrainianukra1253:striyna
+  - v_ukrainianukra1253:stry'jko
+  - v_ukrainianukra1253:syn
+  - "v_ukrainianukra1253:v\xFAjko"
+  - v_ukrainianukra1253:babusya
+  - "v_ukrainianukra1253:t\xEDtka"
+  - v_ukrainianukra1253:wnuk
+  - "v_ukrainianukra1253:m\xE1ty"
+  - "v_ukrainianukra1253:n\xE9bi\u017E"
+  - v_ukrainianukra1253:nepot
+  - v_ukrainianukra1253:vuyna
+  - v_ukrainianukra1253:nepota
+  - "v_ukrainianukra1253:sestr\xEDnok"
+  - "v_ukrainianukra1253:brat\xE1nycja"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  name: v_ukrainianukra1253
+  type: natural
+- comm_cost: 0.1752963619021667
+  complexity: 34
+  expressions:
+  - p_emaemaeemae1237:teina
+  - p_emaemaeemae1237:tamana
+  - p_emaemaeemae1237:tupu
+  - p_emaemaeemae1237:tinana
+  - p_emaemaeemae1237:tama tanata
+  - p_emaemaeemae1237:tama fafine
+  lot_expressions:
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  name: p_emaemaeemae1237
+  type: natural
+- comm_cost: 0.12440386973702156
+  complexity: 80
+  expressions:
+  - "v_oldprussianprus1238:dukte\u0304"
+  - "v_oldprussianprus1238:bra\u0304te\u0304"
+  - "v_oldprussianprus1238:ta\u0304vas"
+  - "v_oldprussianprus1238:ane\u0304"
+  - "v_oldprussianprus1238:su\u0304nun"
+  - "v_oldprussianprus1238:ma\u0304te\u0304"
+  - "v_oldprussianprus1238:svestra\u0304"
+  - v_oldprussianprus1238:avis
+  - "v_oldprussianprus1238:te\u0304tis"
+  - "v_oldprussianprus1238:te\u0304vis"
+  - "v_oldprussianprus1238:su\u0304navis"
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  name: v_oldprussianprus1238
+  type: natural
+- comm_cost: 0.2231911704591908
+  complexity: 80
+  expressions:
+  - v_sardiniansard1257:fizo
+  - v_sardiniansard1257:tia
+  - v_sardiniansard1257:nebode
+  - v_sardiniansard1257:padre
+  - v_sardiniansard1257:mannu
+  - v_sardiniansard1257:donnumannu
+  - v_sardiniansard1257:tiu
+  - v_sardiniansard1257:frade
+  - v_sardiniansard1257:madre
+  - v_sardiniansard1257:netta
+  - v_sardiniansard1257:sorre
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  name: v_sardiniansard1257
+  type: natural
+- comm_cost: 0.1206567652268703
+  complexity: 96
+  expressions:
+  - "p_pampangakampampanganpamp1243:ind\xE1"
+  - "p_pampangakampampanganpamp1243:capat\xE1t \xE1 lal\xE1qui"
+  - "p_pampangakampampanganpamp1243:\xE1pung lal\xE1qui"
+  - "p_pampangakampampanganpamp1243:\xE1pung babay'"
+  - "p_pampangakampampanganpamp1243:capat\xE1t \xE1 baba\xED"
+  - "p_pampangakampampanganpamp1243:an\xE1c \xE1 bab\xE1y"
+  - "p_pampangakampampanganpamp1243:pangunac\xE1n bab\xE1y"
+  - "p_pampangakampampanganpamp1243:an\xE1c \xE1 lal\xE1qui"
+  - "p_pampangakampampanganpamp1243:d\xE1ra"
+  - "p_pampangakampampanganpamp1243:b\xE1pa"
+  - "p_pampangakampampanganpamp1243:tat\xE1"
+  - "p_pampangakampampanganpamp1243:ap\xFA"
+  - "p_pampangakampampanganpamp1243:ibp\xE1 \xF3 t\xE1ta"
+  - "p_pampangakampampanganpamp1243:pangunac\xE1n lal\xE1qui"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  name: p_pampangakampampanganpamp1243
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - "p_russianruss1263a:\u0432\u043D\u0443\u043A"
+  - "p_russianruss1263a:\u0441\u044B\u043D"
+  - "p_russianruss1263a:\u0434\u0435\u0434\u0443\u0448\u043A\u0430"
+  - "p_russianruss1263a:\u0431\u0430\u0431\u0443\u0448\u043A\u0430"
+  - "p_russianruss1263a:\u0442\u0451\u0442\u044F"
+  - "p_russianruss1263a:\u0441\u0435\u0441\u0442\u0440\u0430"
+  - "p_russianruss1263a:\u0432\u043D\u0443\u0447\u043A\u0430"
+  - "p_russianruss1263a:\u0434\u043E\u0447\u044C"
+  - "p_russianruss1263a:\u043F\u043B\u0435\u043C\u044F\u043D\u043D\u0438\u043A"
+  - "p_russianruss1263a:\u043F\u043B\u0435\u043C\u044F\u043D\u043D\u0438\u0446\u0430"
+  - "p_russianruss1263a:\u043E\u0442\u0435\u0446"
+  - "p_russianruss1263a:\u0431\u0440\u0430\u0442"
+  - "p_russianruss1263a:\u043C\u0430\u0442\u044C"
+  - "p_russianruss1263a:\u0434\u044F\u0434\u044F"
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  name: p_russianruss1263a
+  type: natural
+- comm_cost: 0.12121883090339303
+  complexity: 134
+  expressions:
+  - v_saterfriesischsate1242:baabe
+  - v_saterfriesischsate1242:ooldbaabe
+  - v_saterfriesischsate1242:dochter
+  - v_saterfriesischsate1242:suster
+  - "v_saterfriesischsate1242:br\xFAursb\xE4iden"
+  - "v_saterfriesischsate1242:m\xF6ie"
+  - v_saterfriesischsate1242:unkel
+  - v_saterfriesischsate1242:grootmuur
+  - v_saterfriesischsate1242:oomkweeder
+  - "v_saterfriesischsate1242:m\xE4\xE4me"
+  - "v_saterfriesischsate1242:b\xE4idensb\xE4iden"
+  - v_saterfriesischsate1242:foar
+  - v_saterfriesischsate1242:suun
+  - "v_saterfriesischsate1242:ooldm\xE4\xE4me"
+  - "v_saterfriesischsate1242:b\xE4\xE4sebaabe"
+  - v_saterfriesischsate1242:bruur
+  - v_saterfriesischsate1242:grootfoar
+  - "v_saterfriesischsate1242:b\xE4\xE4sje"
+  - v_saterfriesischsate1242:oom
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, sibling)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  name: v_saterfriesischsate1242
+  type: natural
+- comm_cost: 0.28736885134214485
+  complexity: 68
+  expressions:
+  - p_riantanarian1263:anwa
+  - "p_riantanarian1263:anwa nd\u032A\u0259nwa"
+  - p_riantanarian1263:muka taria
+  - "p_riantanarian1263:muka n\u025Bwa"
+  - p_riantanarian1263:muka
+  - "p_riantanarian1263:akawa nd\u032Aaka"
+  - "p_riantanarian1263:ad\u032Aa"
+  - "p_riantanarian1263:anwa nd\u032Aaka"
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  name: p_riantanarian1263
+  type: natural
+- comm_cost: 0.09098651042376371
+  complexity: 178
+  expressions:
+  - v_vlaxromanivlax1238:bibi
+  - v_vlaxromanivlax1238:pral
+  - "v_vlaxromanivlax1238:p\u02B0ei"
+  - "v_vlaxromanivlax1238:p\u02B0ral"
+  - v_vlaxromanivlax1238:dei
+  - v_vlaxromanivlax1238:rakli
+  - v_vlaxromanivlax1238:dako dad
+  - v_vlaxromanivlax1238:dadesko dad
+  - v_vlaxromanivlax1238:daki dei
+  - "v_vlaxromanivlax1238:s\u030C\u02B8avo"
+  - v_vlaxromanivlax1238:dad
+  - "v_vlaxromanivlax1238:p\u02B0en"
+  - "v_vlaxromanivlax1238:s\u030C\u02B8avesko s\u030Cav"
+  - v_vlaxromanivlax1238:kak
+  - v_vlaxromanivlax1238:raklo
+  - "v_vlaxromanivlax1238:s\u030C\u02B8eyaki s\u030C\u02B8ei"
+  - "v_vlaxromanivlax1238:s\u030C\u02B8av"
+  - "v_vlaxromanivlax1238:p\u02B0e"
+  - "v_vlaxromanivlax1238:s\u030C\u02B8ei"
+  - v_vlaxromanivlax1238:dadeski dei
+  - "v_vlaxromanivlax1238:s\u030C\u02B8eyaki s\u030Cav"
+  - "v_vlaxromanivlax1238:s\u030C\u02B8aveski s\u030C\u02B8ei"
+  - v_vlaxromanivlax1238:dako pral
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  name: v_vlaxromanivlax1238
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - "p_englishstan1293:s\u012Ds't\u0259r"
+  - "p_englishstan1293:\u02C8n\u025Bv.ju"
+  - "p_englishstan1293:ni\u02D0s"
+  - "p_englishstan1293:\u02C8f\u0251\u02D0.\xF0\u0259"
+  - "p_englishstan1293:\u02C8d\u0254\u02D0t\u0259"
+  - "p_englishstan1293:s\u028Cn"
+  - "p_englishstan1293:\u0251\u02D0nt"
+  - "p_englishstan1293:\u02C8m\u028C\xF0\u0259"
+  - "p_englishstan1293:\u02C8\u0261\u0279\xE6nd\u0254\u02D0t\u0259\xAE"
+  - "p_englishstan1293:\u02C8\u0261\u0279\xE6nm\u028C\xF0\u0259"
+  - "p_englishstan1293:\u016Dng\u02B9k\u0259l"
+  - "p_englishstan1293:\u02C8\u0261\u0279\xE6nf\u0251\u02D0.\xF0\u0259"
+  - "p_englishstan1293:\u02C8\u0261\u0279\xE6ns\u028Cn"
+  - "p_englishstan1293:\u02C8b\u0279\u028C\xF0\u0259"
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  name: p_englishstan1293
+  type: natural
+- comm_cost: 0.8094563292001635
+  complexity: 58
+  expressions:
+  - p_sikaianasika1261:inoa
+  - p_sikaianasika1261:taina
+  - p_sikaianasika1261:tamana
+  - p_sikaianasika1261:tama
+  - p_sikaianasika1261:tupuna
+  - p_sikaianasika1261:kave
+  - p_sikaianasika1261:tinna
+  - p_sikaianasika1261:mokupuna
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(parent, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, Ez_axz_and_bzy(child, parent))), .)'
+  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(parent, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  name: p_sikaianasika1261
+  type: natural
+- comm_cost: 0.12385883635372685
+  complexity: 80
+  expressions:
+  - "v_tsafikicolo1249:\u0294a\u02B0'pa"
+  - "v_tsafikicolo1249:\u0294a'ya\u0303"
+  - "v_tsafikicolo1249:so-\u02B0'ki"
+  - "v_tsafikicolo1249:na\u0294o"
+  - "v_tsafikicolo1249:mi'ya\u0303"
+  - "v_tsafikicolo1249:ma\u0303pi"
+  - v_tsafikicolo1249:mama
+  - "v_tsafikicolo1249:ta\u02B0ta"
+  - "v_tsafikicolo1249:kaya\u0303"
+  - "v_tsafikicolo1249:ma\u0303'ku"
+  - v_tsafikicolo1249:nama
+  - "v_tsafikicolo1249:\u0294a\u02B0'ko"
+  lot_expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  name: v_tsafikicolo1249
+  type: natural
+- comm_cost: 0.10825725575691525
+  complexity: 230
+  expressions:
+  - v_armeniannucl1235:dustr
+  - "v_armeniannucl1235:m\u014Drelbayr"
+  - v_armeniannucl1235:k'uyr
+  - "v_armeniannucl1235:t\u0142a"
+  - "v_armeniannucl1235:\u1E31e\u1E59dustr"
+  - v_armeniannucl1235:morak'uyr
+  - "v_armeniannucl1235:k'ro\u01F0 a\u0142\u01F0ik"
+  - v_armeniannucl1235:hayr
+  - "v_armeniannucl1235:a\u0142\u01F0ik"
+  - v_armeniannucl1235:horak'uyr
+  - v_armeniannucl1235:ordi
+  - "v_armeniannucl1235:e\u0142bor a\u0142\u01F0ik"
+  - v_armeniannucl1235:mayr
+  - "v_armeniannucl1235:t'o\u1E59"
+  - "v_armeniannucl1235:\u1E6Bo\u1E59nu\u1E23i"
+  - v_armeniannucl1235:andranik
+  - "v_armeniannucl1235:me\u017E mayr"
+  - v_armeniannucl1235:pap
+  - "v_armeniannucl1235:e\u0142borordi"
+  - "v_armeniannucl1235:me\u017E \u1E23ayr"
+  - "v_armeniannucl1235:e\u0142bayr"
+  - "v_armeniannucl1235:\u1E31e\u1E59ustr"
+  - v_armeniannucl1235:k'eri
+  - v_armeniannucl1235:tat
+  - v_armeniannucl1235:k'erordi
+  - "v_armeniannucl1235:hore\u0142bayr"
+  - v_armeniannucl1235:mam
+  - "v_armeniannucl1235:\u1E31ro\xE7 t\u1E37a"
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  name: v_armeniannucl1235
+  type: natural
+- comm_cost: 0.29656628968524334
+  complexity: 56
+  expressions:
+  - p_lamahalotlama1277:bosu
+  - p_lamahalotlama1277:uli
+  - p_lamahalotlama1277:nana
+  - p_lamahalotlama1277:se
+  - p_lamahalotlama1277:ama
+  - p_lamahalotlama1277:ana'
+  - p_lamahalotlama1277:ina
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(child), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: p_lamahalotlama1277
+  type: natural
+- comm_cost: 0.6968251805423082
+  complexity: 28
+  expressions:
+  - p_tialetial1239:meme
+  - p_tialetial1239:rabui
+  - p_tialetial1239:sabe
+  - p_tialetial1239:tama
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(parent), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(parent), .)'
+  name: p_tialetial1239
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 108
+  expressions:
+  - "v_standardcatalanstan1289:\xE0via"
+  - v_standardcatalanstan1289:filla
+  - v_standardcatalanstan1289:neboda
+  - v_standardcatalanstan1289:tia
+  - v_standardcatalanstan1289:nebot
+  - v_standardcatalanstan1289:avi
+  - "v_standardcatalanstan1289:n\xE9t"
+  - v_standardcatalanstan1289:oncle
+  - v_standardcatalanstan1289:pare
+  - v_standardcatalanstan1289:fill
+  - v_standardcatalanstan1289:germana
+  - "v_standardcatalanstan1289:germ\xE0"
+  - "v_standardcatalanstan1289:n\xE9ta"
+  - v_standardcatalanstan1289:mare
+  - v_standardcatalanstan1289:tio
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  name: v_standardcatalanstan1289
+  type: natural
+- comm_cost: 0.7841667802152882
+  complexity: 80
+  expressions:
+  - "p_sungwadagamari1426b:\u02C8\u0278u\u03B2u im\u02B7a"
+  - p_sungwadagamari1426b:tata
+  - p_sungwadagamari1426b:natu
+  - p_sungwadagamari1426b:tutua
+  - p_sungwadagamari1426b:totua
+  - "p_sungwadagamari1426b:\u02C8\u0278u\u03B2u"
+  - p_sungwadagamari1426b:rambe
+  - "p_sungwadagamari1426b:\u1D51g\u02B7au"
+  - "p_sungwadagamari1426b:\u02C8\u0278u\u03B2u xamal"
+  - p_sungwadagamari1426b:tua
+  - p_sungwadagamari1426b:toa
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(parent, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_by(child, male), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(parent, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  name: p_sungwadagamari1426b
+  type: natural
+- comm_cost: 0.5823113957396557
+  complexity: 110
+  expressions:
+  - "p_foifoii1241:hu\u0303a"
+  - p_foifoii1241:u
+  - "p_foifoii1241:tau\u0303wa"
+  - p_foifoii1241:abe
+  - p_foifoii1241:boba
+  - p_foifoii1241:aba
+  - p_foifoii1241:wame
+  - p_foifoii1241:ana
+  - p_foifoii1241:mae
+  - p_foifoii1241:abia
+  - p_foifoii1241:babo
+  - p_foifoii1241:aeya u
+  - p_foifoii1241:aeya
+  - "p_foifoii1241:ta\xFCwa u"
+  - p_foifoii1241:abia u
+  lot_expressions:
+  - '*(my_(parent), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_by(child, male), Ez_axz_and_bzy(child, parent))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(parent), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  name: p_foifoii1241
+  type: natural
+- comm_cost: 0.10294318026979177
+  complexity: 128
+  expressions:
+  - v_ingrianingr1248:velloi
+  - v_ingrianingr1248:siaren laps
+  - "v_ingrianingr1248:tatta is\xE4"
+  - v_ingrianingr1248:siarel laps
+  - "v_ingrianingr1248:\xE4ij\xE4"
+  - "v_ingrianingr1248:em\xE4"
+  - "v_ingrianingr1248:iz\xE4n mamma"
+  - "v_ingrianingr1248:t\xE4ti"
+  - v_ingrianingr1248:siar
+  - v_ingrianingr1248:enoi
+  - "v_ingrianingr1248:\xE4mm\xE4"
+  - "v_ingrianingr1248:t\xE4d\xE4"
+  - v_ingrianingr1248:poiga
+  - v_ingrianingr1248:vunukka
+  - "v_ingrianingr1248:t\xFC\xE4r"
+  - v_ingrianingr1248:baba
+  lot_expressions:
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  name: v_ingrianingr1248
+  type: natural
+- comm_cost: 0.14388881318980806
+  complexity: 102
+  expressions:
+  - v_toorotoor1238:mugenzi
+  - v_toorotoor1238:senkuru
+  - v_toorotoor1238:nyinenkuru
+  - v_toorotoor1238:mwijukuru
+  - v_toorotoor1238:munyanya
+  - v_toorotoor1238:muhara
+  - v_toorotoor1238:senkati
+  - v_toorotoor1238:nyinento
+  - v_toorotoor1238:sento
+  - v_toorotoor1238:nyinarumi
+  - v_toorotoor1238:nyina
+  - v_toorotoor1238:muihwa
+  - v_toorotoor1238:mutabani
+  - v_toorotoor1238:ise
+  lot_expressions:
+  - '*(my_(sibling), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(sibling), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: v_toorotoor1238
+  type: natural
+- comm_cost: 0.11895353590407431
+  complexity: 100
+  expressions:
+  - "v_belarusianbela1254:da\u010Dk\xE1"
+  - v_belarusianbela1254:dzed
+  - "v_belarusianbela1254:b\xE1c'ka"
+  - "v_belarusianbela1254:dzj\xE1dz'ka"
+  - "v_belarusianbela1254:pljam\xE9nnik"
+  - "v_belarusianbela1254:pljam\xE9nnica"
+  - v_belarusianbela1254:syn
+  - "v_belarusianbela1254:sjastr\xE1"
+  - v_belarusianbela1254:unuchka
+  - v_belarusianbela1254:unuk
+  - "v_belarusianbela1254:c\xEBtka"
+  - v_belarusianbela1254:babulja
+  - "v_belarusianbela1254:m\xE1tka"
+  - v_belarusianbela1254:brat
+  lot_expressions:
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  name: v_belarusianbela1254
+  type: natural
+- comm_cost: 0.10729209247399751
+  complexity: 214
+  expressions:
+  - v_kashmirikash1277:puturu
+  - v_kashmirikash1277:bab
+  - "v_kashmirikash1277:neciv' s\u0268nz ku:r"
+  - v_kashmirikash1277:kur
+  - v_kashmirikash1277:neciv' sund necuv
+  - v_kashmirikash1277:beni
+  - "v_kashmirikash1277:b\u014Di"
+  - v_kashmirikash1277:mas
+  - v_kashmirikash1277:babther
+  - v_kashmirikash1277:bawza
+  - v_kashmirikash1277:nani
+  - v_kashmirikash1277:zuru
+  - v_kashmirikash1277:benther
+  - v_kashmirikash1277:peter
+  - v_kashmirikash1277:mol
+  - v_kashmirikash1277:budbab
+  - "v_kashmirikash1277:benz\u0268"
+  - v_kashmirikash1277:zuri
+  - v_kashmirikash1277:zur
+  - v_kashmirikash1277:maj
+  - v_kashmirikash1277:puter
+  - "v_kashmirikash1277:put\xFCr\xFC"
+  - v_kashmirikash1277:pof
+  - v_kashmirikash1277:nechuv
+  - v_kashmirikash1277:mam
+  lot_expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)'
+  - '*(my_(axy_and_bx(sibling, female)), .)'
+  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  name: v_kashmirikash1277
   type: natural

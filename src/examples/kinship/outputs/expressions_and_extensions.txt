@@ -1,369 +1,369 @@
 *(female, .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Daughter_of_Son
-Daughter
-Daughter_of_Ego_Younger_Brother
-Mother
-Paternal_Grandmother
-Paternal_Older_Sister
-Ego_Younger_Sister
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Sister
-Ego_Older_Sister
-Maternal_Younger_Sister
-Daughter_of_Daughter
-Paternal_Younger_Sister
-Maternal_Grandmother
-Maternal_Older_Sister
+MyZ
+D
+FeZ
+yBD
+yZD
+yZ
+DD
+eBD
+FyZ
+MeZ
+eZD
+eZ
+MM
+M
+FM
+SD
 -------------------------------------------
 *(male, .)
 -------------------------------------------
-Ego_Younger_Brother
-Son_of_Son
-Maternal_Older_Brother
-Son
-Maternal_Younger_Brother
-Son_of_Ego_Younger_Sister
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
-Paternal_Grandfather
-Son_of_Daughter
-Ego_Older_Brother
-Son_of_Ego_Older_Sister
-Maternal_Grandfather
-Paternal_Younger_Brother
-Father
 Ego
-Paternal_Older_Brother
+MeB
+yBS
+DS
+FF
+MyB
+eBS
+F
+eZS
+SS
+yB
+eB
+yZS
+FeB
+S
+FyB
+MF
 -------------------------------------------
 *(my_(child), .)
 -------------------------------------------
-Son
-Daughter
+D
+S
 -------------------------------------------
 *(my_(sibling), .)
 -------------------------------------------
-Ego_Younger_Brother
-Ego_Older_Brother
-Ego_Older_Sister
-Ego_Younger_Sister
+yB
+eZ
+eB
+yZ
 -------------------------------------------
 *(my_(parent), .)
 -------------------------------------------
-Father
-Mother
+M
+F
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, child)), .)
 -------------------------------------------
-Son_of_Daughter
-Daughter_of_Son
-Son_of_Son
-Daughter_of_Daughter
+DS
+SS
+DD
+SD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, sibling)), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Daughter_of_Ego_Younger_Brother
-Son_of_Ego_Younger_Sister
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Sister
-Son_of_Ego_Older_Sister
+yBS
+yBD
+eBS
+yZD
+eBD
+eZS
+yZS
+eZD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(sibling, parent)), .)
 -------------------------------------------
-Maternal_Younger_Brother
-Paternal_Older_Sister
-Maternal_Younger_Sister
-Paternal_Younger_Brother
-Maternal_Older_Brother
-Paternal_Younger_Sister
-Paternal_Older_Brother
-Maternal_Older_Sister
+MyZ
+MeB
+FeZ
+MyB
+FyZ
+MeZ
+FeB
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(parent, parent)), .)
 -------------------------------------------
-Paternal_Grandfather
-Paternal_Grandmother
-Maternal_Grandmother
-Maternal_Grandfather
+FF
+MM
+FM
+MF
 -------------------------------------------
 *(my_(axy_and_bx(child, female)), .)
 -------------------------------------------
-Daughter
+D
 -------------------------------------------
 *(my_(axy_and_bx(child, male)), .)
 -------------------------------------------
-Son
+S
 -------------------------------------------
 *(my_(axy_and_bx(sibling, female)), .)
 -------------------------------------------
-Ego_Older_Sister
-Ego_Younger_Sister
+eZ
+yZ
 -------------------------------------------
 *(my_(axy_and_bx(sibling, male)), .)
 -------------------------------------------
-Ego_Younger_Brother
-Ego_Older_Brother
+yB
+eB
 -------------------------------------------
 *(my_(axy_and_bx(parent, female)), .)
 -------------------------------------------
-Mother
+M
 -------------------------------------------
 *(my_(axy_and_bx(parent, male)), .)
 -------------------------------------------
-Father
+F
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, Ez_axz_and_bzy(child, parent))), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Daughter
-Daughter_of_Ego_Younger_Brother
-Son
-Son_of_Ego_Younger_Sister
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Sister
-Son_of_Ego_Older_Sister
+D
+yBS
+yBD
+eBS
+yZD
+eBD
+eZS
+yZS
+S
+eZD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, Ez_axz_and_bzy(parent, parent))), .)
 -------------------------------------------
-Maternal_Older_Brother
-Mother
-Maternal_Younger_Brother
-Paternal_Older_Sister
-Maternal_Younger_Sister
-Paternal_Younger_Brother
-Father
-Paternal_Younger_Sister
-Paternal_Older_Brother
-Maternal_Older_Sister
+MyZ
+FeZ
+MeB
+MyB
+F
+FyZ
+MeZ
+FeB
+M
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)
 -------------------------------------------
-Son_of_Daughter
-Daughter_of_Daughter
+DS
+DD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, axy_and_bx(child, male))), .)
 -------------------------------------------
-Son_of_Son
-Daughter_of_Son
+SS
+SD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)
 -------------------------------------------
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Sister
-Son_of_Ego_Older_Sister
-Son_of_Ego_Younger_Sister
+eZS
+yZD
+eZD
+yZS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Son_of_Ego_Younger_Brother
-Daughter_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
+eBD
+eBS
+yBS
+yBD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(sibling, axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Younger_Brother
-Maternal_Older_Brother
-Maternal_Younger_Sister
-Maternal_Older_Sister
+MyB
+MeZ
+MyZ
+MeB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(sibling, axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Younger_Brother
-Paternal_Younger_Sister
-Paternal_Older_Sister
-Paternal_Older_Brother
+FeB
+FyZ
+FeZ
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(parent, axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Grandmother
-Maternal_Grandfather
+MM
+MF
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(parent, axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Grandfather
-Paternal_Grandmother
+FF
+FM
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)
 -------------------------------------------
-Daughter_of_Son
-Daughter_of_Daughter
+DD
+SD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Sister
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Brother
-Daughter_of_Ego_Younger_Brother
+eBD
+yZD
+eZD
+yBD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)
 -------------------------------------------
-Son_of_Daughter
-Son_of_Son
+DS
+SS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)
 -------------------------------------------
-Son_of_Ego_Older_Sister
-Son_of_Ego_Younger_Sister
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
+eZS
+yZS
+eBS
+yBS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)
 -------------------------------------------
-Paternal_Younger_Sister
-Maternal_Younger_Sister
-Paternal_Older_Sister
-Maternal_Older_Sister
+MyZ
+FyZ
+MeZ
+FeZ
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)
 -------------------------------------------
-Maternal_Younger_Brother
-Paternal_Younger_Brother
-Maternal_Older_Brother
-Paternal_Older_Brother
+MyB
+FeB
+MeB
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)
 -------------------------------------------
-Maternal_Grandmother
-Paternal_Grandmother
+MM
+FM
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)
 -------------------------------------------
-Paternal_Grandfather
-Maternal_Grandfather
+FF
+MF
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(Ez_axz_and_bzy(child, parent), axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Older_Sister
-Maternal_Younger_Brother
-Maternal_Younger_Sister
-Maternal_Older_Brother
-Mother
+MyZ
+MeB
+MeZ
+MyB
+M
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(Ez_axz_and_bzy(child, parent), axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Older_Sister
-Paternal_Younger_Brother
-Father
-Paternal_Younger_Sister
-Paternal_Older_Brother
+FeZ
+F
+FyZ
+FeB
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(child, parent))), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Daughter
-Daughter_of_Ego_Younger_Brother
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Sister
+D
+yBD
+yZD
+eBD
+eZD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(parent, parent))), .)
 -------------------------------------------
-Maternal_Older_Sister
-Paternal_Older_Sister
-Maternal_Younger_Sister
-Paternal_Younger_Sister
-Mother
+MyZ
+FeZ
+FyZ
+MeZ
+M
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))), .)
 -------------------------------------------
-Daughter_of_Daughter
+DD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)
 -------------------------------------------
-Daughter_of_Son
+SD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))), .)
 -------------------------------------------
-Daughter_of_Ego_Younger_Sister
-Daughter_of_Ego_Older_Sister
+yZD
+eZD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Daughter_of_Ego_Younger_Brother
+eBD
+yBD
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(child, parent))), .)
 -------------------------------------------
-Son
-Son_of_Ego_Younger_Sister
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
-Son_of_Ego_Older_Sister
+yBS
+eBS
+eZS
+yZS
+S
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(parent, parent))), .)
 -------------------------------------------
-Maternal_Older_Brother
-Maternal_Younger_Brother
-Paternal_Younger_Brother
-Father
-Paternal_Older_Brother
+MeB
+F
+FeB
+MyB
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)
 -------------------------------------------
-Son_of_Daughter
+DS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)
 -------------------------------------------
-Son_of_Son
+SS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))), .)
 -------------------------------------------
-Son_of_Ego_Older_Sister
-Son_of_Ego_Younger_Sister
+eZS
+yZS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)
 -------------------------------------------
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
+eBS
+yBS
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Younger_Sister
-Maternal_Older_Sister
+MyZ
+MeZ
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Younger_Sister
-Paternal_Older_Sister
+FyZ
+FeZ
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Younger_Brother
-Maternal_Older_Brother
+MyB
+MeB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Younger_Brother
-Paternal_Older_Brother
+FeB
+FyB
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Grandmother
+MM
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Grandmother
+FM
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))), .)
 -------------------------------------------
-Maternal_Grandfather
+MF
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)
 -------------------------------------------
-Paternal_Grandfather
+FF
 -------------------------------------------
 *(my_(Ez_axz_and_bzy(axy_and_by(child, male), Ez_axz_and_bzy(child, parent))), .)
 -------------------------------------------
-Daughter_of_Ego_Older_Brother
-Daughter
-Daughter_of_Ego_Younger_Brother
-Son
-Son_of_Ego_Younger_Brother
-Son_of_Ego_Older_Brother
+D
+yBS
+yBD
+eBS
+eBD
+S
 -------------------------------------------

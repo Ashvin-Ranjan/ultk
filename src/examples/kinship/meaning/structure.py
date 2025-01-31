@@ -34,57 +34,48 @@ class Structure:
 # Define the features of the semantic domain
 ##############################################################################
 domain = {
-    name
-    for name in [
-        "Paternal_Grandfather",
-        "Paternal_Grandmother",
-        "Maternal_Grandfather",
-        "Maternal_Grandmother",
-        "Father",
-        "Mother",
-        *[
-            f"Paternal_{'Older' if i < 2 else 'Younger'}_{'Brother' if i % 2 == 0 else 'Sister'}"
-            for i in range(4)
-        ],
-        *[
-            f"Maternal_{'Older' if i < 2 else 'Younger'}_{'Brother' if i % 2 == 0 else 'Sister'}"
-            for i in range(4)
-        ],
-        # Ego and their four siblings
-        "Ego",  # Explicitly include Ego
-        *[
-            f"Ego_{'Older' if i < 2 else 'Younger'}_{'Brother' if i % 2 == 0 else 'Sister'}"
-            for i in range(4)
-        ],
-        "Son",
-        "Daughter",
-        *[
-            f"{'Son_of_Son' if i == 0 else 'Daughter_of_Son' if i == 1 else 'Son_of_Daughter' if i == 2 else 'Daughter_of_Daughter'}"
-            for i in range(4)
-        ],
-        # Add niblings
-        *[
-            f"{'Son_of_' + ('Ego_Older_Brother' if i == 0 else 'Ego_Older_Sister' if i == 1 else 'Ego_Younger_Brother' if i == 2 else 'Ego_Younger_Sister')}"
-            for i in range(4)
-        ],
-        *[
-            f"{'Daughter_of_' + ('Ego_Older_Brother' if i == 0 else 'Ego_Older_Sister' if i == 1 else 'Ego_Younger_Brother' if i == 2 else 'Ego_Younger_Sister')}"
-            for i in range(4)
-        ],
-    ]
+    "eB",
+    "eZ",
+    "yB",
+    "yZ",
+    "F",
+    "FF",
+    "FM",
+    "FeB",
+    "FeZ",
+    "FyB",
+    "FyZ",
+    "M",
+    "MF",
+    "MM",
+    "MeB",
+    "MeZ",
+    "MyB",
+    "MyZ",
+    "S",
+    "D",
+    "SS",
+    "SD",
+    "DD",
+    "DS",
+    "eBD",
+    "eZD",
+    "yBD",
+    "yZD",
+    "eBS",
+    "eZS",
+    "yBS",
+    "yZS",
+    "Ego",
 }
 
 # Update auxiliary data structures
 # Update auxiliary data structures
 sex_data = {
     name: (
-        "Grandfather" in name
-        or "Father" in name
-        or "Brother" in name
-        or "Son" in name
+        name[-1] in ["B", "S", "F"]
         or name == "Ego"
     )
-    and not ("Daughter_of" in name)
     for name in domain
 }
 
@@ -92,100 +83,100 @@ sex_data = {
 # Age hierarchy: lists of individuals younger or older than each other
 age_hierarchy = {
     # Ego's siblings
-    "Ego_Older_Brother": ["Ego", "Ego_Younger_Brother", "Ego_Younger_Sister"],
-    "Ego_Older_Sister": ["Ego", "Ego_Younger_Brother", "Ego_Younger_Sister"],
-    "Ego": ["Ego_Younger_Brother", "Ego_Younger_Sister"],
-    "Ego_Younger_Brother": [],
-    "Ego_Younger_Sister": [],
+    "eB": ["Ego", "yB", "yZ"],
+    "eZ": ["Ego", "yB", "yZ"],
+    "Ego": ["yB", "yZ"],
+    "yB": [],
+    "yZ": [],
     # Parents' siblings
-    "Father": ["Paternal_Younger_Brother", "Paternal_Younger_Sister"],
-    "Mother": ["Maternal_Younger_Brother", "Maternal_Younger_Sister"],
-    "Paternal_Older_Brother": [
-        "Father",
-        "Paternal_Younger_Brother",
-        "Paternal_Younger_Sister",
+    "F": ["FyB", "FyZ"],
+    "M": ["MyB", "MyZ"],
+    "FeB": [
+        "F",
+        "FyB",
+        "FyZ",
     ],
-    "Paternal_Older_Sister": [
-        "Father",
-        "Paternal_Younger_Brother",
-        "Paternal_Younger_Sister",
+    "FeZ": [
+        "F",
+        "FyB",
+        "FyZ",
     ],
-    "Paternal_Younger_Brother": [],
-    "Paternal_Younger_Sister": [],
-    "Maternal_Older_Brother": [
-        "Mother",
-        "Maternal_Younger_Brother",
-        "Maternal_Younger_Sister",
+    "FyB": [],
+    "FyZ": [],
+    "MeB": [
+        "M",
+        "MyB",
+        "MyZ",
     ],
-    "Maternal_Older_Sister": [
-        "Mother",
-        "Maternal_Younger_Brother",
-        "Maternal_Younger_Sister",
+    "MeZ": [
+        "M",
+        "MyB",
+        "MyZ",
     ],
-    "Maternal_Younger_Brother": [],
-    "Maternal_Younger_Sister": [],
+    "MyB": [],
+    "MyZ": [],
 }
 
 parent_child_data = {
-    "Paternal_Grandfather": [
-        "Father",
-        "Paternal_Older_Brother",
-        "Paternal_Younger_Brother",
-        "Paternal_Older_Sister",
-        "Paternal_Younger_Sister",
+    "FF": [
+        "F",
+        "FeB",
+        "FyB",
+        "FeZ",
+        "FyZ",
     ],
-    "Paternal_Grandmother": [
-        "Father",
-        "Paternal_Older_Brother",
-        "Paternal_Younger_Brother",
-        "Paternal_Older_Sister",
-        "Paternal_Younger_Sister",
+    "FM": [
+        "F",
+        "FeB",
+        "FyB",
+        "FeZ",
+        "FyZ",
     ],
-    "Maternal_Grandfather": [
-        "Mother",
-        "Maternal_Older_Brother",
-        "Maternal_Younger_Brother",
-        "Maternal_Older_Sister",
-        "Maternal_Younger_Sister",
+    "MF": [
+        "M",
+        "MeB",
+        "MyB",
+        "MeZ",
+        "MyZ",
     ],
-    "Maternal_Grandmother": [
-        "Mother",
-        "Maternal_Older_Brother",
-        "Maternal_Younger_Brother",
-        "Maternal_Older_Sister",
-        "Maternal_Younger_Sister",
+    "MM": [
+        "M",
+        "MeB",
+        "MyB",
+        "MeZ",
+        "MyZ",
     ],
-    "Father": [
+    "F": [
         "Ego",
-        "Ego_Older_Brother",
-        "Ego_Older_Sister",
-        "Ego_Younger_Brother",
-        "Ego_Younger_Sister",
+        "eB",
+        "eZ",
+        "yB",
+        "yZ",
     ],
-    "Mother": [
+    "M": [
         "Ego",
-        "Ego_Older_Brother",
-        "Ego_Older_Sister",
-        "Ego_Younger_Brother",
-        "Ego_Younger_Sister",
+        "eB",
+        "eZ",
+        "yB",
+        "yZ",
     ],
-    "Ego": ["Son", "Daughter"],
-    "Son": ["Son_of_Son", "Daughter_of_Son"],
-    "Daughter": ["Daughter_of_Daughter", "Son_of_Daughter"],
-    "Grandchild_Son_of_Son": [],
-    "Grandchild_Daughter_of_Son": [],
-    "Grandchild_Son_of_Daughter": [],
-    "Grandchild_Daughter_of_Daughter": [],
+    "Ego": ["S", "D"],
+    "S": ["SS", "SD"],
+    "D": ["DD", "DS"],
+    "SS": [],
+    "SD": [],
+    "DS": [],
+    "DD": [],
     # Parent-child relationships for nieces/nephews
-    "Ego_Older_Brother": ["Son_of_Ego_Older_Brother", "Daughter_of_Ego_Older_Brother"],
-    "Ego_Older_Sister": ["Son_of_Ego_Older_Sister", "Daughter_of_Ego_Older_Sister"],
-    "Ego_Younger_Brother": [
-        "Son_of_Ego_Younger_Brother",
-        "Daughter_of_Ego_Younger_Brother",
+    "eB": ["eBS", "eBD"],
+    "eZ": ["eZS", "eZD"],
+    "yB": [
+        "yBS",
+        "yBD",
     ],
-    "Ego_Younger_Sister": [
-        "Son_of_Ego_Younger_Sister",
-        "Daughter_of_Ego_Younger_Sister",
+    "yZ": [
+        "yZS",
+        "yZD",
     ],
 }
 
