@@ -48,6 +48,12 @@ def read_natural_languages(filename: str) -> set[Language]:
         languages.add(Language(tuple(cur_expressions), name=lang, natural=True))
     return languages
 
+def expression_to_ref_list(expression: Expression):
+    out = [] 
+    for k, v in expression.meaning.mapping.items():
+        if v:
+            out.append(k.name)
+    return out
 
 if __name__ == "__main__":
     natural_languages = read_natural_languages("kinship/data/natural_languages.csv")
@@ -64,6 +70,7 @@ if __name__ == "__main__":
         valid = True
         for expression in language.expressions:
             if expression.meaning not in expressions_by_meaning:
+                print("Invalid expression:", expression.form, expression_to_ref_list(expression))
                 valid = False
         if valid:
             representable_languages.add(language)

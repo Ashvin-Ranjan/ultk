@@ -64,6 +64,24 @@ def child(*_: e) -> eet:
     return lambda x: lambda y: kinship_structure.evaluate("is_parent", y.name, x.name)
 
 
+# eet -> e
+def older(*_: e) -> eet:
+    return lambda x: lambda y: kinship_structure.evaluate("is_older", x.name, y.name)
+
+
+# eet -> e
+def younger(*_: e) -> eet:
+    return lambda x: lambda y: kinship_structure.evaluate("is_older", y.name, x.name)
+
+
+# eet -> e
+def same_sex(*_: e) -> eet:
+    return lambda x: lambda y: kinship_structure.evaluate("is_male", x.name) == kinship_structure.evaluate("is_male", y.name)
+
+# eet -> e
+def diff_sex(*_: e) -> eet:
+    return lambda x: lambda y: kinship_structure.evaluate("is_male", x.name) != kinship_structure.evaluate("is_male", y.name)
+
 ##############################################################################
 # Nonterminal rules
 ##############################################################################
