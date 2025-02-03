@@ -69,6 +69,8 @@ if __name__ == "__main__":
     for language in natural_languages:
         valid = True
         for expression in language.expressions:
+            if "oldrussian" in expression.form:
+                print("Russian:", expression.form, expression_to_ref_list(expression))
             if expression.meaning not in expressions_by_meaning:
                 print("Invalid expression:", expression.form, expression_to_ref_list(expression))
                 valid = False
@@ -80,7 +82,7 @@ if __name__ == "__main__":
         "kinship/outputs/natural_languages.yml",
         {
             "name": lambda _, lang: lang.name,
-            "type": lambda _1, _2: "natural",
+            "type": lambda _, lang: "natural_female" if ":f" in lang.name else "natural_male",
             "lot_expressions": lambda _, lang: [
                 str(expressions_by_meaning[expr.meaning]) for expr in lang.expressions
             ],

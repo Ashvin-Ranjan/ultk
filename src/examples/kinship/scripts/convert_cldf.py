@@ -10,15 +10,13 @@ if __name__ == "__main__":
     expressions = {}
 
     for _, row in lang_data.iterrows():
-        if row["Parameter_ID"][0] == 'f':
-            continue
-        expression_id = row["Language_ID"] + ":" + row["Form"]
+        expression_id = row["Language_ID"] + ":" + row["Parameter_ID"][0] + ":" + row["Form"]
         if row["Parameter_ID"][1:] in sorted_names:
             if expression_id in expressions:
                 expressions[expression_id]["referents"].add(row["Parameter_ID"][1:])
             else:
                 expressions[expression_id] = {
-                    "lang": row["Language_ID"],
+                    "lang": row["Language_ID"] + ":" + row["Parameter_ID"][0],
                     "referents": { row["Parameter_ID"][1:] }
                 }
 
