@@ -1,10 +1,10 @@
 from ultk.util.frozendict import FrozenDict
 from ultk.util.io import write_expressions
-from ultk.language.semantics import Meaning
+from ultk.language.semantics import Meaning, Universe
 from ultk.language.grammar import Grammar, GrammaticalExpression
 
-from kinship.meaning import universe as kinship_universe
-from kinship.grammar import kinship_grammar
+from ..meaning import universe as kinship_universe
+from ..grammar import kinship_grammar
 
 
 def write_data(expressions_by_meaning: dict[int, GrammaticalExpression]) -> None:
@@ -33,8 +33,6 @@ def expr_key(expr: GrammaticalExpression):
         return out
     else:
         out = hash(items[kinship_universe.referents[0]])
-        if out >= 0 and out < max_len: # Avoid collision with expressions that return booleans
-            return out + max_len
         return out
 
 if __name__ == "__main__":

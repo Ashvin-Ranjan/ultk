@@ -1,28 +1,28 @@
 import pandas as pd
-from ..meaning import sorted_names
+from ..meaning import total_names
 
 
 if __name__ == "__main__":
     # Convert to a DataFrame
-    df = pd.DataFrame(columns=["language", "expression"] + sorted_names)
+    df = pd.DataFrame(columns=["language", "expression"] + total_names)
     lang_data = pd.read_csv("kinship/data/raw_forms.csv", dtype=str, na_filter=False)
 
     expressions = {}
 
     for _, row in lang_data.iterrows():
-        expression_id = row["Language_ID"] + ":" + row["Parameter_ID"][0] + ":" + row["Form"]
-        if row["Parameter_ID"][1:] in sorted_names:
+        expression_id = row["Language_ID"] + ":" + row["Form"]
+        if row["Parameter_ID"] in total_names:
             if expression_id in expressions:
-                expressions[expression_id]["referents"].add(row["Parameter_ID"][1:])
+                expressions[expression_id]["referents"].add(row["Parameter_ID"])
             else:
                 expressions[expression_id] = {
-                    "lang": row["Language_ID"] + ":" + row["Parameter_ID"][0],
-                    "referents": { row["Parameter_ID"][1:] }
+                    "lang": row["Language_ID"],
+                    "referents": { row["Parameter_ID"] }
                 }
 
 
     for term, data in expressions.items():
-        row = {referent: (referent in data["referents"]) for referent in sorted_names}
+        row = {referent: (referent in data["referents"]) for referent in total_names}
         row["language"] = data["lang"]
         row["expression"] = term
         df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)

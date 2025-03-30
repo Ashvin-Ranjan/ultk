@@ -45,13 +45,13 @@ def bind(*a: e, name=".") -> arg:
 
 # Using dummy args because grammar rules aren't considered terminal unless they take Referents
 # et -> e
-def male(*_: e) -> et:
-    return lambda y: kinship_structure.evaluate("is_male", y.name)
+def male(ref: e) -> et:
+    return lambda y: kinship_structure.evaluate("is_male", y.name, ref.name)
 
 
 # et -> e
-def female(*_: e) -> et:
-    return lambda y: not kinship_structure.evaluate("is_male", y.name)
+def female(ref: e) -> et:
+    return lambda y: not kinship_structure.evaluate("is_male", y.name, ref.name)
 
 
 # eet -> e
@@ -75,12 +75,12 @@ def younger(*_: e) -> eet:
 
 
 # eet -> e
-def same_sex(*_: e) -> eet:
-    return lambda x: lambda y: kinship_structure.evaluate("is_male", x.name) == kinship_structure.evaluate("is_male", y.name)
+def same_sex(ref: e) -> eet:
+    return lambda x: lambda y: kinship_structure.evaluate("is_male", x.name, ref.name) == kinship_structure.evaluate("is_male", y.name, ref.name)
 
 # eet -> e
-def diff_sex(*_: e) -> eet:
-    return lambda x: lambda y: kinship_structure.evaluate("is_male", x.name) != kinship_structure.evaluate("is_male", y.name)
+def diff_sex(ref: e) -> eet:
+    return lambda x: lambda y: kinship_structure.evaluate("is_male", x.name, ref.name) != kinship_structure.evaluate("is_male", y.name, ref.name)
 
 ##############################################################################
 # Nonterminal rules

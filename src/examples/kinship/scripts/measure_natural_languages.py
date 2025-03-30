@@ -77,6 +77,8 @@ if __name__ == "__main__":
         if valid:
             representable_languages.add(language)
 
+    print(f"{len(representable_languages)}/{len(natural_languages)} represented")
+
     write_languages(
         representable_languages,
         "kinship/outputs/natural_languages.yml",

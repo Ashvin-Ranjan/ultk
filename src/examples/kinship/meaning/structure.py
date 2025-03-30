@@ -183,15 +183,21 @@ parent_child_data = {
 
 # Interpretation
 # just in case lambdas cause issues
-def is_male(r: str) -> bool:
-    return sex_data[r]
+def is_male(r: str, ref: str) -> bool:
+    if r == "Ego":
+        return ref[0] == "m"
+    return sex_data[r[1:]]
 
 
 def is_parent(p, c) -> bool:
+    c = c if c == "Ego" else c[1:]
+    p = p if p == "Ego" else p[1:]
     return c in parent_child_data.get(p, [])
 
 
 def is_older(r1, r2) -> bool:
+    r1 = r1 if r1 == "Ego" else r1[1:]
+    r2 = r2 if r2 == "Ego" else r2[1:]
     return r2 in age_hierarchy.get(r1, [])
 
 
@@ -225,8 +231,8 @@ def test_structure(kinship_structure, domain, parent_child_data, sex_data):
 
     # print("=== Testing `is_male` Predicate ===")
     for referent in domain:
-        expected = sex_data[referent]
-        actual = kinship_structure.evaluate("is_male", referent)
+        expected = sex_data[referent[1:]]
+        actual = kinship_structure.evaluate("is_male", referent, referent)
         assert (
             actual == expected
         ), f"Failed `is_male` for {referent}: expected {expected}, got {actual}"
