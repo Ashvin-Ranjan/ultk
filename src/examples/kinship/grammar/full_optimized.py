@@ -67,7 +67,7 @@ et_function_map = [
     # female
     lambda x, ref: not kinship_structure.evaluate("is_male", x.name, ref.name),
     # my_
-    lambda x, a: x != Ego and eet_function_map[a[0]](x, *a[1])(Ego), # TODO: Update to collapse a instead of treating as function
+    lambda x, a: x != Ego and eet_function_map[a[0]](x, *a[1])(Ego),
 ]
 
 eet_function_map = [
