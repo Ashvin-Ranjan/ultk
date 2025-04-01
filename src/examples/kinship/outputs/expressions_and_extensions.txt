@@ -1,0 +1,567 @@
+*(female, .)
+-------------------------------------------
+Ego
+fD
+fMM
+fMeZ
+fFM
+feZ
+feZD
+mSD
+myZ
+myBD
+mMM
+fSD
+fyBD
+fMyZ
+mFyZ
+mD
+mMyZ
+meBD
+fyZD
+mFM
+fDD
+feBD
+myZD
+mMeZ
+fM
+mM
+mDD
+meZD
+fFeZ
+mFeZ
+meZ
+fFyZ
+fyZ
+-------------------------------------------
+*(male, .)
+-------------------------------------------
+fMyB
+mSS
+fS
+fMeB
+myBS
+fSS
+fyBS
+mFyB
+meBS
+meZS
+fyB
+mMF
+mFF
+meB
+feZS
+fDS
+mF
+mMyB
+fFF
+fMF
+mFeB
+myZS
+feBS
+fFyB
+feB
+mDS
+fFeB
+fyZS
+mMeB
+mS
+myB
+fF
+-------------------------------------------
+*(my_(child), .)
+-------------------------------------------
+mD
+mS
+fD
+fS
+-------------------------------------------
+*(my_(sibling), .)
+-------------------------------------------
+myZ
+feB
+fyB
+feZ
+meB
+meZ
+fyZ
+myB
+-------------------------------------------
+*(my_(parent), .)
+-------------------------------------------
+mM
+fM
+mF
+fF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, child)), .)
+-------------------------------------------
+mSD
+mSS
+mDD
+fSD
+fDD
+fDS
+mDS
+fSS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, sibling)), .)
+-------------------------------------------
+meBD
+fyBS
+fyZS
+meBS
+myBD
+meZS
+meZD
+fyZD
+myZS
+feBS
+fyBD
+feZS
+feZD
+feBD
+myZD
+myBS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(sibling, parent)), .)
+-------------------------------------------
+fFeB
+mMyZ
+mFyB
+fMyB
+mMeZ
+fFeZ
+fMeZ
+mFeB
+mFeZ
+mMeB
+fMeB
+fFyB
+fMyZ
+fFyZ
+mFyZ
+mMyB
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(parent, parent)), .)
+-------------------------------------------
+fFF
+fMF
+mMM
+mMF
+mFM
+fMM
+fFM
+mFF
+-------------------------------------------
+*(my_(axy_and_bx(child, female)), .)
+-------------------------------------------
+mD
+fD
+-------------------------------------------
+*(my_(axy_and_bx(child, male)), .)
+-------------------------------------------
+mS
+fS
+-------------------------------------------
+*(my_(axy_and_bx(sibling, female)), .)
+-------------------------------------------
+meZ
+myZ
+feZ
+fyZ
+-------------------------------------------
+*(my_(axy_and_bx(sibling, male)), .)
+-------------------------------------------
+fyB
+meB
+myB
+feB
+-------------------------------------------
+*(my_(axy_and_bx(parent, female)), .)
+-------------------------------------------
+fM
+mM
+-------------------------------------------
+*(my_(axy_and_bx(parent, male)), .)
+-------------------------------------------
+mF
+fF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, Ez_axz_and_bzy(child, parent))), .)
+-------------------------------------------
+fD
+fS
+feZD
+myBS
+fyBS
+meBS
+myBD
+meZS
+fyBD
+feZS
+mD
+meBD
+fyZD
+myZS
+feBS
+feBD
+myZD
+fyZS
+meZD
+mS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, Ez_axz_and_bzy(parent, parent))), .)
+-------------------------------------------
+fMyB
+fMeZ
+fMeB
+mFyB
+fMyZ
+mFyZ
+mF
+mMyB
+mMyZ
+mFeB
+fFyB
+fFeB
+mMeZ
+fM
+mM
+fFeZ
+mFeZ
+mMeB
+fFyZ
+fF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)
+-------------------------------------------
+fDS
+fDD
+mDD
+mDS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, male))), .)
+-------------------------------------------
+mSD
+fSD
+mSS
+fSS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)
+-------------------------------------------
+fyZS
+meZS
+meZD
+fyZD
+myZS
+feZD
+feZS
+myZD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)
+-------------------------------------------
+meBD
+fyBS
+meBS
+myBD
+feBS
+fyBD
+feBD
+myBS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(sibling, axy_and_bx(parent, female))), .)
+-------------------------------------------
+mMyZ
+fMyB
+mMeZ
+fMeZ
+mMeB
+fMyZ
+fMeB
+mMyB
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(sibling, axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFeB
+mFyB
+mFeB
+fFeZ
+mFeZ
+fFyB
+mFyZ
+fFyZ
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(parent, axy_and_bx(parent, female))), .)
+-------------------------------------------
+mMF
+fMF
+mMM
+fMM
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(parent, axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFF
+fFM
+mFF
+mFM
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), child)), .)
+-------------------------------------------
+fSD
+fDD
+mDD
+mSD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), sibling)), .)
+-------------------------------------------
+meBD
+myBD
+meZD
+fyZD
+fyBD
+feZD
+feBD
+myZD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), child)), .)
+-------------------------------------------
+fDS
+mDS
+mSS
+fSS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), sibling)), .)
+-------------------------------------------
+fyBS
+fyZS
+meBS
+meZS
+myZS
+feBS
+feZS
+myBS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), parent)), .)
+-------------------------------------------
+mMyZ
+mMeZ
+fFeZ
+mFeZ
+fMeZ
+fMyZ
+mFyZ
+fFyZ
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), parent)), .)
+-------------------------------------------
+fFeB
+mFyB
+fMyB
+mFeB
+mMeB
+fFyB
+fMeB
+mMyB
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), parent)), .)
+-------------------------------------------
+fFM
+mMM
+mFM
+fMM
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), parent)), .)
+-------------------------------------------
+fFF
+mMF
+fMF
+mFF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(Ez_axz_and_bzy(child, parent), axy_and_bx(parent, female))), .)
+-------------------------------------------
+mMyZ
+fMyB
+fM
+mM
+mMeZ
+fMeZ
+mMeB
+fMyZ
+fMeB
+mMyB
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(Ez_axz_and_bzy(child, parent), axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFeB
+mFyB
+fFeZ
+mFeB
+mFeZ
+fFyB
+mFyZ
+fFyZ
+mF
+fF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(child, parent))), .)
+-------------------------------------------
+meBD
+myBD
+meZD
+fD
+fyZD
+fyBD
+feZD
+feBD
+myZD
+mD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), Ez_axz_and_bzy(parent, parent))), .)
+-------------------------------------------
+mMyZ
+mMeZ
+fM
+mM
+fFeZ
+fMeZ
+mFeZ
+fMyZ
+mFyZ
+fFyZ
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, female))), .)
+-------------------------------------------
+fDD
+mDD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(child, male))), .)
+-------------------------------------------
+mSD
+fSD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, female))), .)
+-------------------------------------------
+meZD
+fyZD
+feZD
+myZD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, female), axy_and_bx(sibling, male))), .)
+-------------------------------------------
+feBD
+meBD
+fyBD
+myBD
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(child, parent))), .)
+-------------------------------------------
+fyBS
+fyZS
+meBS
+meZS
+fS
+myZS
+feBS
+feZS
+mS
+myBS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), Ez_axz_and_bzy(parent, parent))), .)
+-------------------------------------------
+fFeB
+mFyB
+fMyB
+mMyB
+mFeB
+mMeB
+fMeB
+fFyB
+mF
+fF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, female))), .)
+-------------------------------------------
+fDS
+mDS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(child, male))), .)
+-------------------------------------------
+mSS
+fSS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, female))), .)
+-------------------------------------------
+feZS
+fyZS
+meZS
+myZS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bx(sibling, male))), .)
+-------------------------------------------
+feBS
+fyBS
+meBS
+myBS
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, female))), .)
+-------------------------------------------
+fMeZ
+mMeZ
+fMyZ
+mMyZ
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFeZ
+fFyZ
+mFeZ
+mFyZ
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))), .)
+-------------------------------------------
+mMeB
+fMyB
+fMeB
+mMyB
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFeB
+mFyB
+mFeB
+fFyB
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))), .)
+-------------------------------------------
+mMM
+fMM
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFM
+mFM
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))), .)
+-------------------------------------------
+mMF
+fMF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)
+-------------------------------------------
+fFF
+mFF
+-------------------------------------------
+*(my_(Ez_axz_and_bzy(axy_and_by(child, male), Ez_axz_and_bzy(child, parent))), .)
+-------------------------------------------
+meBD
+fyBS
+meBS
+myBD
+myBS
+feBS
+fyBD
+feBD
+mS
+mD
+-------------------------------------------

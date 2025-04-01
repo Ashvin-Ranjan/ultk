@@ -49,7 +49,7 @@ def closure(x, y, a, visited=None):
         return True
 
     # Recursive case: check for intermediary z
-    return any(eet_function_map[a[0]](x, *a[1])(z) and closure(z, y, a, visited) for z in universe if z != x)
+    return any(eet_function_map[a[0]](x, *a[1])(z) and closure(z, y, a, visited) for z in universe if z.name[1:] != x.name[1:])
 
 def sibling_predicate(x, y):
     # x and y must share at least one parent
@@ -59,7 +59,7 @@ def sibling_predicate(x, y):
         for z in universe
     )
     # Exclude self
-    return shared_parent and x != y
+    return shared_parent and x.name[1:] != y.name[1:]
 
 et_function_map = [
     # male
@@ -153,25 +153,25 @@ def female(ref: e) -> et:
 # eet -> e
 # ID: 0
 def parent(*_: e) -> eet:
-    return (0, tuple())
+    return (0, ())
 
 
 # eet -> e
 # ID: 1
 def child(*_: e) -> eet:
-    return (1, tuple())
+    return (1, ())
 
 
 # eet -> e
 # ID: 2
 def older(*_: e) -> eet:
-    return (2, tuple())
+    return (2, ())
 
 
 # eet -> e
 # ID: 3
 def younger(*_: e) -> eet:
-    return (3, tuple())
+    return (3, ())
 
 
 # eet -> e

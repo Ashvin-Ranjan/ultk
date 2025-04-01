@@ -14,7 +14,6 @@ weights = {
     "MeZ": 7,
     "MyB": 5,
     "MyZ": 7,
-    "Ego": 0,
     "eZ": 39,
     "eB": 51,
     "yZ": 39,

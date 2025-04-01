@@ -228,8 +228,10 @@ def test_structure(kinship_structure, domain, parent_child_data, sex_data):
         sex_data (dict): The gender data.
     """
 
+    referents = [f"f{r}" for r in domain] + [f"m{r}" for r in domain]
+
     # print("=== Testing `is_male` Predicate ===")
-    for referent in domain:
+    for referent in referents:
         expected = sex_data[referent[1:]]
         actual = kinship_structure.evaluate("is_male", referent, referent)
         assert (
@@ -238,9 +240,9 @@ def test_structure(kinship_structure, domain, parent_child_data, sex_data):
         # print(f"PASS: {referent} -> is_male = {actual}")
 
     # print("\n=== Testing `parent_of` Predicate ===")
-    for parent in domain:
-        for child in domain:
-            expected = child in parent_child_data.get(parent, [])
+    for parent in referents:
+        for child in referents:
+            expected = child[1:] in parent_child_data.get(parent[1:], [])
             actual = kinship_structure.evaluate("is_parent", parent, child)
             assert (
                 actual == expected
@@ -248,9 +250,9 @@ def test_structure(kinship_structure, domain, parent_child_data, sex_data):
             # print(f"PASS: {parent} -> parent_of({child}) = {actual}")
 
     # print("\n=== Testing `is_older` Predicate ===")
-    for r1 in domain:
-        for r2 in domain:
-            expected = r2 in age_hierarchy.get(r1, [])
+    for r1 in referents:
+        for r2 in referents:
+            expected = r2[1:] in age_hierarchy.get(r1[1:], [])
             actual = kinship_structure.evaluate("is_older", r1, r2)
             assert (
                 actual == expected

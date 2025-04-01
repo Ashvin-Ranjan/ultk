@@ -160,7 +160,7 @@ def tr_cl(a: eet) -> eet:
             return True
 
         # Recursive case: check for intermediary z
-        return any(a(x)(z) and closure(z, y, visited) for z in universe if z != x)
+        return any(a(x)(z) and closure(z, y, visited) for z in universe if z.name[1:] != x.name[1:])
 
     return lambda x: lambda y: closure(x, y)
 
@@ -176,6 +176,6 @@ def exclusive_sibling(*_: e, name="sibling") -> eet:
             for z in universe
         )
         # Exclude self
-        return shared_parent and x != y
+        return shared_parent and x.name[1:] != y.name[1:]
 
     return lambda x: lambda y: sibling_predicate(x, y)
