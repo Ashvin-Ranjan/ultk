@@ -66,7 +66,6 @@ domain = {
     "eZS",
     "yBS",
     "yZS",
-    "Ego",
 }
 
 # Update auxiliary data structures
