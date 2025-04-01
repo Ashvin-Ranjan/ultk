@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     expressions_by_meaning: dict[int, GrammaticalExpression] = (
         kinship_grammar.get_unique_expressions(
-            5,  # I found 6 is too high
+            4,  # I found 6 is too high
             max_size=2 ** len(kinship_universe),
             # max_size=100,
             unique_key=expr_key,

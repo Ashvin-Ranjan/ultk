@@ -36,6 +36,31 @@ start = t
 # As such the structure is to be instead tuples containing the ID of the function and the ID of the arguments
 # This saves on memory and can be stored nicely!!
 
+def closure(x, y, a, visited=None):
+    # Track visited nodes to avoid infinite loops
+    if visited is None:
+        visited = set()
+    if (x, y) in visited:
+        return False
+    visited.add((x, y))
+
+    # Base case: direct relationship exists
+    if eet_function_map[a[0]](x, *a[1])(y):
+        return True
+
+    # Recursive case: check for intermediary z
+    return any(eet_function_map[a[0]](x, *a[1])(z) and closure(z, y, a, visited) for z in universe if z != x)
+
+def sibling_predicate(x, y):
+    # x and y must share at least one parent
+    shared_parent = any(
+        kinship_structure.evaluate("is_parent", z.name, x.name)
+        and kinship_structure.evaluate("is_parent", z.name, y.name)
+        for z in universe
+    )
+    # Exclude self
+    return shared_parent and x != y
+
 et_function_map = [
     # male
     lambda x, ref: kinship_structure.evaluate("is_male", x.name, ref.name),
@@ -73,10 +98,13 @@ eet_function_map = [
     # Ez_axz_and_bzy
     lambda x, a, b: lambda y: any(z for z in universe if eet_function_map[a[0]](x, *a[1])(z) and eet_function_map[b[0]](z, *b[1])(y)),
     # inv
-    lambda x, a: lambda y: eet_function_map[a[0]](y, *a[0])(x),
+    lambda x, a: lambda y: eet_function_map[a[0]](y, *a[1])(x),
     # <->
-    lambda x, a: lambda y: eet_function_map[a[0]](x, *a[0])(y) or eet_function_map[a[0]](y, *a[0])(x),
-    
+    lambda x, a: lambda y: eet_function_map[a[0]](x, *a[1])(y) or eet_function_map[a[0]](y, *a[1])(x),
+    # tr_cl
+    lambda x, a: lambda y: closure(x, y, a),
+    # siblings
+    lambda x: lambda y: sibling_predicate(x, y),
 ]
 
 
@@ -100,7 +128,7 @@ def apply_et(p: et, a: arg, name="*") -> t:
 
 # Need to bind args for intermediate node
 # arg -> Referent ...
-def bind(*a: Referent, name=".") -> arg:
+def bind(a: Referent, name=".") -> arg:
     return a
 
 
@@ -227,36 +255,38 @@ def sym(a: eet, name="<->") -> eet:
 
 # transitive closure, e.g. 'ancestor-of'
 # eet -> eet
+# ID: 15
 def tr_cl(a: eet) -> eet:
-    def closure(x, y, visited=None):
-        # Track visited nodes to avoid infinite loops
-        if visited is None:
-            visited = set()
-        if (x, y) in visited:
-            return False
-        visited.add((x, y))
-
-        # Base case: direct relationship exists
-        if a(x)(y):
-            return True
-
-        # Recursive case: check for intermediary z
-        return any(a(x)(z) and closure(z, y, visited) for z in universe if z != x)
-
-    return lambda x: lambda y: closure(x, y)
+    return (15, (a,))
 
 
 # Technically the KR2012 definition of aunt/uncle includes Mother and Father...
 # eet -> e
+# ID: 16
 def exclusive_sibling(*_: e, name="sibling") -> eet:
-    def sibling_predicate(x, y):
-        # x and y must share at least one parent
-        shared_parent = any(
-            kinship_structure.evaluate("is_parent", z.name, x.name)
-            and kinship_structure.evaluate("is_parent", z.name, y.name)
-            for z in universe
-        )
-        # Exclude self
-        return shared_parent and x != y
+    return (16, ())
 
-    return lambda x: lambda y: sibling_predicate(x, y)
+grammar_rules = (
+    apply_et,
+    bind,
+    male,
+    female,
+    parent,
+    child,
+    older,
+    younger,
+    same_sex,
+    diff_sex,
+    my_exclusive,
+    axy_and_by,
+    axy_and_bx,
+    axy_and_bxy,
+    axy_or_by,
+    axy_or_bx,
+    axy_or_bxy,
+    Ez_axz_and_bzy,
+    inv,
+    sym,
+    tr_cl,
+    exclusive_sibling,
+)
