@@ -1,0 +1,7 @@
+*(my_(axy_and_by(younger, female)), .)
+*(my_(axy_and_by(axy_and_bx(parent, male), male)), .)
+*(my_(axy_and_by(axy_and_bx(parent, female), male)), .)
+*(my_(axy_and_by(axy_and_bx(child, female), female)), .)
+*(my_(axy_and_by(axy_and_bx(parent, female), female)), .)
+*(my_(axy_and_by(axy_and_bx(child, male), male)), .)
+*(my_(axy_and_bxy(axy_and_by(diff_sex, female), <->(parent))), .)

@@ -1,9 +1,9 @@
 from ultk.effcomm.informativity import informativity
-from ultk.language.grammar import GrammaticalExpression
+from ultk.language.grammar.grammar import GrammaticalExpression
 from ultk.language.language import Language, aggregate_expression_complexity
 from ultk.language.semantics import Meaning
 
-from kinship.meaning import universe as kinship_universe
+from .meaning import universe as kinship_universe
 
 
 def complexity(

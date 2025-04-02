@@ -1,7 +1,7 @@
 # !/bin/sh
 
 echo "python -m kinship.scripts.convert_cldf"
-python -m kinship.scripts.convert_cldf
+# python -m kinship.scripts.convert_cldf
 
 echo "python -m kinship.scripts.generate_expressions"
 # python -m kinship.scripts.generate_expressions

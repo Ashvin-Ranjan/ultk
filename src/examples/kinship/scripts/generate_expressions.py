@@ -1,7 +1,7 @@
 from ultk.util.frozendict import FrozenDict
 from ultk.util.io import write_expressions
 from ultk.language.semantics import Meaning, Universe
-from ultk.language.grammar import Grammar, GrammaticalExpression
+from ultk.language.grammar.grammar import Grammar, GrammaticalExpression
 
 from ..meaning import universe as kinship_universe
 from ..grammar import kinship_grammar

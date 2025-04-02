@@ -2,9 +2,9 @@ from ultk.effcomm.optimization import EvolutionaryOptimizer
 from ultk.language.sampling import random_languages
 from ultk.util.io import read_grammatical_expressions, write_expressions
 
-from kinship.grammar import kinship_grammar
-from kinship.meaning import universe as kinship_universe
-from kinship.measures import comm_cost, complexity
+from ..grammar import kinship_grammar
+from ..meaning import universe as kinship_universe
+from ..measures import comm_cost, complexity
 from ultk.util.io import write_languages
 
 
