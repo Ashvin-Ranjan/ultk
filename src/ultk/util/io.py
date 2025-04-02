@@ -3,6 +3,7 @@ from ultk.language.language import Expression, Language
 from ultk.language.semantics import Meaning, Universe
 from ultk.language.grammar import Grammar, GrammaticalExpression
 from typing import Iterable, Callable, Any
+from ultk.language.grammar.grammar import Grammar, GrammaticalExpression
 from yaml import dump, Dumper, load, Loader
 
 

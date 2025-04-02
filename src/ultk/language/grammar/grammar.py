@@ -8,6 +8,8 @@ from importlib import import_module
 from itertools import product
 from typing import Any, Callable, Generator, TypedDict, TypeVar
 from yaml import load
+from functools import cache
+from math import log
 
 try:
     from yaml import CLoader as Loader
@@ -184,6 +186,26 @@ class GrammaticalExpression(Expression[T]):
             return 1
         return sum(child.count_atoms() for child in self.children)
 
+    def replace_children(self, children) -> None:
+        self.children = children
+
+    @cache
+    def node_count(self) -> int:
+        """Count the node of a GrammaticalExpression
+
+        Returns:
+            int: node count
+        """
+        counter = 1
+        stack = [self]
+        while stack:
+            current_node = stack.pop()
+            children = current_node.children if current_node.children else ()
+            for child in children:
+                stack.append(child)
+                counter += 1
+        return counter
+
     @classmethod
     def from_dict(cls, the_dict: dict, grammar: "Grammar") -> "GrammaticalExpression":
         children = the_dict.get("children")
@@ -264,6 +286,46 @@ class Grammar:
             )
         self._rules_by_name[rule.name] = rule
 
+    # @cache, unhashable, or embed it as a property (change every time Grammar is changed)
+    def probability(self, rule: Rule) -> float:
+        return float(rule.weight) / sum([r.weight for r in self._rules[rule.lhs]])
+
+    # @cache, unhashable, or embed it as a property (change every time Grammar is changed)
+    def log_probability(self, rule: Rule) -> float:
+        return log(float(rule.weight)) - log(
+            sum([r.weight for r in self._rules[rule.lhs]])
+        )
+
+    def prior(self, expr: GrammaticalExpression) -> float:
+        """Prior of a GrammaticalExpression
+
+        Args:
+            expr (GrammaticalExpression): the GrammaticalExpression for compuation
+
+        Returns:
+            float: prior
+        """
+        probability = self.probability(self._rules_by_name[expr.rule_name])
+        children = expr.children if expr.children else ()
+        for child in children:
+            probability = probability * (self.prior(child))
+        return probability
+
+    def log_prior(self, expr: GrammaticalExpression) -> float:
+        """Prior of a GrammaticalExpression in log probability
+
+        Args:
+            expr (GrammaticalExpression): the GrammaticalExpression for compuation
+
+        Returns:
+            float: log prior
+        """
+        probability = self.log_probability(self._rules_by_name[expr.rule_name])
+        children = expr.children if expr.children else ()
+        for child in children:
+            probability = probability + (self.log_prior(child))
+        return probability
+
     def parse(
         self,
         expression: str,
@@ -330,18 +392,28 @@ class Grammar:
             raise ValueError("Could not parse string {expression}")
         return stack[0]
 
-    def generate(self, lhs: Any = None) -> GrammaticalExpression:
+    def generate(self, lhs: Any = None, max_depth=3, depth=0) -> GrammaticalExpression:
         """Generate an expression from a given lhs."""
         if lhs is None:
             lhs = self._start
         rules = self._rules[lhs]
+        # Stop there from being a high chance of infinite recusion
+        if depth > max_depth:
+            filtered_rules = list(filter(lambda rule: rule.rhs is None, rules))
+            if len(filtered_rules) != 0:
+                rules = filtered_rules
         the_rule = random.choices(rules, weights=[rule.weight for rule in rules], k=1)[
             0
         ]
         children = (
             None
             if the_rule.rhs is None
-            else tuple([self.generate(child_lhs) for child_lhs in the_rule.rhs])
+            else tuple(
+                [
+                    self.generate(child_lhs, max_depth=max_depth, depth=depth + 1)
+                    for child_lhs in the_rule.rhs
+                ]
+            )
         )
         # if the rule is terminal, rhs will be empty, so no recursive calls to generate will be made in this comprehension
         return GrammaticalExpression(
