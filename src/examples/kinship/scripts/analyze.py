@@ -6,19 +6,19 @@ if __name__ == "__main__":
     plot = (
         pn.ggplot(pn.aes(x="complexity", y="comm_cost"))
         + pn.geom_point(combined_data, pn.aes(color="type"))
-        + pn.geom_text(
-            combined_data[combined_data["type"] == "natural_male"],
-            pn.aes(label="name"),
-            ha="left",
-            size=6,
-            nudge_x=0.5,
-        )
-        + pn.geom_text(
-            combined_data[combined_data["type"] == "natural_female"],
-            pn.aes(label="name"),
-            ha="left",
-            size=6,
-            nudge_x=0.5,
-        )
+        # + pn.geom_text(
+        #     combined_data[combined_data["type"] == "natural_male"],
+        #     pn.aes(label="name"),
+        #     ha="left",
+        #     size=6,
+        #     nudge_x=0.5,
+        # )
+        # + pn.geom_text(
+        #     combined_data[combined_data["type"] == "natural_female"],
+        #     pn.aes(label="name"),
+        #     ha="left",
+        #     size=6,
+        #     nudge_x=0.5,
+        # )
     )
-    plot.save("kinship/outputs/plot_text.png", width=8, height=6, dpi=300)
+    plot.save("kinship/outputs/plot.png", width=8, height=6, dpi=300)

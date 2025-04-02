@@ -58,7 +58,7 @@ def expression_to_ref_list(expression: Expression):
 if __name__ == "__main__":
     natural_languages = read_natural_languages("kinship/data/natural_languages.csv")
     _, expressions_by_meaning = read_grammatical_expressions(
-        "kinship/outputs/generated_expressions.txt",
+        "kinship/outputs/generated_expressions.yaml",
         kinship_grammar,
         universe=kinship_universe,
         return_by_meaning=True,
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         "kinship/outputs/natural_languages.yml",
         {
             "name": lambda _, lang: lang.name,
-            "type": lambda _, lang: "natural_female" if ":f" in lang.name else "natural_male",
+            "type": lambda _, lang: "natural",
             "lot_expressions": lambda _, lang: [
                 str(expressions_by_meaning[expr.meaning]) for expr in lang.expressions
             ],

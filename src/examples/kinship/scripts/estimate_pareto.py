@@ -1,6 +1,6 @@
 from ultk.effcomm.optimization import EvolutionaryOptimizer
 from ultk.language.sampling import random_languages
-from ultk.util.io import read_grammatical_expressions
+from ultk.util.io import read_grammatical_expressions, write_expressions
 
 from kinship.grammar import kinship_grammar
 from kinship.meaning import universe as kinship_universe
@@ -10,7 +10,7 @@ from ultk.util.io import write_languages
 
 if __name__ == "__main__":
     expressions, expressions_by_meaning = read_grammatical_expressions(
-        "kinship/outputs/generated_expressions.txt",
+        "kinship/outputs/generated_expressions.yaml",
         kinship_grammar,
         universe=kinship_universe,
         return_by_meaning=True,
@@ -26,9 +26,9 @@ if __name__ == "__main__":
     optimizer = EvolutionaryOptimizer(
         [lang_complexity, comm_cost],
         expressions,
-        1000,
-        3,
-        50,
+        2000,
+        10,
+        75,
     )
     result = optimizer.fit(seed_languages)
 
