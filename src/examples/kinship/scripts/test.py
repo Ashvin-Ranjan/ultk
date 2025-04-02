@@ -2,9 +2,11 @@ from ultk.language.grammar.grammar import GrammaticalExpression
 from ultk.language.language import Language
 from ultk.language.semantics import Meaning
 
-from ..meaning import universe
+from ..meaning import universe, male_prior
 from ..grammar import kinship_grammar
 from ..measures import comm_cost, complexity
+
+from ..data.prior_weights import weights
 
 
 def write_data(expressions_by_meaning: list[Meaning, GrammaticalExpression]) -> None:
@@ -32,14 +34,6 @@ with open("kinship/outputs/test_expressions.txt", 'r') as f:
         exprs[expr.evaluate(universe)] = expr
 
 write_data(exprs)
-
-s = 0
-
-for i in range(len(universe.referents)):
-    print(universe.referents[i].name, universe.prior[i])
-    s += universe.prior[i]
-
-print(s)
 
 lang = Language(tuple(exprs.values()), name="test", natural=False)
 

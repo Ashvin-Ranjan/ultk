@@ -10,8 +10,17 @@ prior = sorted_weights / (sorted_weights.sum()*2)
 
 Ego = Referent("Ego")
 
+
+male_prior = np.array((0,)*(len(sorted_names)) + tuple(sorted_weights / sorted_weights.sum()) + (0,))
+
+female_prior = np.array(tuple(sorted_weights / sorted_weights.sum()) + (0,)*(len(sorted_names)+1))
+
+female_referents = tuple(Referent(f"f{name}") for name in sorted_names)
+
+male_referents = tuple(Referent(f"m{name}") for name in sorted_names)
+
 universe = Universe(
-    tuple(Referent(f"f{name}") for name in sorted_names) + tuple(Referent(f"m{name}") for name in sorted_names) + (Ego,),
+    female_referents + male_referents + (Ego,),
     tuple(prior)*2 + (0,),
 )
 

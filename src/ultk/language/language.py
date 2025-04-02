@@ -68,6 +68,7 @@ class Language:
 
         self.universe = universe
         self.expressions = frozenset(expressions)
+        self.ref_mask = None
         self.__dict__.update(**kwargs)
 
     # TODO: revisit evolutionary algorithm; do we need Languages to be mutable?
@@ -93,15 +94,25 @@ class Language:
         """Count what percentage of expressions in a language have a given property."""
         return sum([property(item) for item in self.expressions]) / len(self)
 
+    def set_ref_mask(self, ref_mask: tuple[Referent]):
+        self.ref_mask = ref_mask
+
+    def can_express(self, ref: Referent):
+        if self.ref_mask is not None:
+            return ref in self.ref_mask
+        return True
+
     def binary_matrix(self) -> np.ndarray:
         """Get a binary matrix of shape `(num_meanings, num_expressions)`
         specifying which expressions can express which meanings."""
-        return np.array(
+        a = np.array(
             [
-                [float(e.can_express(m)) for e in self.expressions]
+                [float(e.can_express(m) and self.can_express(m)) for e in self.expressions]
                 for m in self.universe.referents
             ]
         )
+        return np.delete(a, np.argwhere(np.all(a[..., :] == 0, axis=0)), axis=1)
+
 
     def as_dict_with_properties(self, **kwargs) -> dict:
         """Return a dictionary representation of the language, including additional properties as keyword arguments.
