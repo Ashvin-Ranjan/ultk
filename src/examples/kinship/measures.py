@@ -7,6 +7,12 @@ from ultk.language.semantics import Meaning
 
 from .meaning import universe as kinship_universe, male_prior, female_prior, male_referents, female_referents
 
+# KR does not include sibling as a base rule, but instead defines it as Ez_axz_bzy(child, parent), as such its length should be 3
+def weighted_len(expression: GrammaticalExpression):
+    length = 1 if expression.rule_name != "sibling" else 3
+    if expression.children is not None:
+        length += sum(weighted_len(child) for child in expression.children)
+    return length
 
 def complexity(
     language: Language, expressions_by_meaning: dict[Meaning, GrammaticalExpression]

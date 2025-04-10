@@ -6,6 +6,14 @@ from ..grammar import kinship_grammar
 from ..meaning import universe as kinship_universe
 from ..measures import comm_cost, complexity
 from ultk.util.io import write_languages
+from ultk.language.language import Language
+
+from yaml import load
+
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loader
 
 
 if __name__ == "__main__":
@@ -16,9 +24,14 @@ if __name__ == "__main__":
         return_by_meaning=True,
     )
 
+    expressions_by_string = {str(e): e for e in expressions}
+
+    with open('kinship/outputs/natural_languages.yml', "r") as f:
+        natural_languages = [Language(tuple(expressions_by_string[e] for e in l['lot_expressions'])) for l in load(f, Loader=Loader)]
+    
     seed_languages = random_languages(
         expressions, sampling_strategy="stratified", sample_size=1000, max_size=10
-    )
+    ) + natural_languages
 
     def lang_complexity(language):
         return complexity(language, expressions_by_meaning)

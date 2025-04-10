@@ -1,3 +1,4 @@
+from examples.kinship.measures import weighted_len
 from ultk.util.frozendict import FrozenDict
 from ultk.util.io import write_expressions
 from ultk.language.semantics import Meaning, Universe
@@ -57,7 +58,7 @@ if __name__ == "__main__":
             max_size=2 ** len(kinship_universe),
             # max_size=100,
             unique_key=expr_key,
-            compare_func=lambda e1, e2: len(e1) < len(e2),
+            compare_func=lambda e1, e2: weighted_len(e1) < weighted_len(e2),
         )
     )
 

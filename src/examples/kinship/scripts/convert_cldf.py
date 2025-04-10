@@ -9,11 +9,9 @@ if __name__ == "__main__":
 
     expressions = {}
 
-    blacklist = set()
-
     for _, row in lang_data.iterrows():
         expression_id = row["Language_ID"] + ":" + row["Form"]
-        if row["Parameter_ID"] in total_names and expression_id not in blacklist:
+        if row["Parameter_ID"] in total_names:
             if expression_id in expressions:
                 expressions[expression_id]["referents"].add(row["Parameter_ID"])
             else:
@@ -21,11 +19,6 @@ if __name__ == "__main__":
                     "lang": row["Language_ID"],
                     "referents": { row["Parameter_ID"] }
                 }
-        else:
-            blacklist.add(expression_id)
-            if expression_id in expressions:
-                del expressions[expression_id]
-
 
 
     for term, data in expressions.items():

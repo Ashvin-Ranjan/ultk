@@ -66,13 +66,30 @@ if __name__ == "__main__":
     
     # TODO: Figure out how to deal with languages which are not represented
     representable_languages = set()
+    # language_names = ["oldchurchslavonicchur1257",
+    #                   "russianruss1263",
+    #                   "belarusianbela1254",
+    #                   "ukrainianukra1253",
+    #                   "macedonianmace1250",
+    #                   "bulgarianbulg1262",
+    #                   "oldprussianprus1238",
+    #                   ]
+    # language_names = ["latinlati1261",
+    #                   "standardspanishstan1288",
+    #                   "standardfrenchstan1290",
+    #                   "italianital1282",
+    #                   "romanianroma1327",
+    #                   "kristangmalaccacreoleportugesemala1533"
+    #                   ]
+    with open("kinship/data/langs_slavic.txt", 'r') as f:
+        language_names = f.read().split('\n')
+
     for language in natural_languages:
         valid = True
         for expression in language.expressions:
-            if "oldrussian" in expression.form:
-                print("Russian:", expression.form, expression_to_ref_list(expression))
             if expression.meaning not in expressions_by_meaning:
-                print("Invalid expression:", expression.form, expression_to_ref_list(expression))
+                if language.name in language_names:
+                    print("Invalid expression:", expression.form, expression_to_ref_list(expression))
                 valid = False
         if valid:
             representable_languages.add(language)
@@ -83,8 +100,8 @@ if __name__ == "__main__":
         representable_languages,
         "kinship/outputs/natural_languages.yml",
         {
-            "name": lambda _, lang: lang.name,
-            "type": lambda _, lang: "natural",
+            "name": lambda _, lang: lang.name[-9:] if ord(lang.name[-1]) > 57 else lang.name[-8:], # Reduce visual clutter
+            "type": lambda _, lang: "natural_check" if lang.name in language_names else "natural",
             "lot_expressions": lambda _, lang: [
                 str(expressions_by_meaning[expr.meaning]) for expr in lang.expressions
             ],
