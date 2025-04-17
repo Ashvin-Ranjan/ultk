@@ -53,6 +53,7 @@ if __name__ == "__main__":
             "type": lambda _1, _2: "dominant",
             "complexity": lambda _, lang: lang_complexity(lang),
             "comm_cost": lambda _, lang: comm_cost(lang),
+            "level": 0
         },
     )
     write_languages(

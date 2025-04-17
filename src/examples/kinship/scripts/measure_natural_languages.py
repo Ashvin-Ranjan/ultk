@@ -1,5 +1,7 @@
 import pandas as pd
 
+from yaml import load, Loader
+
 from ultk.util.io import read_grammatical_expressions, write_languages
 from ultk.language.language import Language, FrozenDict, Meaning, Expression
 
@@ -66,21 +68,6 @@ if __name__ == "__main__":
     
     # TODO: Figure out how to deal with languages which are not represented
     representable_languages = set()
-    # language_names = ["oldchurchslavonicchur1257",
-    #                   "russianruss1263",
-    #                   "belarusianbela1254",
-    #                   "ukrainianukra1253",
-    #                   "macedonianmace1250",
-    #                   "bulgarianbulg1262",
-    #                   "oldprussianprus1238",
-    #                   ]
-    # language_names = ["latinlati1261",
-    #                   "standardspanishstan1288",
-    #                   "standardfrenchstan1290",
-    #                   "italianital1282",
-    #                   "romanianroma1327",
-    #                   "kristangmalaccacreoleportugesemala1533"
-    #                   ]
     with open("kinship/data/langs_slavic.txt", 'r') as f:
         language_names = f.read().split('\n')
 
@@ -96,16 +83,21 @@ if __name__ == "__main__":
 
     print(f"{len(representable_languages)}/{len(natural_languages)} represented")
 
+
+    with open('kinship/data/language_levels.yml', "r") as f:
+        language_levels = load(f, Loader=Loader)
+
     write_languages(
         representable_languages,
         "kinship/outputs/natural_languages.yml",
         {
-            "name": lambda _, lang: lang.name[-9:] if ord(lang.name[-1]) > 57 else lang.name[-8:], # Reduce visual clutter
+            "name": lambda _, lang: lang.name,
             "type": lambda _, lang: "natural_check" if lang.name in language_names else "natural",
             "lot_expressions": lambda _, lang: [
                 str(expressions_by_meaning[expr.meaning]) for expr in lang.expressions
             ],
             "complexity": lambda _, lang: complexity(lang, expressions_by_meaning),
             "comm_cost": lambda _, lang: comm_cost(lang),
+            "level": lambda _, lang: language_levels[lang.name]
         },
     )

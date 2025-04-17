@@ -27,7 +27,7 @@ def complexity(
         sum of the length of the shortest LoT expression for each meaning in the language
     """
     return aggregate_expression_complexity(
-        language, lambda expr: len(expressions_by_meaning[expr.meaning])
+        language, lambda expr: weighted_len(expressions_by_meaning[expr.meaning])
     )
 
 

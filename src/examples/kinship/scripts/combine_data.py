@@ -24,9 +24,15 @@ if __name__ == "__main__":
     explored_languages = yaml_to_dataframe(
         "kinship/outputs/explored_languages.yml", keys
     )
-    natural_languages = yaml_to_dataframe("kinship/outputs/natural_languages.yml", keys)
+    drift_languages = yaml_to_dataframe(
+        "kinship/outputs/random_drift.yml", keys
+    )
+    dominating_languages["level"] = 0
+    explored_languages["level"] = 0
+    drift_languages["level"] = 0
+    natural_languages = yaml_to_dataframe("kinship/outputs/natural_languages.yml", keys + ["level"])
     all_data = pd.concat(
-        [explored_languages, dominating_languages, natural_languages],
+        [explored_languages, dominating_languages, natural_languages, drift_languages],
         ignore_index=True,
     )
     all_data.to_csv("kinship/outputs/combined_data.csv", index=False)
