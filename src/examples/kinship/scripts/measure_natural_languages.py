@@ -83,10 +83,6 @@ if __name__ == "__main__":
 
     print(f"{len(representable_languages)}/{len(natural_languages)} represented")
 
-
-    with open('kinship/data/language_levels.yml', "r") as f:
-        language_levels = load(f, Loader=Loader)
-
     write_languages(
         representable_languages,
         "kinship/outputs/natural_languages.yml",
@@ -98,6 +94,5 @@ if __name__ == "__main__":
             ],
             "complexity": lambda _, lang: complexity(lang, expressions_by_meaning),
             "comm_cost": lambda _, lang: comm_cost(lang),
-            "level": lambda _, lang: language_levels[lang.name]
         },
     )

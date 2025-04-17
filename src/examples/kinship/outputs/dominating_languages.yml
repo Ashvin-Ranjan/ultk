@@ -1,1889 +1,1517 @@
-- comm_cost: 0.031203161193623097
-  complexity: 118
+- comm_cost: 0.28225916337375656
+  complexity: 20
   expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
+  - '*(my_(child), .)'
+  - '*(my_(younger), .)'
   name: dominating-0
   type: dominant
-- comm_cost: 0.21855838670118533
-  complexity: 24
+- comm_cost: 0.017577326611254884
+  complexity: 158
   expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  name: dominating-1
-  type: dominant
-- comm_cost: 0.01451151383022209
-  complexity: 164
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-1
+  type: dominant
+- comm_cost: 0.04074124540128088
+  complexity: 98
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
   - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
   name: dominating-2
   type: dominant
 - comm_cost: 0.01791797247581417
-  complexity: 154
+  complexity: 156
   expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-3
+  type: dominant
+- comm_cost: 0.04074124540128088
+  complexity: 98
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-4
+  type: dominant
+- comm_cost: 0.02609347322523492
+  complexity: 134
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
   - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-5
+  type: dominant
+- comm_cost: 0.05232320479629382
+  complexity: 86
+  expressions:
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-3
-  type: dominant
-- comm_cost: 0.31291729118408496
-  complexity: 16
-  expressions:
-  - '*(my_(child), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  name: dominating-4
-  type: dominant
-- comm_cost: 0.08332197847118128
-  complexity: 54
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-5
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, same_sex))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-6
+  type: dominant
+- comm_cost: 0.012995639732933606
+  complexity: 186
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-7
   type: dominant
 - comm_cost: 0.03597220329745199
   complexity: 108
   expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-6
-  type: dominant
-- comm_cost: 0.01791797247581417
-  complexity: 154
-  expressions:
   - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-8
+  type: dominant
+- comm_cost: 0.18790025889085693
+  complexity: 28
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(older), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-9
+  type: dominant
+- comm_cost: 0.012995639732933606
+  complexity: 186
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-10
+  type: dominant
+- comm_cost: 0.03597220329745199
+  complexity: 108
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
   - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-7
-  type: dominant
-- comm_cost: 0.1838125085161466
-  complexity: 30
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
   - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-8
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-11
   type: dominant
 - comm_cost: 0.05641095517100425
   complexity: 78
   expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-9
-  type: dominant
-- comm_cost: 0.0707180814824907
-  complexity: 64
-  expressions:
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), female)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), male)), .)'
-  name: dominating-10
-  type: dominant
-- comm_cost: 0.04551028750510977
-  complexity: 88
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-11
-  type: dominant
-- comm_cost: 0.053992369532633866
-  complexity: 83
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(<->(Ez_axz_and_bzy(child, older))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), male)), .)'
   name: dominating-12
   type: dominant
-- comm_cost: 0.1838125085161466
-  complexity: 30
+- comm_cost: 0.31291729118408496
+  complexity: 16
   expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(sibling, male)), .)'
+  - '*(my_(child), .)'
   name: dominating-13
   type: dominant
-- comm_cost: 0.026434119089794206
-  complexity: 128
+- comm_cost: 0.012484670936094844
+  complexity: 188
   expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
   name: dominating-14
+  type: dominant
+- comm_cost: 0.15315438070581822
+  complexity: 34
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(older), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-15
   type: dominant
 - comm_cost: 0.09592587545987186
   complexity: 48
   expressions:
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-15
-  type: dominant
-- comm_cost: 0.031203161193623097
-  complexity: 118
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
   - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
   name: dominating-16
   type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
+- comm_cost: 0.21855838670118533
+  complexity: 24
   expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
   - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
   name: dominating-17
-  type: dominant
-- comm_cost: 0.03903801607848467
-  complexity: 104
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-18
-  type: dominant
-- comm_cost: 0.023027660444202125
-  complexity: 138
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-19
-  type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-20
-  type: dominant
-- comm_cost: 0.027796702548031127
-  complexity: 126
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(older, parent), male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-21
-  type: dominant
-- comm_cost: 0.016214743153018074
-  complexity: 158
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-22
-  type: dominant
-- comm_cost: 0.02609347322523503
-  complexity: 132
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(older, parent), male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-23
-  type: dominant
-- comm_cost: 0.03665349502657034
-  complexity: 106
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, diff_sex))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-24
-  type: dominant
-- comm_cost: 0.1838125085161466
-  complexity: 30
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  name: dominating-25
-  type: dominant
-- comm_cost: 0.031203161193623097
-  complexity: 118
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-26
-  type: dominant
-- comm_cost: 0.02132443112140614
-  complexity: 144
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bxy(parent, diff_sex))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-27
-  type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-28
-  type: dominant
-- comm_cost: 0.031884452922741446
-  complexity: 116
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, diff_sex))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-29
-  type: dominant
-- comm_cost: 0.02132443112140614
-  complexity: 144
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-30
-  type: dominant
-- comm_cost: 0.03903801607848467
-  complexity: 104
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-31
-  type: dominant
-- comm_cost: 0.05164191306717536
-  complexity: 86
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(sibling, parent), female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-32
-  type: dominant
-- comm_cost: 0.020983785256846854
-  complexity: 146
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, child), male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bxy(parent, diff_sex))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-33
-  type: dominant
-- comm_cost: 0.7015942226461371
-  complexity: 6
-  expressions:
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  name: dominating-34
-  type: dominant
-- comm_cost: 0.14906663033110767
-  complexity: 36
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-35
-  type: dominant
-- comm_cost: 0.06731162283689873
-  complexity: 68
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-36
-  type: dominant
-- comm_cost: 0.03495026570377435
-  complexity: 112
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, diff_sex))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-37
-  type: dominant
-- comm_cost: 0.28225916337375656
-  complexity: 20
-  expressions:
-  - '*(my_(child), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(older), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  name: dominating-38
-  type: dominant
-- comm_cost: 0.012467638642866818
-  complexity: 196
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, younger), male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, child), female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
-  name: dominating-39
-  type: dominant
-- comm_cost: 0.019621201798610044
-  complexity: 148
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bxy(parent, diff_sex))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-40
-  type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-41
-  type: dominant
-- comm_cost: 0.029499931870827
-  complexity: 124
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-42
-  type: dominant
-- comm_cost: 0.07923422809647085
-  complexity: 62
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(parent, parent)), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bxy(diff_sex, Ez_axz_and_bzy(older, parent))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-43
-  type: dominant
-- comm_cost: 0.01791797247581417
-  complexity: 154
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-44
-  type: dominant
-- comm_cost: 0.029499931870827
-  complexity: 124
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-45
-  type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-46
-  type: dominant
-- comm_cost: 0.02473088976699822
-  complexity: 134
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-47
-  type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-48
-  type: dominant
-- comm_cost: 0.029499931870827
-  complexity: 124
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-49
-  type: dominant
-- comm_cost: 0.012731639187900212
-  complexity: 190
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bxy(child, same_sex), axy_and_bxy(younger, diff_sex))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
-  name: dominating-50
-  type: dominant
-- comm_cost: 0.039038016078484894
-  complexity: 102
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(sibling, parent), female)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-51
-  type: dominant
-- comm_cost: 0.013693963755279981
-  complexity: 172
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, sibling), male)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-52
-  type: dominant
-- comm_cost: 0.04074124540128077
-  complexity: 96
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(sibling, parent), female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-53
-  type: dominant
-- comm_cost: 0.03426897397465578
-  complexity: 114
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-54
-  type: dominant
-- comm_cost: 0.6072353181632375
-  complexity: 10
-  expressions:
-  - '*(my_(child), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  name: dominating-55
-  type: dominant
-- comm_cost: 0.03665349502657034
-  complexity: 106
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, diff_sex))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-56
-  type: dominant
-- comm_cost: 0.012808284507425993
-  complexity: 188
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, younger), male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
-  name: dominating-57
-  type: dominant
-- comm_cost: 0.02132443112140614
-  complexity: 144
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-58
-  type: dominant
-- comm_cost: 0.12249625289548982
-  complexity: 42
-  expressions:
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-59
-  type: dominant
-- comm_cost: 0.01791797247581417
-  complexity: 154
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bxy(parent, diff_sex))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-60
-  type: dominant
-- comm_cost: 0.28225916337375656
-  complexity: 20
-  expressions:
-  - '*(my_(child), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(younger), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  name: dominating-61
-  type: dominant
-- comm_cost: 0.02132443112140614
-  complexity: 144
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-62
-  type: dominant
-- comm_cost: 0.06254258073306995
-  complexity: 76
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(sibling, parent), female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-63
-  type: dominant
-- comm_cost: 0.05164191306717536
-  complexity: 86
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(sibling, parent), female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-64
-  type: dominant
-- comm_cost: 0.017577326611254884
-  complexity: 156
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, child), male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bxy(parent, diff_sex))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-65
-  type: dominant
-- comm_cost: 0.06560839351410275
-  complexity: 74
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  name: dominating-66
-  type: dominant
-- comm_cost: 0.019621201798610044
-  complexity: 148
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-67
-  type: dominant
-- comm_cost: 0.031203161193623097
-  complexity: 118
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-68
-  type: dominant
-- comm_cost: 0.020983785256846854
-  complexity: 146
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, child), male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-69
-  type: dominant
-- comm_cost: 0.12249625289548982
-  complexity: 42
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-70
-  type: dominant
-- comm_cost: 0.03018122359994546
-  complexity: 122
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, diff_sex))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-71
-  type: dominant
-- comm_cost: 0.06594903937866192
-  complexity: 72
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(sibling, parent), female)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), female)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), male)), .)'
-  name: dominating-72
-  type: dominant
-- comm_cost: 0.031203161193623097
-  complexity: 118
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  name: dominating-73
-  type: dominant
-- comm_cost: 0.012311509288277178
-  complexity: 206
-  expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, younger), male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(child, child), female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_by(child, male), axy_and_by(child, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
-  name: dominating-74
   type: dominant
 - comm_cost: 0.4072761956669846
   complexity: 12
   expressions:
   - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  name: dominating-75
+  name: dominating-18
   type: dominant
-- comm_cost: 0.3078076032156969
-  complexity: 18
+- comm_cost: 0.04074124540128088
+  complexity: 98
   expressions:
-  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
-  name: dominating-76
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-19
+  type: dominant
+- comm_cost: 0.04142253713039923
+  complexity: 94
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(older, parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-20
+  type: dominant
+- comm_cost: 0.011735250034064504
+  complexity: 198
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-21
+  type: dominant
+- comm_cost: 0.0707180814824907
+  complexity: 64
+  expressions:
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), female)), .)'
+  name: dominating-22
+  type: dominant
+- comm_cost: 0.04074124540128088
+  complexity: 98
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-23
+  type: dominant
+- comm_cost: 0.06560839351410275
+  complexity: 74
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-24
+  type: dominant
+- comm_cost: 0.09422264613707587
+  complexity: 54
+  expressions:
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-25
   type: dominant
 - comm_cost: 0.05641095517100425
   complexity: 78
   expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  name: dominating-77
-  type: dominant
-- comm_cost: 0.03597220329745199
-  complexity: 108
-  expressions:
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bxy(parent, same_sex))),
-    .)'
   - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
     .)'
-  name: dominating-78
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-26
+  type: dominant
+- comm_cost: 0.023027660444202125
+  complexity: 138
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-27
+  type: dominant
+- comm_cost: 0.012484670936094844
+  complexity: 188
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-28
+  type: dominant
+- comm_cost: 0.026434119089794206
+  complexity: 128
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-29
+  type: dominant
+- comm_cost: 0.03665349502657045
+  complexity: 104
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(older, parent)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-30
+  type: dominant
+- comm_cost: 0.029499931870827
+  complexity: 126
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  name: dominating-31
+  type: dominant
+- comm_cost: 0.010883635372666456
+  complexity: 208
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_by(child, male), axy_and_by(child, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-32
+  type: dominant
+- comm_cost: 0.14906663033110767
+  complexity: 36
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-33
+  type: dominant
+- comm_cost: 0.054707725848208155
+  complexity: 84
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-34
+  type: dominant
+- comm_cost: 0.03426897397465589
+  complexity: 114
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-35
+  type: dominant
+- comm_cost: 0.03426897397465578
+  complexity: 116
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, female), axy_and_bx(parent, male))),
+    .)'
+  name: dominating-36
+  type: dominant
+- comm_cost: 0.12249625289548982
+  complexity: 42
+  expressions:
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-37
+  type: dominant
+- comm_cost: 0.02132443112140614
+  complexity: 144
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-38
+  type: dominant
+- comm_cost: 0.013745060634963835
+  complexity: 176
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-39
+  type: dominant
+- comm_cost: 0.01791797247581417
+  complexity: 156
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-40
+  type: dominant
+- comm_cost: 0.03426897397465589
+  complexity: 114
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-41
+  type: dominant
+- comm_cost: 0.2771494754053685
+  complexity: 22
+  expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(older), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  name: dominating-42
   type: dominant
 - comm_cost: 0.019621201798610044
   complexity: 148
   expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
     .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-43
+  type: dominant
+- comm_cost: 0.1838125085161466
+  complexity: 30
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-44
+  type: dominant
+- comm_cost: 0.031203161193623097
+  complexity: 118
+  expressions:
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
-    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
-    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
     .)'
-  name: dominating-79
-  type: dominant
-- comm_cost: 0.06489303719852835
-  complexity: 75
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(<->(Ez_axz_and_bzy(child, older))), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-80
-  type: dominant
-- comm_cost: 0.7036380978334923
-  complexity: 4
-  expressions:
-  - '*(my_(parent), .)'
-  name: dominating-81
-  type: dominant
-- comm_cost: 0.04380705818231356
-  complexity: 94
-  expressions:
-  - '*(my_(axy_and_bx(older, female)), .)'
-  - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
-    .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
-    .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
   - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
     .)'
-  name: dominating-82
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-45
+  type: dominant
+- comm_cost: 0.031203161193623097
+  complexity: 118
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-46
+  type: dominant
+- comm_cost: 0.054707725848208155
+  complexity: 84
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-47
   type: dominant
 - comm_cost: 0.0816187491483854
   complexity: 56
   expressions:
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), female)), .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(axy_and_bx(older, male)), .)'
-  name: dominating-83
-  type: dominant
-- comm_cost: 0.2771494754053685
-  complexity: 22
-  expressions:
-  - '*(my_(sibling), .)'
-  - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
-  name: dominating-84
+  - '*(my_(axy_and_bx(Ez_axz_and_bzy(parent, parent), female)), .)'
+  name: dominating-48
   type: dominant
-- comm_cost: 0.01301267202616152
-  complexity: 180
+- comm_cost: 0.06731162283689873
+  complexity: 68
   expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
   - '*(my_(axy_and_bx(child, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-49
+  type: dominant
+- comm_cost: 0.04551028750510977
+  complexity: 88
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-50
+  type: dominant
+- comm_cost: 0.014511513830221978
+  complexity: 168
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
   - '*(my_(axy_and_bx(parent, male)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-51
+  type: dominant
+- comm_cost: 0.9056410955171004
+  complexity: 4
+  expressions:
+  - '*(my_(child), .)'
+  name: dominating-52
+  type: dominant
+- comm_cost: 0.014170867965662914
+  complexity: 170
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-53
+  type: dominant
+- comm_cost: 0.01451151383022209
+  complexity: 166
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-54
+  type: dominant
+- comm_cost: 0.016214743153018074
+  complexity: 160
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-55
+  type: dominant
+- comm_cost: 0.7015942226461371
+  complexity: 6
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  name: dominating-56
+  type: dominant
+- comm_cost: 0.011547894808557002
+  complexity: 206
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, male))), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bxy(child, diff_sex), older)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-57
+  type: dominant
+- comm_cost: 0.029499931870827112
+  complexity: 124
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
     .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
     .)'
-  - '*(my_(axy_and_bx(child, female)), .)'
-  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
-  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
   - '*(my_(Ez_axz_and_bzy(child, child)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
   - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-58
+  type: dominant
+- comm_cost: 0.1838125085161466
+  complexity: 30
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-59
+  type: dominant
+- comm_cost: 0.03597220329745199
+  complexity: 108
+  expressions:
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
     .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
   - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
   - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-60
+  type: dominant
+- comm_cost: 0.3078076032156969
+  complexity: 18
+  expressions:
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  name: dominating-61
+  type: dominant
+- comm_cost: 0.013234091838125073
+  complexity: 178
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-62
+  type: dominant
+- comm_cost: 0.6072353181632375
+  complexity: 10
+  expressions:
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(child), .)'
+  name: dominating-63
+  type: dominant
+- comm_cost: 0.012041831312167739
+  complexity: 196
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, male), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(sibling, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(child, female))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bxy(child, diff_sex), older)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(child, male), axy_and_bxy(child, same_sex))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
   - '*(my_(Ez_axz_and_bzy(child, axy_and_bx(sibling, female))), .)'
-  name: dominating-85
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-64
+  type: dominant
+- comm_cost: 0.031203161193623097
+  complexity: 118
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-65
+  type: dominant
+- comm_cost: 0.12249625289548982
+  complexity: 42
+  expressions:
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-66
+  type: dominant
+- comm_cost: 0.031203161193623097
+  complexity: 118
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, male))), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(younger, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(older, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, male), axy_and_bx(parent, male))), .)'
+  name: dominating-67
+  type: dominant
+- comm_cost: 0.0632238724621883
+  complexity: 76
+  expressions:
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, female))),
+    .)'
+  - '*(my_(axy_and_bx(older, female)), .)'
+  - '*(my_(axy_and_bx(younger, female)), .)'
+  - '*(my_(axy_and_bx(parent, male)), .)'
+  - '*(my_(axy_and_bx(child, male)), .)'
+  - '*(my_(axy_and_bx(older, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(axy_and_bx(parent, female), axy_and_bx(parent, male))),
+    .)'
+  - '*(my_(axy_and_bx(younger, male)), .)'
+  - '*(my_(Ez_axz_and_bzy(younger, axy_and_bxy(parent, same_sex))), .)'
+  - '*(my_(axy_and_bx(child, female)), .)'
+  - '*(my_(axy_and_bx(parent, female)), .)'
+  name: dominating-68
   type: dominant

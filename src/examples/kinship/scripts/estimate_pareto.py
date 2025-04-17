@@ -39,9 +39,9 @@ if __name__ == "__main__":
     optimizer = EvolutionaryOptimizer(
         [lang_complexity, comm_cost],
         expressions,
-        2000,
+        1000,
         10,
-        75,
+        50,
     )
     result = optimizer.fit(seed_languages)
 
@@ -53,7 +53,6 @@ if __name__ == "__main__":
             "type": lambda _1, _2: "dominant",
             "complexity": lambda _, lang: lang_complexity(lang),
             "comm_cost": lambda _, lang: comm_cost(lang),
-            "level": 0
         },
     )
     write_languages(
