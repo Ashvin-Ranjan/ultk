@@ -20,8 +20,15 @@ if __name__ == "__main__":
                     "referents": { row["Parameter_ID"] }
                 }
 
+    expression_meanings = {}
 
     for term, data in expressions.items():
+        if data["lang"] in expression_meanings and data["referents"] in expression_meanings[data["lang"]]:
+            continue
+        elif data["lang"] in expression_meanings:
+            expression_meanings[data["lang"]].append(data["referents"])
+        else:
+            expression_meanings[data["lang"]] = [ data["referents"] ]
         row = {referent: (referent in data["referents"]) for referent in total_names}
         row["language"] = data["lang"]
         row["expression"] = term

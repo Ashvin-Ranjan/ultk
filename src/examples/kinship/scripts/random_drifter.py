@@ -32,7 +32,7 @@ if __name__ == "__main__":
     
     natural_languages = {language.name: language for language in natural_languages}
 
-    target = [copy.copy(natural_languages["v_oldprussianprus1238"]) for _ in range(50)]
+    target = [copy.copy(natural_languages["v_sanskritsans1269"]) for _ in range(50)]
 
     explored_languages = []
 

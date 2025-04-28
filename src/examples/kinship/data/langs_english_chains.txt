@@ -1,0 +1,3 @@
+v_oldenglishca4501100olde1238 -> v_middleenglishmidd1317
+v_middleenglishmidd1317 -> p_englishstan1293
+v_middleenglishmidd1317 -> v_standardenglishstan1293

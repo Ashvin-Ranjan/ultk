@@ -68,17 +68,22 @@ if __name__ == "__main__":
     
     # TODO: Figure out how to deal with languages which are not represented
     representable_languages = set()
-    with open("kinship/data/langs_slavic.txt", 'r') as f:
+    with open("kinship/data/langs_english.txt", 'r') as f:
         language_names = f.read().split('\n')
 
     for language in natural_languages:
         valid = True
+        new_expr = []
         for expression in language.expressions:
             if expression.meaning not in expressions_by_meaning:
                 if language.name in language_names:
-                    print("Invalid expression:", expression.form, expression_to_ref_list(expression))
-                valid = False
+                    print("Ignoring expression:", expression.form, expression_to_ref_list(expression))
+                else:
+                    valid = False
+            else:
+                new_expr.append(expression)
         if valid:
+            language.expressions = frozenset(new_expr)
             representable_languages.add(language)
 
     print(f"{len(representable_languages)}/{len(natural_languages)} represented")
