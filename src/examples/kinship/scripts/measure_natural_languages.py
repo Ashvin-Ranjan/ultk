@@ -68,7 +68,7 @@ if __name__ == "__main__":
     
     # TODO: Figure out how to deal with languages which are not represented
     representable_languages = set()
-    with open("kinship/data/langs_english.txt", 'r') as f:
+    with open("kinship/data/langs_indian.txt", 'r') as f:
         language_names = f.read().split('\n')
 
     for language in natural_languages:
