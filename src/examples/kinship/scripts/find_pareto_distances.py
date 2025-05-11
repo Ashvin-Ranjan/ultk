@@ -24,7 +24,7 @@ if __name__ == "__main__":
     expressions_by_string = {str(e): e for e in expressions}
 
     languages = []
-    with open("kinship/data/langs_indian.txt", 'r') as f:
+    with open("kinship/data/langs_all.txt", 'r') as f:
         language_names = f.read().split('\n')
     check_languages = {}
 
